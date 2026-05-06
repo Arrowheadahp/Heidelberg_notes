@@ -11,13 +11,18 @@
             "id": "f25227fcd7461871",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Reinforcement Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reinforcement Learning"
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -37,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -74,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "2691f505943780f4",
@@ -91,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Reinforcement Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Reinforcement Learning"
             }
           },
           {
@@ -137,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Reinforcement Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Reinforcement Learning"
             }
           },
           {
@@ -190,8 +196,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f25227fcd7461871",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
+    "New Text Document.txt",
+    "Multi-Armed Bandits.md",
+    "Reinforcement Learning.md",
+    "Courses.md",
+    "Box Filter.md",
     "Example Gradient descent for loss function Cross Entropy.md",
     "Value Function.md",
     "Edge Detection and Linking.md",
@@ -199,9 +210,7 @@
     "Backward Pass.md",
     "Types of Machine Learning problems.md",
     "Regularization.md",
-    "Multi-Armed Bandits.md",
     "Action.md",
-    "Reinforcement Learning.md",
     "Introduction to Reinforcement Learning.md",
     "Definitions in Reinforcement Learning.md",
     "Policy.md",
@@ -217,10 +226,7 @@
     "Sources of Noise.md",
     "Noise Removal.md",
     "Median Filter.md",
-    "Image Filtering.md",
-    "Multi-Scale Image Representation.md",
     "Images/Pasted image 20260506030040.png",
-    "Bilateral Filter.md",
     "Images/Pasted image 20260506000307.png",
     "Images/Pasted image 20260428190643.png",
     "Images",
