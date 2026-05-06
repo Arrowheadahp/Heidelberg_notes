@@ -1,0 +1,1 @@
+Agent's situation in the environment

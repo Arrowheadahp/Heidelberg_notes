@@ -1,0 +1,4 @@
+- Linear $$ h*(f_0+f_1) = h*f_0+h*f_1 $$
+- Associative $$ (f*g)*h = f*(g*h) $$
+- Commutative $$ f*h=h*f $$
+- Can be written in matrix form: g=Hf

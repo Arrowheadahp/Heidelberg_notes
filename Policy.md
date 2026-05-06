@@ -1,0 +1,1 @@
+Strategy mapping states to actions to maximise cumulative rewards.
