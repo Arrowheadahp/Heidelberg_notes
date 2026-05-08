@@ -2,5 +2,7 @@ Reinforcement Learning is learning what to do, mapping situations to actions, in
 The agent is not told the correct action, but it has to learn from the consequences of its own actions which affect both the immediate reward and the future situations and future rewards.
 
 1. [[Introduction to Reinforcement Learning]]
-2. [[Multi-Armed Bandits]]
-3. [[Finite Markov Decision Precesses]]
+2. [[Multi-Armed Bandits]]:
+    [[exploration]] vs [[exploitation]] dilemma
+3. [[Finite Markov Decision Processes]]: 
+    Sequential Decision Making
