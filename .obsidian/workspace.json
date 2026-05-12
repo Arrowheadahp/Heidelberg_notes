@@ -11,14 +11,14 @@
             "id": "f25227fcd7461871",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Reinforcement Learning.md",
-                "bFile": "Reinforcement Learning.md",
-                "aRef": ""
+                "file": "Reinforcement Learning.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Reinforcement Learning  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Reinforcement Learning"
             }
           }
         ],
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "actio",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Reinforcement Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Reinforcement Learning"
             }
           },
           {
@@ -114,11 +114,56 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Basics of Image Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Basics of Image Processing"
+            }
+          },
+          {
+            "id": "b6189d87fd8a04c4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "dad991ec9179d198",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Reinforcement Learning.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Reinforcement Learning"
+            }
+          },
+          {
+            "id": "78f6601378ebdfae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -132,11 +177,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 316.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -151,23 +196,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f25227fcd7461871",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
-    "Definitions in Reinforcement Learning.md",
+    "New Text Document.txt",
+    "Multi-Armed Bandits.md",
     "Reinforcement Learning.md",
     "Courses.md",
-    "Finite Markov Decision Processes.md",
-    "Action.md",
-    "Multi-Armed Bandits.md",
-    "exploitation.md",
-    "exploration.md",
-    "Eta-greedy.md",
-    "Gradient Bandits.md",
-    "Upper Confidence Bounds Approach.md",
-    "Optimistic Approach.md",
-    "How the Q is calculated.md",
-    "Loss Function.md",
-    "New Text Document.txt",
     "Box Filter.md",
     "Example Gradient descent for loss function Cross Entropy.md",
     "Value Function.md",
@@ -176,11 +210,22 @@
     "Backward Pass.md",
     "Types of Machine Learning problems.md",
     "Regularization.md",
+    "Action.md",
+    "Introduction to Reinforcement Learning.md",
+    "Definitions in Reinforcement Learning.md",
     "Policy.md",
     "Reward.md",
     "State.md",
+    "Environment.md",
+    "Agent.md",
     "Images/Pasted image 20260506233544.png",
+    "Convolutional Neural Networks.md",
+    "Image Convolution.md",
     "Images/Pasted image 20260506031210.png",
+    "Basics of Image Processing.md",
+    "Sources of Noise.md",
+    "Noise Removal.md",
+    "Median Filter.md",
     "Images/Pasted image 20260506030040.png",
     "Images/Pasted image 20260506000307.png",
     "Images/Pasted image 20260428190643.png",
