@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Reinforcement Learning.md",
-                "bFile": "Reinforcement Learning.md",
+                "aFile": "Finite Markov Decision Processes.md",
+                "bFile": "Finite Markov Decision Processes.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Reinforcement Learning  (Working Tree)"
+              "title": "Diff: Finite Markov Decision Processes  (Working Tree)"
             }
           }
         ],
@@ -130,6 +130,49 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "c49c7317032158e3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ff01eb6ca45c4f27",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ae9f9eff485e4b07",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
           }
         ],
         "currentTab": 2
@@ -153,10 +196,12 @@
   },
   "active": "f25227fcd7461871",
   "lastOpenFiles": [
-    "Definitions in Reinforcement Learning.md",
+    "Finite Markov Decision Processes.md",
+    "State.md",
+    "Pasted image 20260508205403.png",
     "Reinforcement Learning.md",
     "Courses.md",
-    "Finite Markov Decision Processes.md",
+    "Definitions in Reinforcement Learning.md",
     "Action.md",
     "Multi-Armed Bandits.md",
     "exploitation.md",
@@ -178,7 +223,6 @@
     "Regularization.md",
     "Policy.md",
     "Reward.md",
-    "State.md",
     "Images/Pasted image 20260506233544.png",
     "Images/Pasted image 20260506031210.png",
     "Images/Pasted image 20260506030040.png",
@@ -189,7 +233,6 @@
     "Images/Pasted image 20260428190543.png",
     "Images/Pasted image 20260428190349.png",
     "Images/Pasted image 20260428190216.png",
-    "Images/Pasted image 20260428190158.png",
     "Untitled.base",
     "Pre-Training",
     "Untitled.canvas",
