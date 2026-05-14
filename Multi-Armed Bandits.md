@@ -4,11 +4,8 @@ The approaches to solve this problem differs by
 1. [[How the Q is calculated]]. 
 2. How the actions are chosen to prioritise [[exploration]] vs [[exploitation]]. $\pi$
 ### Approaches:
-- Policy Based
-  1. [[Eta-greedy]]: random action taken with probability e.
-  2. [[Optimistic Approach]]: Setting all the initial $Q_1$ very high
-  3. [[Upper Confidence Bounds Approach]]: Action is taken according max($Q_t$ + c\*uncertainty). 
--  [[Gradient Bandits]]: Action will be chosen according to a probability distribution $\pi$.
+1. [[Sample Averages and e-greedy]]: $\alpha=1/n$ , random action taken with probability e.
+2. 
 
 ### Approach Testing
 To test which approach is better, we create multiple k-armed bandits and run each approach (policies) and average them. 

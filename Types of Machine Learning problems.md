@@ -11,7 +11,7 @@
 
 1. [[Supervised Learning]]: Fully labelled annotated Dataset
 2. [[Unsupervised Learning]]: No annotations (ex: Clustering)
-3. [[Reinforcement Learning]]: Reward for correct [[action]]
+3. [[Reinforcement Learning]]: Reward for correct action
 
 Lots of variants of [[Machine Learning]] problems
 

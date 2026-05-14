@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Finite Markov Decision Processes.md",
-                "bFile": "Finite Markov Decision Processes.md",
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Finite Markov Decision Processes  (Working Tree)"
+              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
             }
           }
         ],
@@ -197,6 +197,9 @@
   "active": "f25227fcd7461871",
   "lastOpenFiles": [
     "Finite Markov Decision Processes.md",
+    "conflict-files-obsidian-git.md",
+    "Sample Averages and e-greedy.md",
+    "Introduction to Reinforcement Learning.md",
     "State.md",
     "Pasted image 20260508205403.png",
     "Reinforcement Learning.md",
@@ -221,8 +224,6 @@
     "Backward Pass.md",
     "Types of Machine Learning problems.md",
     "Regularization.md",
-    "Policy.md",
-    "Reward.md",
     "Images/Pasted image 20260506233544.png",
     "Images/Pasted image 20260506031210.png",
     "Images/Pasted image 20260506030040.png",
