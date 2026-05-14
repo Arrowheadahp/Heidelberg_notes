@@ -6,4 +6,4 @@ Goal is to predict a few points that are invariant against
 
 Points are better for this role because corners are easier to pinpoint in a image than line segment which can be anywhere on the line.
 
-One of the algorithms used for detecting these is [[Harris Detector]].
+One of the algorithms used for detecting these is [[Harris Detector]]. There are other algorithms that uses regions instead of corners but corner detection works best. 
