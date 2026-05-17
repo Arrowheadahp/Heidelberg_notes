@@ -16,9 +16,8 @@ Definitions in Reinforcement Learning:
 3. [[Environment]]
 4. [[State]] (s)
 5. [[Reward]] (r)
-6. [[Value Function]] (V(s))
-7. [[Policy]] ($\pi$)
-8. [[Return]] (G)
-9. [[State Value Function]] $(v_\pi)$
-10. [[Action Value Function]] ($q_\pi$)
+6. [[Policy]] ($\pi$)
+7. [[Return]] (G)
+8. [[State Value Function]] $(v_\pi)$
+9. [[Action Value Function]] ($q_\pi$)
 
