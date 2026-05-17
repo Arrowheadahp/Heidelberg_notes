@@ -11,14 +11,14 @@
             "id": "f25227fcd7461871",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/graph.json",
-                "bFile": ".obsidian/graph.json",
-                "aRef": ""
+                "file": "Median Filter.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: graph.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Median Filter"
             }
           }
         ],
@@ -166,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Median Filter.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Median Filter"
             }
           }
         ],
@@ -196,13 +197,17 @@
   },
   "active": "f25227fcd7461871",
   "lastOpenFiles": [
+    "Example Gradient descent for loss function Cross Entropy.md",
+    "Median Filter.md",
+    "Pretext Task.md",
+    "Introduction to Deep Machine Learning.md",
+    "Edge Detection and Linking.md",
+    "Computer Vision.md",
+    "Courses.md",
     "Harris Detector.md",
     "Interest Point Detection.md",
     "Basics of Image Processing.md",
-    "Computer Vision.md",
-    "Edge Detection and Linking.md",
     "Projective Geometry.md",
-    "Courses.md",
     "F-score.md",
     "Precision-Recall Curve.md",
     "Recall.md",
@@ -219,10 +224,6 @@
     "Multi-Armed Bandits.md",
     "exploitation.md",
     "exploration.md",
-    "Eta-greedy.md",
-    "Gradient Bandits.md",
-    "Upper Confidence Bounds Approach.md",
-    "Optimistic Approach.md",
     "New Text Document.txt",
     "Images/Pasted image 20260506233544.png",
     "Images/Pasted image 20260506031210.png",
