@@ -1,1 +1,1 @@
-Scalar feedback signalling success or failure
+Scalar feedback for each [[action]].

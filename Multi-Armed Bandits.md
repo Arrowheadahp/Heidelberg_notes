@@ -2,7 +2,7 @@ Bandits let us study learning from feedback without planning through time. Meani
 
 The approaches to solve this problem differs by 
 1. [[How the Q is calculated]]. 
-2. How the actions are chosen to prioritise [[exploration]] vs [[exploitation]]. $\pi$
+2. How the actions are chosen to prioritise [[exploration]] vs [[exploitation]]. $\pi$ is the policy of choosing actions.
 ### Approaches:
 - Policy Based
   1. [[Eta-greedy]]: random action taken with probability e.

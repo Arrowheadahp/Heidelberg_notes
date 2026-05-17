@@ -11,14 +11,14 @@
             "id": "f25227fcd7461871",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Reinforcement Learning.md",
-                "bFile": "Reinforcement Learning.md",
-                "aRef": ""
+                "file": "Solving a MDP.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Reinforcement Learning  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Solving a MDP"
             }
           }
         ],
@@ -96,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Solving a MDP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Solving a MDP"
             }
           },
           {
@@ -180,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 309.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,31 +199,31 @@
   "active": "f25227fcd7461871",
   "lastOpenFiles": [
     "Finite Markov Decision Processes.md",
-    "Sample Averages and e-greedy.md",
+    "Solving a MDP.md",
+    "What is a Finite Markov Decision Process.md",
     "Reinforcement Learning.md",
-    "exploitation.md",
-    "exploration.md",
-    "Courses.md",
-    "How the Q is calculated.md",
+    "Action.md",
+    "Properties of Decision Processes.md",
+    "Bellman Equations.md",
+    "State Value Function.md",
+    "Definitions in Reinforcement Learning.md",
+    "Action Value Function.md",
+    "State.md",
+    "Return.md",
+    "Reward.md",
+    "Environment.md",
     "Multi-Armed Bandits.md",
     "Gradient Bandits.md",
+    "exploitation.md",
+    "exploration.md",
+    "How the Q is calculated.md",
+    "Optimistic Approach.md",
     "Eta-greedy.md",
+    "Upper Confidence Bounds Approach.md",
+    "Sample Averages and e-greedy.md",
+    "Courses.md",
     "Computer Vision.md",
     "Projective Geometry.md",
-    "Introduction to Reinforcement Learning.md",
-    "Environment.md",
-    "Reward.md",
-    "Finite Markov Decision Precesses.md",
-    "Median Filter.md",
-    "Example Gradient descent for loss function Cross Entropy.md",
-    "Pretext Task.md",
-    "Introduction to Deep Machine Learning.md",
-    "Edge Detection and Linking.md",
-    "Harris Detector.md",
-    "Interest Point Detection.md",
-    "Basics of Image Processing.md",
-    "F-score.md",
-    "Precision-Recall Curve.md",
     "Pasted image 20260508205403.png",
     "New Text Document.txt",
     "Images/Pasted image 20260506233544.png",
