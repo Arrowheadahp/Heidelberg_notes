@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Median Filter.md",
+                "file": "Finite Markov Decision Precesses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Median Filter"
+              "title": "Finite Markov Decision Precesses"
             }
           }
         ],
@@ -197,17 +197,20 @@
   },
   "active": "f25227fcd7461871",
   "lastOpenFiles": [
-    "Example Gradient descent for loss function Cross Entropy.md",
+    "Reinforcement Learning.md",
+    "Multi-Armed Bandits.md",
+    "Finite Markov Decision Precesses.md",
+    "Courses.md",
+    "Computer Vision.md",
+    "Projective Geometry.md",
     "Median Filter.md",
+    "Example Gradient descent for loss function Cross Entropy.md",
     "Pretext Task.md",
     "Introduction to Deep Machine Learning.md",
     "Edge Detection and Linking.md",
-    "Computer Vision.md",
-    "Courses.md",
     "Harris Detector.md",
     "Interest Point Detection.md",
     "Basics of Image Processing.md",
-    "Projective Geometry.md",
     "F-score.md",
     "Precision-Recall Curve.md",
     "Recall.md",
@@ -218,12 +221,9 @@
     "Introduction to Reinforcement Learning.md",
     "State.md",
     "Pasted image 20260508205403.png",
-    "Reinforcement Learning.md",
     "Definitions in Reinforcement Learning.md",
     "Action.md",
-    "Multi-Armed Bandits.md",
     "exploitation.md",
-    "exploration.md",
     "New Text Document.txt",
     "Images/Pasted image 20260506233544.png",
     "Images/Pasted image 20260506031210.png",
