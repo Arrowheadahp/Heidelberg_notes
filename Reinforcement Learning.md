@@ -3,4 +3,5 @@ The agent is not told the correct action, but it has to learn from the consequen
 
 1. [[Introduction to Reinforcement Learning]]
 2. [[Multi-Armed Bandits]]
-3. [[Finite Markov Decision Precesses]]
+3. [[Finite Markov Decision Processes]]
+4. [[Dynamic Programming in RL]] 
