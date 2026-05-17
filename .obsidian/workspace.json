@@ -11,14 +11,14 @@
             "id": "f25227fcd7461871",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Multi-Armed Bandits.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Reinforcement Learning.md",
+                "bFile": "Reinforcement Learning.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Multi-Armed Bandits"
+              "icon": "diff",
+              "title": "Diff: Reinforcement Learning  (Working Tree)"
             }
           }
         ],
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 200
   },
   "right": {
     "id": "2691f505943780f4",
@@ -96,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Multi-Armed Bandits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Multi-Armed Bandits"
+              "title": "Backlinks"
             }
           },
           {
@@ -196,20 +195,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dca61c263145489b",
+  "active": "f25227fcd7461871",
   "lastOpenFiles": [
-    "Sample Averages and e-greedy.md",
-    "Multi-Armed Bandits.md",
-    "Reinforcement Learning.md",
-    "Introduction to Reinforcement Learning.md",
-    "Courses.md",
     "Finite Markov Decision Processes.md",
-    "Environment.md",
+    "Sample Averages and e-greedy.md",
+    "Reinforcement Learning.md",
+    "exploitation.md",
+    "exploration.md",
+    "Courses.md",
     "How the Q is calculated.md",
-    "Reward.md",
-    "Finite Markov Decision Precesses.md",
+    "Multi-Armed Bandits.md",
+    "Gradient Bandits.md",
+    "Eta-greedy.md",
     "Computer Vision.md",
     "Projective Geometry.md",
+    "Introduction to Reinforcement Learning.md",
+    "Environment.md",
+    "Reward.md",
+    "Finite Markov Decision Precesses.md",
     "Median Filter.md",
     "Example Gradient descent for loss function Cross Entropy.md",
     "Pretext Task.md",
@@ -220,10 +223,6 @@
     "Basics of Image Processing.md",
     "F-score.md",
     "Precision-Recall Curve.md",
-    "Recall.md",
-    "Precision.md",
-    "conflict-files-obsidian-git.md",
-    "State.md",
     "Pasted image 20260508205403.png",
     "New Text Document.txt",
     "Images/Pasted image 20260506233544.png",
