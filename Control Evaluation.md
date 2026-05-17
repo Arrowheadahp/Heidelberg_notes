@@ -1,0 +1,1 @@
+Finding the best [[Policy]] $\pi$ that maximises the [[State Value Function]]. $$\pi^* \in arg\ max_\pi v_\pi(s) \ \forall s$$

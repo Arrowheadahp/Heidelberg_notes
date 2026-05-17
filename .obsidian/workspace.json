@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solving a MDP.md",
+                "file": "Bellman Equations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Solving a MDP"
+              "title": "Bellman Equations"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solving a MDP.md",
+                "file": "Bellman Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Solving a MDP"
+              "title": "Backlinks for Bellman Equations"
             }
           },
           {
@@ -198,14 +198,16 @@
   },
   "active": "f25227fcd7461871",
   "lastOpenFiles": [
-    "Finite Markov Decision Processes.md",
     "Solving a MDP.md",
-    "What is a Finite Markov Decision Process.md",
+    "Finite Markov Decision Processes.md",
     "Reinforcement Learning.md",
+    "Control Evaluation.md",
+    "Bellman Equations.md",
+    "Policy Evaluation.md",
+    "State Value Function.md",
+    "What is a Finite Markov Decision Process.md",
     "Action.md",
     "Properties of Decision Processes.md",
-    "Bellman Equations.md",
-    "State Value Function.md",
     "Definitions in Reinforcement Learning.md",
     "Action Value Function.md",
     "State.md",
@@ -222,8 +224,6 @@
     "Upper Confidence Bounds Approach.md",
     "Sample Averages and e-greedy.md",
     "Courses.md",
-    "Computer Vision.md",
-    "Projective Geometry.md",
     "Pasted image 20260508205403.png",
     "New Text Document.txt",
     "Images/Pasted image 20260506233544.png",
