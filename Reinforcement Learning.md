@@ -4,12 +4,14 @@ The agent is not told the correct [[action]], but it has to learn from the conse
 1. [[Definitions in Reinforcement Learning|Introduction to RL]] 
 2. [[Multi-Armed Bandits]]:
     [[exploration]] vs [[exploitation]] dilemma
-3. [[Finite Markov Decision Processes]]: 
+3. [[Markov Decision Processes]]: 
     Sequential Decision Making
 4. [[Dynamic Programming in RL]] 
+	Planning with a known model
 
-Fundamental problems of RL:
-1. [[Policy Evaluation]]: Given the [[Finite Markov Decision Processes]] and the [[Policy]] $\pi$, computing the expected [[Return]] at state s and for [[Action]] a. These expected values are written as [[State Value Function]] and [[Action Value Function]]. 
+
+### Fundamental problems of RL:
+1. [[Policy Evaluation]]: Given the [[Markov Decision Processes]] and the [[Policy]] $\pi$, computing the expected [[Return]] at state s and for [[Action]] a. These expected values are written as [[State Value Function]] and [[Action Value Function]]. 
 $$ v_\pi(s) = \mathbb{E}_\pi[G_t | S_t=s]
 $$
 2. [[Control Evaluation]]: Finding the best [[Policy]] $\pi$ that maximises the [[State Value Function]]. $$\pi^* \in arg\ max_\pi v_\pi(s) \ \forall s$$

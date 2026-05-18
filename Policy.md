@@ -1,1 +1,1 @@
-Strategy mapping states to actions to maximise cumulative rewards.
+This is the mapping from [[State]] to [[Action]] and when to take which action at which state.

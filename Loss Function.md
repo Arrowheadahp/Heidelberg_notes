@@ -16,3 +16,4 @@ $$
 \textit{l}(\textbf{x, t, w}) = -\sum_{j}t_j log(p(c_j|x))
 $$
 where $$ p(c_j=1|x) = \frac{e^{y_j}}{\sum_{k=1}^{C}e^{y_k}} $$
+[[Precision-Recall Curve]] can also be used to quantify how good a model is in tasks like labelling.

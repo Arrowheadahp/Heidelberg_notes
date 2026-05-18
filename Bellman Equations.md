@@ -1,4 +1,4 @@
-To calculate the [[State Value Function]], We need the [[Return]], which depends on the entire future trajectory. Bellman's Idea is to replace the huge path expectation by a recursive one-step decomposition. Same for calculating the [[Action Value Function]]. These are required for the [[Policy Evaluation]]. 
+To calculate the [[State Value Function]], We need the [[Return]], which depends on the entire future trajectory. Bellman's Idea is to replace the huge path expectation by a recursive one-step decomposition. These are required for the [[Policy Evaluation]]. 
 
 Bellman Expectation Equation for $v_\pi$
 $$
@@ -6,9 +6,9 @@ v_\pi(s) = \sum_a \left(\pi(a|s) \sum_{s',r}p(s',r|s,a)\left[r+\gamma v_\pi(s')\
 $$
 The expected [[Return]] for [[State]] s is the summation of choosing [[Action]] a given s multiplied with the summation of multiplication of probability of getting next state s' and reward r plus gamma \* expected return at state s'.
 
-Bellman Expectation Equation for $q_\pi$
+Bellman Expectation Equation for the [[Action Value Function]].  $q_\pi$
 $$
-q_\pi(s) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma \sum_{s'} \pi(a'|s')q_\pi(s',a')\right] \right)
+q_\pi(s,a) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma \sum_{s'} \pi(a'|s')q_\pi(s',a')\right] \right)
 $$
 The expected [[Return]] for [[State]] s and action a is the summation of multiplication of probability of getting next state s' and reward r plus gamma \* expected return at state s'.
 
@@ -18,7 +18,8 @@ v_\pi(s) = \sum_a \left(\pi(a|s) q_\pi(s) \right)
 $$
 ## Bellman's Optimality Equations
 
-For the [[Control Evaluation]], We can say that $\pi$ is better than $\pi '$ if $v_\pi \geq v_{\pi '} \forall s$ 
+For the [[Control Evaluation]], we want to find the $\pi^*$. We say that $\pi$ is better than $\pi '$ if $v_\pi \geq v_{\pi '} \forall s$ 
+$\pi^*$ is optimum when it is at least as good as every other policy at every state.
 
 Optimal Value Function 
 $$ v^*(s) = \max_{a \in A(s)} \left (\sum_{s',r}p(s',r|s,a)\left[r+\gamma v^*(s')\right] \right)
@@ -35,7 +36,7 @@ $$
 
 We want the [[Policy]] that maximises the expected return at every state. 
 $$
-\pi_{greedy}(s) \in \arg max_{a \in A(s)} \left(\sum_{s',r}p(s',r|s,a)\left[r+\gamma v^*(s')\right] \right)
+\pi_{greedy}(s) \in \arg \max_{a \in A(s)} \left(\sum_{s',r}p(s',r|s,a)\left[r+\gamma v^*(s')\right] \right)
 $$
 If the q* is known, then the equation becomes:
 $$\pi_{greedy}(s) \in \arg max_a q^*(s,a)
@@ -48,7 +49,7 @@ T(v(s)) \gets \max_{a \in A(s)} \left (\sum_{s',r}p(s',r|s,a)\left[r+\gamma v(s'
 $$
 This assignment happens at every step
 So at step k, 
-$$ v_k = Tv_{k-1} $$
+$$ v_k \gets Tv_{k-1} $$
 > [!NOTE] Fixed Point Interpretation
 > If repeated Bellman iterations stops changing the the value function, then we have found the fixed point
 
