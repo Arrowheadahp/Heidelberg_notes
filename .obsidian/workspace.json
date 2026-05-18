@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Policy Iteration.md",
+                "file": "Dynamic Programming in RL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Policy Iteration"
+              "title": "Dynamic Programming in RL"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Policy Iteration.md",
+                "file": "Dynamic Programming in RL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Policy Iteration"
+              "title": "Backlinks for Dynamic Programming in RL"
             }
           },
           {
@@ -196,19 +196,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dca61c263145489b",
+  "active": "f25227fcd7461871",
   "lastOpenFiles": [
+    "Policy Iteration.md",
+    "Policy Evaluation.md",
+    "Dynamic Programming in RL.md",
+    "Reinforcement Learning.md",
+    "Courses.md",
+    "Solving Linear System to evaluate policy.md",
     "Control Evaluation.md",
     "Bellman Equations.md",
     "Solving a MDP.md",
-    "Reinforcement Learning.md",
-    "Policy Iteration.md",
     "Policy Improvement.md",
-    "Policy Evaluation.md",
-    "Dynamic Programming in RL.md",
     "Policy.md",
     "Action Value Function.md",
-    "Solving Linear System to evaluate policy.md",
     "Iterative Bellman Expectation Update.md",
     "Stationary Reinforcement Learning.md",
     "Environment.md",
@@ -219,7 +220,6 @@
     "Interest Point Detection.md",
     "Basics of Image Processing.md",
     "Computer Vision.md",
-    "Courses.md",
     "Precision-Recall Curve.md",
     "Value Function.md",
     "Definitions in Reinforcement Learning.md",

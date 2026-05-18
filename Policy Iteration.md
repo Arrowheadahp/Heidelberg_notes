@@ -1,6 +1,6 @@
 Alternate between 
 - [[Policy Evaluation]]
-- [[Policy Iteration]]
+- [[Policy Improvement]]
 
 The [[Policy Iteration]] algorithm is:
 1. Initialize a policy $\pi$
