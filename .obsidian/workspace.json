@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dynamic Programming in RL.md",
+                "file": "Camera.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dynamic Programming in RL"
+              "title": "Camera"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynamic Programming in RL.md",
+                "file": "Camera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dynamic Programming in RL"
+              "title": "Backlinks for Camera"
             }
           },
           {
@@ -196,16 +196,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f25227fcd7461871",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
+    "Bellman Equations.md",
+    "Camera.md",
+    "Computer Vision.md",
+    "Basics of Image Processing.md",
+    "Image Filtering.md",
+    "Courses.md",
     "Policy Iteration.md",
-    "Policy Evaluation.md",
     "Dynamic Programming in RL.md",
     "Reinforcement Learning.md",
-    "Courses.md",
+    "Policy Evaluation.md",
     "Solving Linear System to evaluate policy.md",
     "Control Evaluation.md",
-    "Bellman Equations.md",
     "Solving a MDP.md",
     "Policy Improvement.md",
     "Policy.md",
@@ -218,12 +222,8 @@
     "Loss Function.md",
     "Decision Trees.md",
     "Interest Point Detection.md",
-    "Basics of Image Processing.md",
-    "Computer Vision.md",
     "Precision-Recall Curve.md",
     "Value Function.md",
-    "Definitions in Reinforcement Learning.md",
-    "State Value Function.md",
     "Pasted image 20260508205403.png",
     "New Text Document.txt",
     "Images/Pasted image 20260506233544.png",

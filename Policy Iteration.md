@@ -7,7 +7,7 @@ The [[Policy Iteration]] algorithm is:
 2. Perform [[Policy Evaluation]] to compute $v_\pi$
 3. Perform [[Policy Improvement]] $$\pi(s) \gets \arg \max_{a \in A(s)} \left(\sum_{s',r}p(s',r|s,a)\left[r+\gamma v_\pi(s')\right] \right)$$
 4. If the [[Policy]] remains unchanged, then stop. Otherwise repeat.
-
+All of these are done using the [[Bellman Equations]].
 
 > [!NOTE] Convergence
 > For Finite [[Markov Decision Processes]], the policy iteration eventually reaches an optimum policy $\pi^*$, which  is optimum when it is at least as good as every other policy at every state.

@@ -6,7 +6,7 @@ Computer Vision can be understood as inverse graphics(rendering).
 2. [[Introduction to Deep Machine Learning]]
 3. [[Basics of Image Processing]]
 4. Basics of [[Projective Geometry]]
-5. [[What is Camera?]]
+5. What is [[Camera]]?
 6. [[3D Reconstruction]]
 7. [[New View Synthesis]]
 8. [[Differentiable RANSAC]]
