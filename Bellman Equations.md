@@ -8,13 +8,16 @@ The expected [[Return]] for [[State]] s is the summation of choosing [[Action]] 
 
 Bellman Expectation Equation for the [[Action Value Function]].  $q_\pi$
 $$
-q_\pi(s,a) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma \sum_{s'} \pi(a'|s')q_\pi(s',a')\right] \right)
+q_\pi(s,a) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma \sum_{a'} \pi(a'|s')q_\pi(s',a')\right] \right)
 $$
 The expected [[Return]] for [[State]] s and action a is the summation of multiplication of probability of getting next state s' and reward r plus gamma \* expected return at state s'.
 
 Relationship 
 $$
-v_\pi(s) = \sum_a \left(\pi(a|s) q_\pi(s) \right)
+v_\pi(s) = \sum_a \left(\pi(a|s) q_\pi(s,a) \right)
+$$
+$$
+q_\pi(s,a) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma v_\pi (s')\right] \right)
 $$
 ## Bellman's Optimality Equations
 
