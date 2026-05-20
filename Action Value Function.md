@@ -6,6 +6,7 @@ The measurement of how good it is to take action a now and then following policy
 $$
 q_\pi(s, a) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma v_\pi(s')\right] \right)
 $$
+Relationship with [[State Value Function]]
 $$
 q_\pi(s,a) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma \sum_{a'} \pi(a'|s')q_\pi(s',a')\right] \right)
 $$

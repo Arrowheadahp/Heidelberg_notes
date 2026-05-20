@@ -3,7 +3,7 @@ $$ v_\pi(s) = \mathbb{E}_\pi[G_t | S_t=s]
 $$Bellman Expectation Equation for $v_\pi$
 $$
 v_\pi(s) = \sum_a \left(\pi(a|s) \sum_{s',r}p(s',r|s,a)\left[r+\gamma v_\pi(s')\right] \right)
-$$Relationship 
+$$Relationship with [[Action Value Function]]
 $$
 v_\pi(s) = \sum_a \left(\pi(a|s) q_\pi(s,a) \right)
 $$
