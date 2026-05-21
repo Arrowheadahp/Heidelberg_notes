@@ -11,10 +11,14 @@
             "id": "f25227fcd7461871",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Bellman Equations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bellman Equations"
             }
           }
         ],
@@ -92,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bellman Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Bellman Equations"
             }
           },
           {
@@ -193,32 +198,32 @@
   },
   "active": "f25227fcd7461871",
   "lastOpenFiles": [
+    "Policy Improvement.md",
+    "Dynamic Programming in RL.md",
+    "Policy Iteration.md",
+    "Value Iteration.md",
+    "Bellman Equations.md",
+    "Policy Evaluation.md",
+    "Reinforcement Learning.md",
+    "Solving a MDP.md",
+    "State.md",
+    "Markov Decision Processes.md",
     "Action.md",
     "Return.md",
     "State Value Function.md",
     "Action Value Function.md",
-    "Bellman Equations.md",
-    "Policy Iteration.md",
-    "Dynamic Programming in RL.md",
-    "Reinforcement Learning.md",
     "Camera.md",
     "Computer Vision.md",
     "Basics of Image Processing.md",
     "Image Filtering.md",
     "Courses.md",
-    "Policy Evaluation.md",
     "Solving Linear System to evaluate policy.md",
     "Control Evaluation.md",
-    "Solving a MDP.md",
-    "Policy Improvement.md",
     "Policy.md",
     "Iterative Bellman Expectation Update.md",
     "Stationary Reinforcement Learning.md",
     "Environment.md",
-    "Markov Decision Processes.md",
     "Loss Function.md",
-    "Decision Trees.md",
-    "Interest Point Detection.md",
     "Pasted image 20260508205403.png",
     "New Text Document.txt",
     "Images/Pasted image 20260506233544.png",

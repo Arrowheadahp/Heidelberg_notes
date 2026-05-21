@@ -9,9 +9,12 @@ Dynamic Programming computes value functions and optimal policies by turning [[B
 ### Pros:
 -  It gives a conceptual template for prediction, Improvement and control.
 
-> [!Intuition] 3 parts
-> [[Policy Evaluation]]: Estimating how good a [[State]] is.
-> [[Policy Improvement]]: Choosing better [[Action]] using those values
-> [[Policy Iteration]]: Repeat alternating above 2 until minimal changes.
+## 2 ways to optimise:
+
+1. Policy way
+	[[Policy Evaluation]]: Estimating how good a [[State]] is.
+	[[Policy Improvement]]: Choosing better [[Action]] using those values 
+	[[Policy Iteration]]: Repeat alternating above 2 until minimal changes.
+2. [[Value Iteration]] is used to find the $v^*$ and then use [[Policy Improvement]] to get the $\pi^*$.
 
 The main difference between the [[Monte-Carlo Simulations]] and the [[Dynamic Programming in RL]] is that since the models is known, DP can compute the expectations exactly. But for that it has to be finite [[Markov Decision Processes]]. Meaning, the number of states, and action are finite.

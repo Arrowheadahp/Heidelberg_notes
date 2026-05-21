@@ -1,4 +1,3 @@
-
 > [!Question] Can we take better actions at a given state?
 > 
 

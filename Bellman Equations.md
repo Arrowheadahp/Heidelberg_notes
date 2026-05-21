@@ -48,7 +48,7 @@ $$
 Optimality operator T takes the [[Action Value Function]] as input and returns a new value function TV
 #tobeunderstood 
 $$
-T(v(s)) \gets \max_{a \in A(s)} \left (\sum_{s',r}p(s',r|s,a)\left[r+\gamma v(s')\right] \right)
+(T v)(s) \gets \max_{a \in A(s)} \left (\sum_{s',r}p(s',r|s,a)\left[r+\gamma v(s')\right] \right)
 $$
 This assignment happens at every step
 So at step k, 
