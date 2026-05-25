@@ -17,4 +17,4 @@ Dynamic Programming computes value functions and optimal policies by turning [[B
 	[[Policy Iteration]]: Repeat alternating above 2 until minimal changes.
 2. [[Value Iteration]] is used to find the $v^*$ and then use [[Policy Improvement]] to get the $\pi^*$.
 
-The main difference between the [[Monte-Carlo Simulations]] and the [[Dynamic Programming in RL]] is that since the models is known, DP can compute the expectations exactly. But for that it has to be finite [[Markov Decision Processes]]. Meaning, the number of states, and action are finite.
+The main difference between the [[Monte-Carlo Methods]] and the [[Dynamic Programming in RL]] is that since the models is known, DP can compute the expectations exactly. But for that it has to be finite [[Markov Decision Processes]]. Meaning, the number of states, and action are finite.

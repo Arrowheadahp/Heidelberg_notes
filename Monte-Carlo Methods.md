@@ -1,0 +1,25 @@
+
+> [!question] Guiding
+> How do we evaluate and improve a policy when there is no model of the environment, only sampled trajectories?
+
+Where [[Dynamic Programming in RL]] requires a complete model $p(s',r|s,a)\forall s$. [[Monte-Carlo Methods]] computes [[State Value Function]] using [[Expectation Backups]] which is more relevant to real life scenarios where the model is unknown or intractable.
+
+Input: Sampled experience formulated for [[Episodic Tasks]]. Like: $$ S_0, A_0, R_1, S_1, A_1, R_2, S_2, A_2, ... S_T$$
+ >[[Monte-Carlo Methods]] do not use [[Bootstrapping]]. It estimates values directly from complete returns and do not use value estimates in their updates.
+## Types of MC
+If policy $\pi$ is deterministic, then there will not be any [[exploration]] and reliable improvement is impossible. We need to enforce exploration while still improving. For this there are 2 ways to enforce exploration:
+1. [[On-Policy MC]]
+	1. [[MC Prediction]]
+	2. [[On-Policy MC Control]]
+2. [[Off-Policy MC]]
+	1. [[Off-Policy MC Learning]]
+	2. [[Off-Policy MC Control]]
+	
+Both uses [[MC Improvement]] to improve the target policy.
+### Pros:
+1. Unbiased: targets are actual outcomes
+2. No model needed
+3. Simple
+### Cons:
+1. Updates delayed till episode end
+2. Higher Variance than [[Bootstrapping]] methods

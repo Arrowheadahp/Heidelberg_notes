@@ -8,4 +8,8 @@ The agent is not told the correct [[action]], but it has to learn from the conse
     Sequential Decision Making
 4. [[Dynamic Programming in RL]] 
 	Planning with a known model
+5. [[Monte-Carlo Methods]]
+	Model-free prediction and control from sampled episodes
+
+
 

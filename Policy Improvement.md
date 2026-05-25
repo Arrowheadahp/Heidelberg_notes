@@ -19,7 +19,7 @@ then $$ v_{\pi '}(s) \geq v_\pi(s) $$
 ### Greedy Policy improvement
 
 Given a policy $\pi$, We define a new policy $\pi '$ choosing the action with the highest [[Action Value Function]]:
-$$\pi_{greedy}'(s) \in \arg max_a q^*(s,a)
+$$\pi_{greedy}'(s) \in \arg \max_a q^*(s,a)
 $$
 We want the [[Policy]] that maximises the expected return at every state. 
 $$
