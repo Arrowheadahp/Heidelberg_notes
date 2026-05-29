@@ -16,5 +16,6 @@ There are 2 ways to update the $v_\pi(s)$:
 	- for each state s that appears is the episode:
 		- Let G be the return after first visit to s
 		- Append G to Returns\[s\]
-		- $V(s)\gets (Returns(s)$
-		$$ V(S) \gets V(s) + \frac{1}{N(s)} \left(G - V(s) \right)$$
+		- $V(s)\gets (Returns(s))$
+		$$ V(s) \gets V(s) + \frac{1}{N(s)} \left(G - V(s) \right)$$
+This update can also be done using [[Batch Updating]]

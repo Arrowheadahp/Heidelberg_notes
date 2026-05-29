@@ -1,0 +1,1 @@
+When Data is being streamed and data becomes available in a sequential order and is used to update the best predictor for future data at each step

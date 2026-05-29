@@ -15,7 +15,7 @@
 
 Lots of variants of [[Machine Learning]] problems
 
-1. On-line learning
+1. [[Online Learning]]
 2. Continual Learning
 3. Self-Supervised Learning
 4. [[Active and Semi-Supervised Learning]]
