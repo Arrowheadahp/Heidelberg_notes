@@ -7,7 +7,7 @@ Linear, Associative, Commutative, Can be written as a matrix
 
 Filters
 1. [[Box Filter]] is a filter (also called kernel) that helps in blurring and [[Noise Removal]]
-2. Sobel Filter can be used for [[Edge Detection and Linking]]
+2. [[Sobel Filter]] can be used for [[Edge Detection and Linking]]
 3. etc
 
 

@@ -19,7 +19,7 @@
 	- Vignetting is caused when there is a second lens which does not capture all of the light from the first lens
 	- lens distortion is caused by fish eye cameras
 - ## Solving Homogenous Linear Systems
-  [[Singular Value Decomposition]]
+  [[SVD]]
 - ## Camera Calibration
   Knowing points $X_1, X_2 ...$ and the points in real life where they end up in the image $x_1, x_2, ...$ we can find out what the camera matrix P is with the equation $\lambda x = PX$. Since P has 11 degrees of freedom, it has 12 unknowns and requires 12 equations and therefore 6 real points.
 $$ x = KR(C-C~)X $$
