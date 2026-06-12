@@ -22,4 +22,4 @@ For model-free control, we learn the [[Action Value Function]] $Q(s, a)$ just li
 
 There are 2 types of Control
 1. [[On-Policy]] where the both exploration and exploitation is using the same policy. In TD [[SARSA]] is the method used for this.
-2. [[Off-Policy]] where the exploration and exploitation is done by different policies. [[Q-Learning]] is the method.
+2. [[Off-Policy]] where the exploration and exploitation is done by different policies. [[Q-Learning]] is the method. To mitigate the issues like Bias, [[Double Q-Learning]] is used.

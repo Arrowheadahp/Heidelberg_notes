@@ -25,3 +25,8 @@ This is the heart of the model-free greedy control: sample successor, max over a
 
 > [!Note] Since [[Q-Learning]] keeps on exploring, it has a higher chance of going over a cliff. Meaning it will keep exploring bad states actions with very negative rewards.
 
+### Problem with Q-Learning
+
+Even if each individual estimates are unbiased, the maximum is biased upwards. (Just like expected max of 2 dice rolls is more than expected dice roll). $$ \mathbb E \left [ \max_a Q(s,a)\right] \geq \max_a \mathbb E [Q(s,a)]$$
+![[Pasted image 20260611172118.png]]
+To mitigate this issue, [[Double Q-Learning]] is used

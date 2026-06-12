@@ -12,6 +12,8 @@ The agent is not told the correct [[action]], but it has to learn from the conse
 	Model-free prediction and control from sampled episodes
 6. [[Temporal Difference Learning]]
    Sampling Experience, Bootstrapping predictions
+7. [[N-Step Bootstrapping]]
+   Bridging Monte Carlo and one-step TD
 
 
 
