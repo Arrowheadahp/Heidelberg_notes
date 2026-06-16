@@ -1,3 +1,5 @@
+This is a type of [[Iterative Estimation Methods]], where we try to find the global minima/maxima using iterative approaches. 
+
 1. Initialize weights w0
 2. Iterate k times
 	1. for each example n

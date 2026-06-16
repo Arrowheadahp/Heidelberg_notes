@@ -2,10 +2,10 @@ The basic idea is that in 3d [[Projective Geometry]], each matching point pair m
 
 Because all 3 vectors lie on a plane, $a\cdot(b\times c) = 0$   
 The 3 vectors are:
-1. $C_1 - C_0$
+1. Translation change: $T=C_1 - C_0$
 2. Inverse projection of image of $X$ from camera 1: $X - C_0 = K_0^{-1}x_0$ 
 3. Inverse projection of image of $X$ from camera 2: $X - C_1 = RK_1^{-1}x_1$ 
-   Here $R$ is the transformation brightness changes etc.
+   Here $R$ is the Rotation change.
 
 The equation comes as: $$ (X-C_0)^T(C_1-C_0) \times (X-C_1) =0
 $$

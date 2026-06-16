@@ -12,4 +12,6 @@ expanding and removing the lambda from the equation gives 2 equations per 1 poin
 
 > [!NOTE] We can only get the $K_1, R$ and $K_0$ from the equation $H=K_1RK_0$ of a rotating camera with lots of assumptions for K since the degrees of freedom for H is 8 and for RHS is 13
 
-We can use H to get to stitch multiple images to make panoramas
+We can use H to get to stitch multiple images to make panoramas.
+
+### [[Accurate Geometry estimation for 2 views]] has the final algorithms for estimating H using [[RANSAC]].
