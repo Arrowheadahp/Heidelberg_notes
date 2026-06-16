@@ -11,6 +11,6 @@ When we have 2 images, we have 2 lists of matching points: $x'$ and $x$. After a
 
 ### Part 2: When the camera is rotated and moved:
 
-[[Fundamental/Essential Matrix]]: With more than 7 matching points, we can make a matrix that can encapsulates the transformation that happens when the camera is moved from 1 place to another.
+[[Fundamental and Essential Matrix]]: With more than 7 matching points, we can make a matrix that can encapsulates the transformation that happens when the camera is moved from 1 place to another.
 
 The basic idea is that in 3d [[Projective Geometry]], each matching point pair makes a plane with the camera centres.
