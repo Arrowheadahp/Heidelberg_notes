@@ -9,6 +9,6 @@ The Roadmap is
 3. [[Robust Geometry estimation for 2 views]]
    [[RANSAC]]
 4. [[Accurate Geometry estimation for 2 views]]
-5. Multi-view 3d Reconstruction
+5. [[Multi-view 3d Reconstruction]]
 6. SLAM and visual odometry
 
