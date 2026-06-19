@@ -2,6 +2,7 @@
 > [!Question] Guiding Question
 > Can we update our value estimates using current estimates as targets? Why Does it work and when is it beneficial over waiting for actual returns?
 
+Temporal Difference Learning is a [[Model free RL]] method that limits the number of steps ahead the return will take the real rewards and then bootstraps the rest. 
 ### Advantages of TD:
 1. TD requires only sampled transitions and can update after one single transition using $S_t, R_{t+1}, S_{t+1}$
 2. [[Online Learning]] where data is streamed, TD is a natural fit.

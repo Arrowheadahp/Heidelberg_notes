@@ -28,3 +28,19 @@ Only 1 of these happens with probability 0.5
 			- $A^* \gets \arg\max_a Q_2(S',a)$
 			- $Q_2[S,A] \gets Q_2[S,A] + \alpha(R + \gamma Q_1(S', A^*)-Q_2[S,A])$
 		- $S\gets S'$
+
+- Initialize Q1, Q2 so that terminal states have value 0
+- Loop for each episode
+	- Initialize S
+	- Loop till done
+		```            
+		  a = eps_greedy(Q1+Q2, s, epsilon, env.n_actions, rng_local)
+		  s_next, r, done = env.step(a)
+		  total_r += r
+		  if rng_local.random() < 0.5:
+			  Q1[s, a] += alpha* (r + gamma* Q2[s_next, np.argmax(Q1[s_next])] - Q1[s, a])
+		  else:
+			  Q2[s, a] += alpha* (r + gamma* Q1[s_next, np.argmax(Q2[s_next])] - Q2[s, a])
+		  s = s_next
+		  ```
+		  

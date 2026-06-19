@@ -20,4 +20,5 @@ Definitions in Reinforcement Learning:
 7. [[Return]] (G)
 8. [[State Value Function]] $(v_\pi)$
 9. [[Action Value Function]] ($q_\pi$)
+10. [[Model]]
 
