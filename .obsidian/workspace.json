@@ -11,10 +11,14 @@
             "id": "8635ead6aaee14a7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Planning and Learning with Tabular Methods.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Planning and Learning with Tabular Methods"
             }
           }
         ],
@@ -76,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2691f505943780f4",
@@ -93,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control Variate.md",
+                "file": "Planning and Learning with Tabular Methods.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Control Variate"
+              "title": "Backlinks for Planning and Learning with Tabular Methods"
             }
           },
           {
@@ -196,35 +199,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8635ead6aaee14a7",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
-    "Planning and Learning with Tabular Methods.md",
-    "MCTS Monte Carlo Tree Search.md",
-    "Decision Time Planning.md",
-    "Pasted image 20260619021128.png",
-    "Rollout Algorithm.md",
-    "Heuristic Search RL.md",
-    "RTDP Real Time Dynamic Programming.md",
-    "Bellman Equations.md",
-    "Prioritised Sweeping.md",
+    "Edge Detection and Linking.md",
+    "Computer Vision.md",
+    "Dropout.md",
+    "F-score.md",
+    "N-Step Off-Policy Learning.md",
+    "Harris Detector.md",
+    "Accurate Geometry estimation for 2 views.md",
+    "LIFT.md",
+    "RANSAC.md",
+    "N-Step Expected SARSA.md",
+    "Deep Learning.md",
     "Dyna-Q+.md",
-    "Dyna-Q.md",
-    "Q-Learning.md",
-    "Temporal Difference Learning.md",
-    "Reinforcement Learning.md",
-    "Multi-Armed Bandits.md",
-    "How the Q is calculated.md",
+    "Camera.md",
+    "GLIE (Greedy in the Limit with Infinite Exploration).md",
+    "Off-Policy.md",
     "Monte-Carlo Methods.md",
-    "Dynamic Programming in RL.md",
-    "Policy Improvement.md",
-    "Action Value Function.md",
-    "Policy Iteration.md",
-    "Model.md",
-    "Environment.md",
-    "Upper Confidence Bounds Approach.md",
-    "N-Step Bootstrapping.md",
-    "Definitions in Reinforcement Learning.md",
+    "Off-Policy MC Control.md",
+    "Off-Policy MC Learning.md",
+    "Off-Policy MC.md",
+    "Reinforcement Learning.md",
+    "Precision.md",
+    "Fundamental and Essential Matrix.md",
+    "U-Net.md",
+    "On-Policy.md",
+    "Data Augmentation.md",
     "Markov Decision Processes.md",
+    "Pasted image 20260619021128.png",
     "Pasted image 20260615190450.png",
     "Pasted image 20260615174015.png",
     "Fundamental",
