@@ -1,4 +1,4 @@
-[[Q-Learning]] target is $$ R_{t+1} + \gamma \max_a Q(S_{t+1}, a)$$
+[[Q-Learning]] [[Target Update]] is $$ R_{t+1} + \gamma \max_a Q(S_{t+1}, a)$$
 Which can be broken up into 2 steps:
 $$
 A^* = \arg\max_a(Q(S_{t+1},a))

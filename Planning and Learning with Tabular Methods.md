@@ -1,3 +1,4 @@
+### Learning
 The idea is to use the 'Learning' that we get from real experience (interacting with the environment) to create a memory (model)of the environment and do 'Planning' which is to optimise in that model.
 
 This unifies the 
@@ -7,10 +8,10 @@ This unifies the
   Ex: [[Temporal Difference Learning]], [[Monte-Carlo Methods]] etc.
 The idea is that both type of methods rely on backups of the [[State Value Function]].
 
-### Model 
+#### Model 
 The [[Model]] is the knowledge of what reward and state will come when taking any action at any state. There are 2 types of model reconstruction:
 - ==Distribution model==: All possible next states are rewards are present with their probabilities:  $\hat p(s',r|s,a)\forall s$. 
-  The update looks like $$
+  The update looks like [[Dynamic Programming in RL]]$$
 Q_\pi(s, a) = \sum_{s', r} \left(\hat p(s',r|s,a)\left[r+\gamma \max_{a'} Q(s',a') \right] \right)
 $$
 - ==Sample Model==: Produces a single sampled next state and reward instead of the full probability distribution. This is much easier to obtain in practice. The update looks like $$Q(S, A) \gets Q(S, A) + \alpha(R + \gamma \max_a (Q(S', a)) - Q(S, A))$$

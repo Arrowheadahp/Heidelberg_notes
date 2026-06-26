@@ -1,6 +1,4 @@
-The universal template for change is $$ Q_{n+1} = Q_n + \alpha(R_n - Q_n) $$$$ new = old + \alpha(target-old) $$The alpha changes from approach to approach. 
-- When $\alpha == 1/n$ then it is called the sample average.
-- When $\alpha$ is constant, then the newer rewards are given more importance and the older rewards are $*\alpha^t$ so vanishes eventually.
+The universal template for change is $$ Q_{n+1} = Q_n + \alpha(R_n - Q_n) $$as given in the [[Target Update]]
 ## Sample Averages
 
 - Let $N_t(a)$ = number of times action a has been selected before time t
