@@ -21,7 +21,7 @@ The models are trained by
 
 ### Positional Encoding
 This results in sharper, more detailed images and has faster convergence
-Instead of the NN memorizing pixel by pixel it memorizes Fourier features.
+Instead of the NN memorizing pixel by pixel it memorizes Fourier features using [[Fourier Cosine Basis]].
 ![[Pasted image 20260623145855.png]]
 
 ### Results:

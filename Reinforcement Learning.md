@@ -17,6 +17,7 @@ The agent is not told the correct [[action]], but it has to learn from the conse
 8. [[Planning and Learning with Tabular Methods]]
    Models, Dyna, Search Control and Decision Time Planning
 9. [[On-Policy Prediction with Function Approximation]]
+   [[Function Approximation in RL]]
 
 
 

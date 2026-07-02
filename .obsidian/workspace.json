@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Function Approximation in RL.md",
+                "file": "Reinforcement Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Function Approximation in RL"
+              "title": "Reinforcement Learning"
             }
           }
         ],
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\to",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,32 +200,35 @@
   },
   "active": "8635ead6aaee14a7",
   "lastOpenFiles": [
-    "On-Policy Prediction with Function Approximation.md",
+    "Courses.md",
+    "Untitled.base",
+    "Reinforcement Learning.md",
     "Function Approximation in RL.md",
+    "On-Policy Prediction with Function Approximation.md",
+    "Linear Function Approximation in RL.md",
+    "Feature Construction for Linear Methods.md",
+    "Pasted image 20260626201635.png",
+    "NERF.md",
+    "Fourier Cosine Basis.md",
+    "New View Synthesis.md",
+    "3D Reconstruction.md",
+    "Computer Vision.md",
+    "How to train the Function Approximation.md",
+    "Pasted image 20260626193621.png",
+    "Examples of Function Approximations.md",
+    "Pasted image 20260626191632.png",
+    "Target Update.md",
+    "N-Step Expected SARSA.md",
+    "Prediction Objective.md",
     "Markov Decision Processes.md",
     "Decision Trees.md",
-    "Target Update.md",
     "State Value Function.md",
     "N-Step SARSA.md",
-    "N-Step Expected SARSA.md",
     "N-Step Bootstrapping.md",
     "First Visit Monte Carlo.md",
     "Double Q-Learning.md",
     "Graphics.md",
     "GLIE (Greedy in the Limit with Infinite Exploration).md",
-    "Forward Pass.md",
-    "Comparison between DP, MC, TD.md",
-    "Planning and Learning with Tabular Methods.md",
-    "Reinforcement Learning.md",
-    "Temporal Difference Learning.md",
-    "N-Step Off-Policy Learning.md",
-    "Off-Policy.md",
-    "Off-Policy MC.md",
-    "Off-Policy MC Control.md",
-    "Monte-Carlo Methods.md",
-    "Importance Sampling Ratio.md",
-    "How the Q is calculated.md",
-    "Control Variate.md",
     "Pasted image 20260623162842.png",
     "Pasted image 20260623161818.png",
     "Pasted image 20260623151236.png",
@@ -235,12 +237,8 @@
     "Pasted image 20260615190450.png",
     "Pasted image 20260615174015.png",
     "Fundamental",
-    "Pasted image 20260612005643.png",
-    "Pasted image 20260611172118.png",
-    "Pasted image 20260527011423.png",
     "New Text Document.txt",
     "Images",
-    "Untitled.base",
     "Pre-Training",
     "Untitled.canvas",
     "CV"
