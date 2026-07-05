@@ -18,6 +18,8 @@ The agent is not told the correct [[action]], but it has to learn from the conse
    Models, Dyna, Search Control and Decision Time Planning
 9. [[On-Policy Prediction with Function Approximation]]
    [[Function Approximation in RL]]
+10. [[Policy Gradient Methods]]
+    Learning policies directly, with and without a critic
 
 
 

@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reinforcement Learning.md",
+                "file": "REINFORCE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reinforcement Learning"
+              "title": "REINFORCE"
+            }
+          },
+          {
+            "id": "6a1ecf99684cfb06",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -75,11 +86,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2691f505943780f4",
@@ -198,11 +211,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8635ead6aaee14a7",
+  "active": "6a1ecf99684cfb06",
   "lastOpenFiles": [
+    "Policy Gradient Theorem.md",
+    "Return.md",
+    "Policy Gradient Methods.md",
+    "REINFORCE.md",
+    "Reinforcement Learning.md",
+    "Multi-Armed Bandits.md",
+    "Gradient Bandits.md",
+    "Bellman Equations.md",
+    "State Value Function.md",
+    "Computer Vision.md",
     "Courses.md",
     "Untitled.base",
-    "Reinforcement Learning.md",
     "Function Approximation in RL.md",
     "On-Policy Prediction with Function Approximation.md",
     "Linear Function Approximation in RL.md",
@@ -212,7 +234,6 @@
     "Fourier Cosine Basis.md",
     "New View Synthesis.md",
     "3D Reconstruction.md",
-    "Computer Vision.md",
     "How to train the Function Approximation.md",
     "Pasted image 20260626193621.png",
     "Examples of Function Approximations.md",
@@ -222,13 +243,6 @@
     "Prediction Objective.md",
     "Markov Decision Processes.md",
     "Decision Trees.md",
-    "State Value Function.md",
-    "N-Step SARSA.md",
-    "N-Step Bootstrapping.md",
-    "First Visit Monte Carlo.md",
-    "Double Q-Learning.md",
-    "Graphics.md",
-    "GLIE (Greedy in the Limit with Infinite Exploration).md",
     "Pasted image 20260623162842.png",
     "Pasted image 20260623161818.png",
     "Pasted image 20260623151236.png",

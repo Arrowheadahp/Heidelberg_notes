@@ -1,9 +1,9 @@
 Instead of choosing the [[Action]] directly, we can create a [[Policy]] of choosing action and improve it directly using gradients.
 $$ \pi_t(a) = Pr(A_t=a)=\frac{e^{H_t(a)}}{\sum_{b=1}^{k}e^{H_t(b)}}
 $$
-Probability of choosing a: $\pi_t(a) = Pr(A_t=a)$ is equal to the [[SoftMax Function]] of the priority function $H_t(a)$. 
+Probability of choosing a: $\pi_t(a) = Pr(A_t=a)$ is equal to the [[SoftMax Function]] of the ==priority function $H_t(a)$==. 
 
-The idea is to change the values of H to maximise the expected Reward $J$. 
+The idea is to change the values of H to maximise the ==expected Reward== $J$. 
 $$ J= \sum_{a=1}^k \pi(a)q^*(a)
 $$
 H is changed according to $$ H(a)=H(a)+\alpha\frac{\delta J}{\delta H}
