@@ -1,5 +1,5 @@
 Policy Gradient Theorem states that for any differentiable policy $\pi(a|s,\theta)$,$$\nabla J(\theta)\propto \sum_s\mu(s)\sum_a q_\pi(s,a)\nabla\pi(a|s,\theta) $$
-Where J is the expected return at the starting state.$$J(\theta) \approx v_\pi(S_0)$$
+Where J is the expected return at the starting state.$$J(\theta) \approx v_\pi(S_0)$$ and $\mu$ is the on-policy state distribution under $\pi_\theta$.
 ### Proof
 where $v_\pi(s)=\sum_a\pi(a|s)q_\pi(s,a)$ from [[Bellman Equations]]
 And  $$\nabla J(\theta)= \nabla v_\pi(S_0)$$
@@ -9,7 +9,7 @@ q_\pi(s,a) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma v_\pi (s')\right] \rig
 $$
 $$\therefore\nabla q(s,a) = \gamma \sum_{s'} p(s'|s,a)\nabla v_\pi(s') $$
 
-So the equation comes to $$\nabla v_\pi(s) = \sum_a\nabla\pi(a|s)q_\pi(s,a) + \sum_a\left(\pi(s,a)\sum_{s'}p(s'|s,a)\nabla v_\pi(s')\right) $$
+So the equation comes to $$\nabla v_\pi(s) = \sum_a\nabla\pi(a|s)q_\pi(s,a) + \sum_a\left(\pi(s,a)\gamma\sum_{s'}p(s'|s,a)\nabla v_\pi(s')\right) $$
 We define 
 - $\varphi(s) \gets \sum_a\nabla\pi(a|s)q_\pi(s,a)$
 - $P_\pi(s'| s)\gets\sum_a\pi(a|s)p(s'|s,a)$

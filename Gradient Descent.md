@@ -10,4 +10,4 @@ This is a type of [[Iterative Estimation Methods]], where we try to find the glo
 	   *R* is for weight [[Regularization]].
 	3. average gradient descent step
 	   $$ w_{k+1} = w_k - \gamma_k\nabla_w L(w_k) $$
-gamma is the [[Learning Rate]].
+$\gamma$ is the [[Learning Rate]].

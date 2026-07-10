@@ -22,17 +22,20 @@
             }
           },
           {
-            "id": "6a1ecf99684cfb06",
+            "id": "2f7d3f79d9923f37",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Return.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Return"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -65,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning and Learning with Tabular Methods.md",
+                "file": "REINFORCE.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Planning and Learning with Tabular Methods"
+              "title": "Backlinks for REINFORCE"
             }
           },
           {
@@ -211,13 +214,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a1ecf99684cfb06",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
-    "Policy Gradient Theorem.md",
     "Return.md",
-    "Policy Gradient Methods.md",
     "REINFORCE.md",
+    "Gradient Descent.md",
+    "Policy Gradient Theorem.md",
+    "Policy Gradient Methods.md",
     "Reinforcement Learning.md",
+    "Feature Construction for Linear Methods.md",
+    "Fourier Cosine Basis.md",
+    "Function Approximation in RL.md",
+    "Neural Network.md",
+    "Examples of Function Approximations.md",
     "Multi-Armed Bandits.md",
     "Gradient Bandits.md",
     "Bellman Equations.md",
@@ -225,24 +234,18 @@
     "Computer Vision.md",
     "Courses.md",
     "Untitled.base",
-    "Function Approximation in RL.md",
     "On-Policy Prediction with Function Approximation.md",
     "Linear Function Approximation in RL.md",
-    "Feature Construction for Linear Methods.md",
     "Pasted image 20260626201635.png",
     "NERF.md",
-    "Fourier Cosine Basis.md",
     "New View Synthesis.md",
     "3D Reconstruction.md",
     "How to train the Function Approximation.md",
     "Pasted image 20260626193621.png",
-    "Examples of Function Approximations.md",
     "Pasted image 20260626191632.png",
     "Target Update.md",
     "N-Step Expected SARSA.md",
     "Prediction Objective.md",
-    "Markov Decision Processes.md",
-    "Decision Trees.md",
     "Pasted image 20260623162842.png",
     "Pasted image 20260623161818.png",
     "Pasted image 20260623151236.png",
