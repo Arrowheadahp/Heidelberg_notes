@@ -14,8 +14,18 @@ The $\hat v(s, w)$ is still necessary to learn theta but it is not required anym
 
 ### [[Policy Gradient Theorem]] 
 states that for any differentiable policy $\pi(a|s,\theta)$,$$\nabla J(\theta)\propto \sum_s\mu(s)\sum_a q_\pi(s,a)\nabla\pi(a|s,\theta) $$
-One of the model that utilizes this Policy gradient is [[REINFORCE]].
+## [[REINFORCE]]
+$$ \theta_{t+1}-\theta_t = \alpha \gamma^t G_t\nabla\log\pi(A_t|S_t, \theta_t) $$
+- **Unbiased** estimator of policy gradient direction up to theorem's constant of proportionality.
+- **Converges** to a local optimum of J under standard stochastic approximation conditions.
+- $G_t$ has high **Variance** so learning is slow.
 
+> [!NOTE] Variance being the bottleneck 
+> The parameter $\nabla\theta$ depends on entire future trajectory. To solve this, Baseline and Bootstrapping is introduced.
+
+### [[REINFORCE with Baseline]]
+$$ \theta_{t+1}=\theta_t + \alpha \gamma^t (G_t \color{yellow}{-b(S_t)})\nabla\log\pi(A_t|S_t, \theta_t) $$
+When we use $b(S_t) = \hat v(s,w)$, then $G_t - \hat v(S_t,w)$ becomes the advantage of the chosen action over other actions available at state $S_t$. It signifies if the action was better or worse than expected.
 
 
 

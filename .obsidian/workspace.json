@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REINFORCE.md",
+                "file": "Policy Gradient Methods.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "REINFORCE"
+              "title": "Policy Gradient Methods"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Return.md",
+                "file": "REINFORCE with Baseline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Return"
+              "title": "REINFORCE with Baseline"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -214,13 +215,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dca61c263145489b",
+  "active": "2f7d3f79d9923f37",
   "lastOpenFiles": [
-    "Return.md",
+    "Policy Gradient Methods.md",
+    "REINFORCE with Baseline.md",
     "REINFORCE.md",
+    "Return.md",
     "Gradient Descent.md",
     "Policy Gradient Theorem.md",
-    "Policy Gradient Methods.md",
     "Reinforcement Learning.md",
     "Feature Construction for Linear Methods.md",
     "Fourier Cosine Basis.md",
@@ -245,7 +247,6 @@
     "Pasted image 20260626191632.png",
     "Target Update.md",
     "N-Step Expected SARSA.md",
-    "Prediction Objective.md",
     "Pasted image 20260623162842.png",
     "Pasted image 20260623161818.png",
     "Pasted image 20260623151236.png",
