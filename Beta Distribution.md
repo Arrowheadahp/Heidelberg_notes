@@ -1,0 +1,3 @@
+Distribution of the probability of success$\pi$ after observing $\alpha$ success and $\beta$ failures. $X\in[0,1]$ $$f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)} $$$$\Gamma(x)=\int_0^\infty t^{x-1}e^{-t} dt$$
+This is the distribution of $\pi$ from [[Bernoulli Distribution]]. It is also the prior of the [[Bernoulli Distribution]].
+$$ \mathbb E[X] = \frac{\alpha}{\alpha+\beta}$$$$Var[X]=\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$$

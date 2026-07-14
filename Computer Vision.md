@@ -9,7 +9,6 @@ Computer Vision can be understood as inverse graphics(rendering).
 5. What is [[Camera]]?
 6. [[3D Reconstruction]]
 7. [[New View Synthesis]] and [[Graphics]]
-8. [[Differentiable RANSAC]]
-9. [[Object Recognition]]
-10. [[Image Generation]]
-11. [[Training Data Generation]]
+8. [[Object Recognition]]
+9. [[Image Generation]]
+10. [[Training Data Generation]]

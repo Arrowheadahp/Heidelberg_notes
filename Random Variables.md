@@ -1,4 +1,4 @@
-Let X be a random Variable that follows the probability distribution $P(X)=f(x)$. It is the Probability Distribution Function (PDF) and Cumulative Distribution Function is $$CDF \to P(X\le y) = \int_{-\infty}^y f(x) dx $$
+Let X be a random Variable that follows the probability distribution $P(X)=f(x)$. It is the Probability Distribution Function (PDF) and Cumulative Distribution Function is $$CDF\ F(y) := P(X\le y) = \int_{-\infty}^y f(x) dx $$
 ### [[Expectation Values]]
 Expectation Values can also be thought of as the Mean.
 $$ \mathbb E[X] = \sum xP(X=x)=\int xP(X=x)dx$$

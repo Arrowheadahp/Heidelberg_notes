@@ -1,0 +1,2 @@
+The prior to the [[Poisson Distribution]]. $$f(x) = \frac{x^{\alpha-1}e^{x/\beta}}{\beta\Gamma(\alpha)} $$$$\Gamma(x)=\int_0^\infty t^{x-1}e^{-t} dt$$Expected Values:
+$$\mathbb E[X] = \alpha\beta$$$$Var[x] = \alpha\beta^2 $$

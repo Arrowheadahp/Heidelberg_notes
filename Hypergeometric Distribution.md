@@ -1,0 +1,2 @@
+Drawing balls without replacement. Number of successes k with n success balls among N balls with r tries.$$X\in\{0,1,...min(n,r)\}$$$$P(X=k)=\frac{\binom{n}{k}\binom{N-n}{r-k}}{\binom{N}{r}} $$
+Expected value: $$\mathbb E[X] = \frac{n-r}{N}$$$$Var[X] = \frac{n-r}{N}\frac{N-n}{N}\frac{N-r}{N-1}$$
