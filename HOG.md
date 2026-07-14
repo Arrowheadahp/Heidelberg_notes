@@ -7,7 +7,7 @@ This method uses [[SIFT (Scale Invariant Feature Transform)]] to get a feature v
 
 ### Training: 
 1. Map image to Feature space
-2. Train with positive and negative ([[Support Vector Machines]])
+2. Train with positive and negative ([[SVM]])
 ### Testing
 1. Map image into feature space (HOG)
 2. Scan image with 64x128 boxing all scales and all locations and compute SVM score.

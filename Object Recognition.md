@@ -1,9 +1,5 @@
-- Benchmarks
-- Traditional
-	- [[HOG]]: Histogram of Oriented Gradients
-	- [[DPM]]: Deformable Parts Model
-- [[Deep Learning]]
-	- R-CNN: Region CNN
-	- Fast R-CNN
-	- Faster R-CNN
-	- YOLO and SSD
+- [[Object Detection]]
+- [[Semantic Segmentation]]
+- [[Instance Segmentation]]
+- [[Vision Transformers]]
+

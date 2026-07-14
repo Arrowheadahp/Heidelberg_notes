@@ -1,0 +1,13 @@
+This is to detect objects and put bounding boxes around each of the boxes in the image.
+- Benchmarks
+- Traditional
+	- [[HOG]]: Histogram of Oriented Gradients
+	- [[DPM]]: Deformable Parts Model
+- [[Deep Learning]]
+	- 2 stage proposals
+		- [[R-CNN]]: Region CNN
+		- Fast R-CNN:  Fully using Conv net and then fully connected network
+		- [[Faster R-CNN]]: Insert a Region Proposal Network(RPN) to predict proposal
+	- Simple and Fast one stage methods
+		- YOLO and SSD: Uses default proposals
+			- Within each grid cell, Regress from each of the B base boxes with 5 numbers: dx, dy, dh, dw, confidence. Predict scores from each of the C classes including background as a class.
