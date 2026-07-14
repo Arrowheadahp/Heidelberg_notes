@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Object Recognition.md",
+                "file": "Image Generation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Object Recognition"
+              "title": "Image Generation"
             }
           }
         ],
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -201,16 +201,20 @@
   },
   "active": "8c7fa1b402277cb5",
   "lastOpenFiles": [
-    "Object Detection.md",
+    "Pasted image 20260714195138.png",
+    "Computer Vision.md",
+    "Image Generation.md",
+    "Vision Transformers.md",
+    "SWIN.md",
+    "Attention Mechanism.md",
     "Object Recognition.md",
+    "Object Detection.md",
     "Instance Segmentation.md",
     "Semantic Segmentation.md",
-    "Vision Transformers.md",
     "Faster R-CNN.md",
     "R-CNN.md",
     "SVM.md",
     "REINFORCE with Baseline.md",
-    "Computer Vision.md",
     "Random Variables.md",
     "Uniform Distribution.md",
     "Probability Distributions.md",
@@ -223,10 +227,6 @@
     "DPM.md",
     "Binomial Distribution.md",
     "Beta Distribution.md",
-    "Bernoulli Distribution.md",
-    "Computational Statistics and Data Analysis.md",
-    "Reinforcement Learning.md",
-    "Courses.md",
     "Untitled.base",
     "Pasted image 20260626201635.png",
     "Pasted image 20260626193621.png",
