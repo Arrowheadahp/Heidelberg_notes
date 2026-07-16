@@ -23,7 +23,7 @@ $$ \theta_{t+1}-\theta_t = \alpha \gamma^t G_t\nabla\log\pi(A_t|S_t, \theta_t) $
 > [!NOTE] Variance being the bottleneck 
 > The parameter $\nabla\theta$ depends on entire future trajectory. To solve this, Baseline and Bootstrapping is introduced.
 
-### [[REINFORCE with Baseline]]
+### [[Actor-Critic Algorithm]]
 $$ \theta_{t+1}=\theta_t + \alpha \gamma^t (G_t \color{yellow}{-b(S_t)})\nabla\log\pi(A_t|S_t, \theta_t) $$
 When we use $b(S_t) = \hat v(s,w)$, then $G_t - \hat v(S_t,w)$ becomes the advantage of the chosen action over other actions available at state $S_t$. It signifies if the action was better or worse than expected.
 

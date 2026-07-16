@@ -6,6 +6,7 @@
       {
         "id": "3e41e0eb6eb69f73",
         "type": "tabs",
+        "dimension": 56.83646112600537,
         "children": [
           {
             "id": "8c7fa1b402277cb5",
@@ -13,16 +14,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Generation.md",
+                "file": "Summary of RL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Image Generation"
-            }
+              "title": "Summary of RL"
+            },
+            "group": "70faccbe1f7a84ad"
           }
         ],
         "stacked": true
+      },
+      {
+        "id": "f86ec15ae6aed7c5",
+        "type": "tabs",
+        "dimension": 43.16353887399464,
+        "children": [
+          {
+            "id": "a03e502da17c3d3e",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Summary of RL.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": true,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.238045738045738,
+                  "repelStrength": 9.75051975051975,
+                  "linkStrength": 1,
+                  "linkDistance": 30,
+                  "scale": 0.7132754626224402,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Summary of RL"
+            },
+            "group": "70faccbe1f7a84ad"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -54,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "semi gra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +127,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2691f505943780f4",
@@ -151,7 +199,22 @@
             }
           },
           {
-            "id": "ff01eb6ca45c4f27",
+            "id": "ae9f9eff485e4b07",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Summary of RL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Summary of RL"
+            }
+          },
+          {
+            "id": "4cc1e554e69e56e0",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -162,21 +225,6 @@
               },
               "icon": "lucide-archive",
               "title": "All properties"
-            }
-          },
-          {
-            "id": "ae9f9eff485e4b07",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Appearance Based Matching.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Appearance Based Matching"
             }
           }
         ],
@@ -196,37 +244,41 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "random-note:Open random note": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "8c7fa1b402277cb5",
   "lastOpenFiles": [
+    "Policy Gradient Methods.md",
+    "Actor-Critic Algorithm.md",
+    "Summary of RL.md",
+    "REINFORCE.md",
+    "N-Step SARSA.md",
+    "N-Step Bootstrapping.md",
+    "Control Variate.md",
+    "Q-Learning.md",
+    "N-Step Expected SARSA.md",
+    "Temporal Difference Learning.md",
+    "SARSA.md",
+    "Off-Policy.md",
+    "On-Policy MC.md",
+    "Monte-Carlo Methods.md",
+    "Reinforcement Learning.md",
+    "Generalized Policy Iteration (GPI).md",
+    "Planning and Learning with Tabular Methods.md",
+    "Model.md",
+    "Policy Iteration.md",
+    "Policy Improvement.md",
+    "Policy Evaluation.md",
+    "MCTS Monte Carlo Tree Search.md",
+    "Dyna-Q+.md",
+    "Decision Time Planning.md",
+    "Off-Policy MC.md",
+    "Dyna-Q.md",
+    "Pasted image 20260716180024.png",
     "Pasted image 20260714195138.png",
-    "Computer Vision.md",
-    "Image Generation.md",
-    "Vision Transformers.md",
-    "SWIN.md",
-    "Attention Mechanism.md",
-    "Object Recognition.md",
-    "Object Detection.md",
-    "Instance Segmentation.md",
-    "Semantic Segmentation.md",
-    "Faster R-CNN.md",
-    "R-CNN.md",
-    "SVM.md",
-    "REINFORCE with Baseline.md",
-    "Random Variables.md",
-    "Uniform Distribution.md",
-    "Probability Distributions.md",
-    "Poisson Distribution.md",
-    "Hypergeometric Distribution.md",
-    "HOG.md",
-    "Geometric Distribution.md",
-    "Gaussian Distribution.md",
-    "Gamma Distribution.md",
-    "DPM.md",
-    "Binomial Distribution.md",
-    "Beta Distribution.md",
     "Untitled.base",
     "Pasted image 20260626201635.png",
     "Pasted image 20260626193621.png",
@@ -236,8 +288,6 @@
     "Pasted image 20260623151236.png",
     "Pasted image 20260623145855.png",
     "Pasted image 20260619021128.png",
-    "Pasted image 20260615190450.png",
-    "Pasted image 20260615174015.png",
     "Fundamental",
     "New Text Document.txt",
     "Images",

@@ -14,4 +14,4 @@ Since $\gamma^n\le1$ repeated application shrinks the error and the worst error 
 - [[On-Policy]]: [[N-Step SARSA]]
   A slight variation for reducing Variation is [[N-Step Expected SARSA]].
 - [[Off-Policy]]: [[N-Step Off-Policy Learning]] 
-  To mitigate  the issue that when $\rho=0$ the target collapses to 0 which causes variance. so the idea is to fold in a [[Control Variate]]. 
+  [[Q-Learning]] is a type of off-policy learning for TD and [[Off-Policy MC]] is for MC. To mitigate the issue that when $\rho=0$ the target collapses to 0 which causes variance. so the idea is to fold in a [[Control Variate]]. 

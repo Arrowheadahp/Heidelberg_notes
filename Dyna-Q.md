@@ -18,7 +18,7 @@ The model would be a memory of all the states and rewards that the agent got in 
 	- Direct RL update [[Q-Learning]]: $$Q(S_t, A_t) \gets Q(S_t, A_t)+\alpha( R_{t+1}+\gamma \max_a Q (S_{t+1}, a) - Q(S_t, A_t))$$
 	- Store model entry $M[s,a] \gets (r, s')$
 	- Repeat n times:
-		- sample old `sp, ap`
+		- sample old `sp, ap` randomly
 		- get $rp, s'p \gets M[sp, ap]$
 		- update `Q(S,A)` using [[Q-Learning]]
 	- $s\gets s'$

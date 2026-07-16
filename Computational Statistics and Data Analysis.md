@@ -2,7 +2,7 @@ Contents:
 1. [[Probability Theory]]
    [[Probability Rules]]
 2. [[Random Variables]]
-   [[Expectation Values]], Variance, Covariance, Correlation Coefficient
+   [[Expected Values]], Variance, Covariance, Correlation Coefficient
 3. [[Probability Distributions]]
 4. [[Multivariate Distributions]]
 5. [[Statistical Inference]]

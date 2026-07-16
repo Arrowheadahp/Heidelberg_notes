@@ -5,12 +5,8 @@ This is the [[On-Policy]] Control Method for [[Temporal Difference Learning]] an
 $$Q(S_t, A_t) \gets Q(S_t, A_t)+\alpha( R_{t+1}+\gamma Q (S_{t+1}, A_{t+1}) - Q(S_t, A_t))$$
 $A_t, A_{t+1}$ are actions taken under the current policy $\pi$. If $S_{t+1}$ is terminal, then TD target is $R_{t+1}$. 
 The [[SARSA]] target is $$ R_{t+1} + \gamma Q(S_{t+1}, A_{t+1})$$
-
-
 > [!Remark] Calculating Q instead of V
 > I am thinking of each (s, a) as a state instead of s and navigating the decision tree from there.
-
-
 ### Algorithm
 
 - Get Step Size $\alpha,\varepsilon \in (0, 1]$

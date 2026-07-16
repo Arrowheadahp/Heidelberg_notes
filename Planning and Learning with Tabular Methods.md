@@ -10,7 +10,7 @@ The idea is that both type of methods rely on backups of the [[State Value Funct
 
 #### Model 
 The [[Model]] is the knowledge of what reward and state will come when taking any action at any state. There are 2 types of model reconstruction:
-- ==Distribution model==: All possible next states are rewards are present with their probabilities:  $\hat p(s',r|s,a)\forall s$. 
+- ==Distribution model==: All possible next states are rewards are present with their probabilities. The probabilities may come from prior knowledge:  $\hat p(s',r|s,a)\forall s$. 
   The update looks like [[Dynamic Programming in RL]]$$
 Q_\pi(s, a) = \sum_{s', r} \left(\hat p(s',r|s,a)\left[r+\gamma \max_{a'} Q(s',a') \right] \right)
 $$

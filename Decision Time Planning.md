@@ -1,4 +1,4 @@
-c- Plan specifically for the current state
+- Plan specifically for the current state
 - Use the result to decide on one action now
 - start planning for the next step
 
