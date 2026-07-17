@@ -1,3 +1,4 @@
+#todo 
 This is a type of [[Iterative Estimation Methods]], where we try to find the global minima/maxima using iterative approaches. 
 
 1. Initialize weights w0

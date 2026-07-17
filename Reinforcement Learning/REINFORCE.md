@@ -1,3 +1,4 @@
+#tobeunderstood 
 From the [[Policy Gradient Theorem]], 
 $$\nabla J(\theta)\propto \sum_s\mu(s)\sum_a q_\pi(s,a)\nabla\pi(a|s,\theta) $$
 $$ \sum_a q_\pi(s,a)\nabla\pi(a|s,\theta) = \mathbb E_{A\sim\pi(\cdot|S_t)}\left[q_\pi(S_t,A)\nabla\log\pi(A|S_t, \theta) \right] $$
