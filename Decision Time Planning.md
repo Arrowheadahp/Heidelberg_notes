@@ -10,4 +10,4 @@
 ![[Pasted image 20260619021128.png]]
 
 The alternative:
-Background planning learns usable knowledge improve a policy over time and reuses results across many states. Ex: [[Dyna-Q]].
+Background planning learns usable knowledge improve a policy over time and reuses results across many states. 

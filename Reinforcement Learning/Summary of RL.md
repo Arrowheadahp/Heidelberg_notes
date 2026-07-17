@@ -1,3 +1,4 @@
+#overview
 ### Value Function update Targets
 [[State Value Function]]: Values must satisfy the [[Bellman Equations]] $$v_\pi(s)=\mathbb E_\pi(R_{t+1}+\gamma v_\pi(S_{t+1})|S_t=s) $$
 Every learning algorithm enforces the same incremental rule as mentioned in [[Target Update]] : $$V(S_t)\gets V(S_t) + \alpha(target-V(S_t))$$
@@ -5,10 +6,10 @@ We are going to the target in increments instead of going all at once because we
 
 | Method                           | Target (V)                                   | Uses                            |
 | -------------------------------- | -------------------------------------------- | ------------------------------- |
+| [[Dynamic Programming in RL]]    | $\mathbb E[R_{t+1}+\gamma V(S_{t+1})]$       | Full model, no sampling         |
 | [[Monte-Carlo Methods]]          | $G_t=\sum_{i=t}^T\gamma^{i-t}R_i$            | real returns only               |
 | [[Temporal Difference Learning]] | $R_{t+1} + \gamma V(S_{t+1})$                | one real step + bootstrap       |
 | [[N-Step Bootstrapping]]         | $\sum_{i=t}^{t+n}\gamma^{i-t}R_i+V(S_{t+n})$ | Between Monte Carlo and TD\[0\] |
-| [[Dynamic Programming in RL]]    | $\mathbb E[R_{t+1}+\gamma V(S_{t+1})]$       | Full model, no sampling         |
 | [[Function Approximation in RL]] | $R_{t+1}+\gamma \hat v(S_{t+1},w)$           | Bootstrap through $\hat v$      |
 ### Space of Updates:
 Algorithms having high width are those that average over all next actions and states. Example: [[Dynamic Programming in RL]]. 
@@ -53,3 +54,29 @@ What is being Learned?
 2. Policy Based: [[Policy Gradient Methods]]
 	1. Without Baseline: [[REINFORCE]]
 	2. With Learned Baseline: [[Actor-Critic Algorithm]]
+
+### Generalized Policy Iteration
+Every Value-based control algorithm is [[Generalized Policy Iteration (GPI)]] with different evaluation step.
+
+| Algorithm                  | Evaluation           | Improvement      |     |
+| -------------------------- | -------------------- | ---------------- | --- |
+| [[Policy Iteration]]       | Repeated DP sweeps   | Greedy pure      |     |
+| [[Value Iteration]]        | one DP backup        | greedy           |     |
+| [[On-Policy MC Control]]]  | episode returns      | [[Eta-greedy]]   |     |
+| [[SARSA]]                  | on policy TD[0]      | [[Eta-greedy]]   |     |
+| [[Q-Learning]]             | [[Off-Policy]] TD[0] | greedy in target |     |
+| [[Dyna-Q]], [[Dyna-Q+]]    | TD + simulated exp   | [[Eta-greedy]]   |     |
+| [[Actor-Critic Algorithm]] | TD critic            | gradient ascent  |     |
+- Evaluation makes values consistent with policy. $v_\pi \gets \pi$
+- Improvement makes the policy greedy wrt value. $\pi\gets v\pi$
+- Their only joint fixed point is optimality
+- [[Policy Gradient Methods]] replace greedification by gradient ascent on $J(\theta)$ 
+- [[Actor-Critic Algorithm]] keeps the [[Generalized Policy Iteration (GPI)]] in play
+- [[REINFORCE]] has no Evaluation step at all.
+
+Recurrent Trade-offs:
+1. Bias vs Variance
+2. samples vs compute (model-free vs planning)
+3. exploration vs exploitation ([[Eta-greedy]], [[Upper Confidence Bounds Approach]])
+
+Function Approximation + bootstrapping  + off policy can cause instability or divergence without additional safeguards.

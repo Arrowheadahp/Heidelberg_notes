@@ -6,7 +6,6 @@
       {
         "id": "3e41e0eb6eb69f73",
         "type": "tabs",
-        "dimension": 56.83646112600537,
         "children": [
           {
             "id": "8c7fa1b402277cb5",
@@ -14,62 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summary of RL.md",
+                "file": "Reinforcement Learning/Summary of RL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Summary of RL"
-            },
-            "group": "70faccbe1f7a84ad"
+            }
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "f86ec15ae6aed7c5",
-        "type": "tabs",
-        "dimension": 43.16353887399464,
-        "children": [
-          {
-            "id": "a03e502da17c3d3e",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Summary of RL.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": true,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
-                  "centerStrength": 0.238045738045738,
-                  "repelStrength": 9.75051975051975,
-                  "linkStrength": 1,
-                  "linkDistance": 30,
-                  "scale": 0.7132754626224402,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of Summary of RL"
-            },
-            "group": "70faccbe1f7a84ad"
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -204,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Summary of RL.md",
+                "file": "Reinforcement Learning/Summary of RL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -232,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 237.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,32 +204,35 @@
   },
   "active": "8c7fa1b402277cb5",
   "lastOpenFiles": [
-    "Policy Gradient Methods.md",
-    "Actor-Critic Algorithm.md",
-    "Summary of RL.md",
-    "REINFORCE.md",
-    "N-Step SARSA.md",
-    "N-Step Bootstrapping.md",
-    "Control Variate.md",
-    "Q-Learning.md",
-    "N-Step Expected SARSA.md",
-    "Temporal Difference Learning.md",
-    "SARSA.md",
-    "Off-Policy.md",
+    "MCTS Monte Carlo Tree Search.md",
+    "Reinforcement Learning/Summary of RL.md",
+    "Rollout Algorithm.md",
+    "Heuristic Search RL.md",
+    "On-Policy MC Control.md",
     "On-Policy MC.md",
     "Monte-Carlo Methods.md",
-    "Reinforcement Learning.md",
-    "Generalized Policy Iteration (GPI).md",
-    "Planning and Learning with Tabular Methods.md",
-    "Model.md",
-    "Policy Iteration.md",
-    "Policy Improvement.md",
-    "Policy Evaluation.md",
-    "MCTS Monte Carlo Tree Search.md",
-    "Dyna-Q+.md",
+    "exploration.md",
+    "exploitation.md",
+    "Function Approximation in RL.md",
     "Decision Time Planning.md",
-    "Off-Policy MC.md",
+    "Multi-Armed Bandits.md",
+    "Gradient Bandits.md",
+    "Reinforcement Learning/Policy Gradient Methods.md",
+    "Upper Confidence Bounds Approach.md",
+    "Reinforcement Learning/Actor-Critic Algorithm.md",
+    "Control Variate.md",
+    "Q-Learning.md",
     "Dyna-Q.md",
+    "Reinforcement Learning/SARSA.md",
+    "Optimistic Approach.md",
+    "Reinforcement Learning.md",
+    "Computational Statistics",
+    "Computer Vision",
+    "Reinforcement Learning",
+    "202607170142.md",
+    "On-Policy Prediction with Function Approximation.md",
+    "Linear Function Approximation in RL.md",
+    "Policy Iteration.md",
     "Pasted image 20260716180024.png",
     "Pasted image 20260714195138.png",
     "Untitled.base",
