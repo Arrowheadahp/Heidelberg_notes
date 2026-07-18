@@ -11,14 +11,17 @@ At Time t,
 - The actions have delayed consequences
 
 Definitions in Reinforcement Learning:
-1. [[Agent]]
-2. [[Action]] (a)
-3. [[Environment]]
-4. [[State]] (s)
-5. [[Reward]] (r)
-6. [[Policy]] ($\pi$)
-7. [[Return]] (G)
-8. [[State Value Function]] $(v_\pi)$
-9. [[Action Value Function]] ($q_\pi$)
+1. [[Agent]]: Learner and Decision maker
+2. [[Action]] (A)
+3. [[Environment]] $p(s', r | s, a) = Pr(S_{t+1}=s', R_{t+1}=r| S_t = s, A_t=a)$
+4. [[State]] (S)
+5. [[Reward]] (R): Scalar feedback for each action.
+6. [[Policy]] ($\pi$): This is the probability of choosing action a at state s.
+7. [[Return]] (G): Sum of rewards.
+8. [[State Value Function]] $v_\pi(s) = \mathbb{E}_\pi[G_t | S_t=s]$: 
+9. [[Action Value Function]] $q_\pi(s,a) = \mathbb E _\pi [G_t | S_t=s,A_t=a]$
 10. [[Model]]
 
+Capital letters are [[Random Variables]]. Small letters are the specific values that the Random Variables can take.
+
+### The goal is to get the optimal policy: $\pi^*=\max_\pi \mathbb E_\pi[G_t]$ 

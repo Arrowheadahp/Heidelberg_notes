@@ -1,3 +1,4 @@
+Tabular means that all states and actions can be listed.
 ### Learning
 The idea is to use the 'Learning' that we get from real experience (interacting with the environment) to create a memory (model)of the environment and do 'Planning' which is to optimise in that model.
 

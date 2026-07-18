@@ -1,1 +1,0 @@
-Scalar feedback for each [[action]].
