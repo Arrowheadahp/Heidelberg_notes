@@ -7,7 +7,7 @@ This unifies the
   Like [[Dynamic Programming in RL]]
 - [[Model free RL]]: The methods that don't have the model.
   Ex: [[Temporal Difference Learning]], [[Monte-Carlo Methods]] etc.
-The idea is that both type of methods rely on backups of the [[State Value Function]].
+The idea is that both type of methods rely on backups of the [[State Value]].
 
 #### Model 
 The [[Model]] is the knowledge of what reward and state will come when taking any action at any state. There are 2 types of model reconstruction:

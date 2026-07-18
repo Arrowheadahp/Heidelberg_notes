@@ -21,7 +21,7 @@ $$ \theta_{t+1}-\theta_t = \alpha \gamma^t G_t\nabla\log\pi(A_t|S_t, \theta_t) $
 - $G_t$ has high **Variance** so learning is slow.
 
 > [!NOTE] Variance being the bottleneck 
-> The parameter $\nabla\theta$ depends on entire future trajectory. To solve this, Baseline and Bootstrapping is introduced.
+> The parameter $\nabla\theta$ depends on entire future trajectory. To solve this, Baseline and [[Bootstrapping]] is introduced.
 
 ### [[Actor-Critic Algorithm]]
 $$ \theta_{t+1}=\theta_t + \alpha \gamma^t (G_t \color{yellow}{-b(S_t)})\nabla\log\pi(A_t|S_t, \theta_t) $$

@@ -1,4 +1,4 @@
-[[State Value Function]] is calculated as $$v_\pi(s) = \mathbb{E}_\pi[G_t|S_t=s] = \frac{1}{n}\sum_{i=1}^n G_i(s)$$
+[[State Value]] is calculated as $$v_\pi(s) = \mathbb{E}_\pi[G_t|S_t=s] = \frac{1}{n}\sum_{i=1}^n G_i(s)$$
 - Generate as many episodes following [[Policy]] $\pi$.
 - For each state s, average the [[Return]].
 

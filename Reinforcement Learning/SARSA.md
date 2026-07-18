@@ -1,6 +1,6 @@
 SARSA means $S_t, A_t, R_{t+1}, S_{t+1}, A_{t+1}$
 
-This is the [[On-Policy]] Control Method for [[Temporal Difference Learning]] and calculates the [[Action Value Function]] using the bootstrapped estimate of the [[Action Value Function]] of the next state action pair.
+This is the [[On-Policy]] Control Method for [[Temporal Difference Learning]] and calculates the [[Action Value]] using the bootstrapped estimate of the [[Action Value]] of the next state action pair.
 
 $$Q(S_t, A_t) \gets Q(S_t, A_t)+\alpha( R_{t+1}+\gamma Q (S_{t+1}, A_{t+1}) - Q(S_t, A_t))$$
 $A_t, A_{t+1}$ are actions taken under the current policy $\pi$. If $S_{t+1}$ is terminal, then TD target is $R_{t+1}$. 

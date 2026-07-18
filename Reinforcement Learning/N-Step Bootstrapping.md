@@ -1,6 +1,6 @@
-[[Temporal Difference Learning]] bootstraps after a single step. [[Monte-Carlo Methods]] waits till the end. N-Step Bootstrapping takes n real values and then bootstraps having a trade-off from the bias that comes from TD\[0\] and the variance that comes from MC methods. [[Bias Variance Tradeoff]].
+[[Temporal Difference Learning]] bootstraps after a single step. [[Monte-Carlo Methods]] waits till the end. N-Step [[Bootstrapping]] takes n real values and then bootstraps having a trade-off from the bias that comes from TD\[0\] and the variance that comes from MC methods. [[Bias Variance Tradeoff]].
 This is still the same TD method but instead of changing an earlier estimate using the next step, it takes n steps later. 
-The [[Target Update]] becomes: $$ V(S_t) \to G_{t:t+n}= \sum_{i=1}^{n-1} \gamma^i R_{t+i} + \gamma^n V(S_{t+n}) $$
+The [[Universal Update Template]] becomes: $$ V(S_t) \to G_{t:t+n}= \sum_{i=1}^{n-1} \gamma^i R_{t+i} + \gamma^n V(S_{t+n}) $$
 This allows the algorithm to look ahead n steps without the having to maximise rewards and create a 'strategy' to have rewards after n steps. It can still react fast but also wait long enough for the state to meaningfully change. 
 - No updates for the n-1 steps of an episode
 - After termination there are n-1 steps with 0 values are added.

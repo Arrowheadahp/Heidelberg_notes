@@ -10,7 +10,7 @@ In a continuous task: $\mu$ is the long run fraction of time spent on state s.
 Using [[Stochastic Gradient Descent (SGD)]] to reduce the [[Prediction Objective]]:
 $$w_{t+1} = w_t + \alpha \nabla_w VE(w) = w_t + \alpha [v_\pi(S_t, w_t)-\hat v(S_t, w_t)]\nabla_w \hat v(S_t, w_t)
 $$
-$\nabla_w \hat v(S_t, w_t)$ comes from the Machine Learning Algorithm. But since we do not know the $v_\pi(S_t)$, we use the [[Target Update]] for the value function $U_t$ $$w_{t+1} = w_t + \alpha \nabla_w VE(w) = w_t + \alpha [U_t-\hat v(S_t, w_t)]\nabla_w \hat v(S_t, w_t)
+$\nabla_w \hat v(S_t, w_t)$ comes from the Machine Learning Algorithm. But since we do not know the $v_\pi(S_t)$, we use the [[Universal Update Template]] for the value function $U_t$ $$w_{t+1} = w_t + \alpha \nabla_w VE(w) = w_t + \alpha [U_t-\hat v(S_t, w_t)]\nabla_w \hat v(S_t, w_t)
 $$
 
-This converges only when the $\mathbb E [U_t]=v_\pi$. But bootstrapping v is generally biased and reducing $\alpha$ won't work for non-stationary problems.
+This converges only when the $\mathbb E [U_t]=v_\pi$. But [[bootstrapping]] v is generally biased and reducing $\alpha$ won't work for non-stationary problems.

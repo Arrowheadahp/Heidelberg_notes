@@ -1,4 +1,4 @@
-Return is the total Future reward when navigating in a [[Markov Decision Processes]].
+Return is the total Future reward when navigating in a [[Markov Decision Process]].
 
 For [[Episodic Tasks]], the Return is 
 $$ G_t = R_{t+1} + R_{t+2} + R_{t+3} + ...+ R_{T} $$

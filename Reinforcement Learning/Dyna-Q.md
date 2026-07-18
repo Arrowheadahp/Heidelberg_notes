@@ -9,7 +9,7 @@ The model would be a memory of all the states and rewards that the agent got in 
 ### Algorithm
 
 - Maintain
-	- [[State Value Function]] `Q(S, A)`
+	- [[State Value]] `Q(S, A)`
 	- Model `M[S, A] = (R, S')`
 	- Set of previously seen state action pairs
 - Per real state:

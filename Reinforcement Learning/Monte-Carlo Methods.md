@@ -1,7 +1,7 @@
 > [!question] Guiding Question
 > How do we evaluate and improve a policy when there is no model of the environment, only sampled trajectories?
 
-Where [[Dynamic Programming in RL]] requires a complete model $p(s',r|s,a)\forall s$. [[Monte-Carlo Methods]] is a [[Model free RL]] that computes [[State Value Function]] using [[Expectation Backups]] which is more relevant to real life scenarios where the model is unknown or intractable.
+Where [[Dynamic Programming in RL]] requires a complete model $p(s',r|s,a)\forall s$. [[Monte-Carlo Methods]] is a [[Model free RL]] that computes [[State Value]] using [[Expectation Backups]] which is more relevant to real life scenarios where the model is unknown or intractable.
 
 Input: Sampled experience formulated for [[Episodic Tasks]]. Like: $$ S_0, A_0, R_1, S_1, A_1, R_2, S_2, A_2, ... S_T$$
 [[Return]] from time t: $$G_{t_i}:=\sum_{k=0}^{T-t_i-1} \gamma^k R_{t_i+k+1}$$

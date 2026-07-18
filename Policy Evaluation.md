@@ -1,9 +1,10 @@
 
 > [!Question] How good is the policy $\pi$
+> This calculates the $v_\pi$ and $q_\pi$ for a given $\pi$ keeping policy remains unchanged.
 
-Policy Evaluation is finding the [[State Value Function]] ($v_\pi$) and the [[Action Value Function]] ($q_\pi$).  for a particular [[Policy]] $\pi$.
+Policy Evaluation is finding the [[State Value]] ($v_\pi$) and the [[Action Value]] ($q_\pi$).  for a particular [[Policy]] $\pi$.
 
-For [[Markov Decision Processes]], [[Bellman Equations]] are. 
+For [[Markov Decision Process]], [[Bellman Equations]] are. 
 Bellman Expectation Equation for $v_\pi$
 $$
 v_\pi(s) = \sum_a \left(\pi(a|s) \sum_{s',r}p(s',r|s,a)\left[r+\gamma v_\pi(s')\right] \right)

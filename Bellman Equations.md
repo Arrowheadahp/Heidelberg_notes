@@ -1,4 +1,4 @@
-To calculate the [[State Value Function]], We need the [[Return]], which depends on the entire future trajectory. Bellman's Idea is to replace the huge path expectation by a recursive one-step decomposition. These are required for the [[Policy Evaluation]]. 
+To calculate the [[State Value]], We need the [[Return]], which depends on the entire future trajectory. Bellman's Idea is to replace the huge path expectation by a recursive one-step decomposition. These are required for the [[Policy Evaluation]]. 
 
 Bellman Expectation Equation for $v_\pi$
 $$
@@ -6,7 +6,7 @@ v_\pi(s) = \sum_a \left(\pi(a|s) \sum_{s',r}p(s',r|s,a)\left[r+\gamma v_\pi(s')\
 $$
 The expected [[Return]] for [[State]] s is the summation of choosing [[Action]] a given s multiplied with the summation of multiplication of probability of getting next state s' and reward r plus gamma \* expected return at state s'.
 
-Bellman Expectation Equation for the [[Action Value Function]].  $q_\pi$
+Bellman Expectation Equation for the [[Action Value]].  $q_\pi$
 $$
 q_\pi(s,a) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma \sum_{a'} \pi(a'|s')q_\pi(s',a')\right] \right)
 $$
@@ -45,7 +45,7 @@ If the q* is known, then the equation becomes:
 $$\pi_{greedy}(s) \in \arg max_a q^*(s,a)
 $$
 ### Bellman optimality Operator T
-Optimality operator T takes the [[Action Value Function]] as input and returns a new value function TV
+Optimality operator T takes the [[Action Value]] as input and returns a new value function TV
 #tobeunderstood 
 $$
 (T v)(s) \gets \max_{a \in A(s)} \left (\sum_{s',r}p(s',r|s,a)\left[r+\gamma v(s')\right] \right)

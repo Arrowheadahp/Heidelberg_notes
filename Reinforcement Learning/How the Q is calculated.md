@@ -1,4 +1,4 @@
-The universal template for change is $$ Q_{n+1} = Q_n + \alpha(R_n - Q_n) $$as given in the [[Target Update]]
+The universal template for change is $$ Q_{n+1} = Q_n + \alpha(R_n - Q_n) $$as given in the [[Universal Update Template]]
 ## Sample Averages
 
 - Let $N_t(a)$ = number of times action a has been selected before time t

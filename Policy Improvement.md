@@ -1,9 +1,9 @@
 > [!Question] Can we take better actions at a given state?
-> 
+> Given a [[State Value]] $v_\pi$, find a better policy then $\pi$.
 
 Instead of Following [[Policy]] $\pi$ from the beginning, we do [[action]] a first and then follow policy $\pi$ afterwards.
 
-The measurement of how good it is to take action a now and then following policy $\pi$ afterwards is given as [[Action Value Function]]. $$
+The measurement of how good it is to take action a now and then following policy $\pi$ afterwards is given as [[Action Value]]. $$
 q_\pi(s, a) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma v_\pi(s')\right] \right)
 $$
 If $q_\pi(s) > v_\pi(s)$, then taking a once and then following the policy is better than following policy $\pi$ immediately.
@@ -14,8 +14,7 @@ If $q_\pi(s) > v_\pi(s)$, then taking a once and then following the policy is be
 ### Generalizing:
 
 Similarly taking action using policy $\pi'$ first then policy $\pi$ afterward improves the expected return, then new policy is better.
-If $$ q_\pi(s,\pi'/(s)) \geq v_\pi(s) $$
-then $$ v_{\pi '}(s) \geq v_\pi(s) $$
+If $q_\pi(s,\pi'(s)) \geq v_\pi(s)$ then $v_{\pi '}(s) \geq v_\pi(s)$
 ### Greedy Policy improvement
 
 Given a policy $\pi$, We define a new policy $\pi '$ choosing the action with the highest [[Action Value Function]]:

@@ -6,7 +6,7 @@ $$
 
 Target policy value: $$ v_\pi(s) = \mathbb{E}_\pi[G_t|S_t=s] = \mathbb{E}_\mu[\rho _t^T G_t|S_t=s] $$
 
-Because the [[Importance Sampling Ratio]] gets very unstable, there are 2 ways of calculating the [[State Value Function]] during iterations:
+Because the [[Importance Sampling Ratio]] gets very unstable, there are 2 ways of calculating the [[State Value]] during iterations:
 1. Ordinary Importance Sampling which is unbiased but high variance:$$ V(s) = \frac{1}{|\tau(s)|}\sum_{t\in\tau(s)}\rho_t^TG_t
 $$
 2. Weighted Importance Sampling with small bias but much smaller variance:$$V(s) = \frac{\sum_{t\in\tau(s)}\rho_t^TG_t}{\sum_{t\in\tau(s)}\rho_t^T}

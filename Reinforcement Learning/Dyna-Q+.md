@@ -6,7 +6,7 @@ Variant of [[Dyna-Q]] with a exploration bonus build in. Similar to [[Upper Conf
 ### Algorithm
 
 - Maintain
-	- [[State Value Function]] `Q(S, A)`
+	- [[State Value]] `Q(S, A)`
 	- Model `M[S, A] = (R, S')`
 	- Set of previously seen state action pairs
 	- $\tau(s,a)$: Number of steps since (s,a) has been tried

@@ -1,7 +1,7 @@
 #overview
 ### Value Function update Targets
-[[State Value Function]]: Values must satisfy the [[Bellman Equations]] $$v_\pi(s)=\mathbb E_\pi(R_{t+1}+\gamma v_\pi(S_{t+1})|S_t=s) $$
-Every learning algorithm enforces the same incremental rule as mentioned in [[Target Update]] : $$V(S_t)\gets V(S_t) + \alpha(target-V(S_t))$$
+[[State Value]]: Values must satisfy the [[Bellman Equations]] $$v_\pi(s)=\mathbb E_\pi(R_{t+1}+\gamma v_\pi(S_{t+1})|S_t=s) $$
+Every learning algorithm enforces the same incremental rule as mentioned in [[Universal Update Template]] : $$V(S_t)\gets V(S_t) + \alpha(target-V(S_t))$$
 We are going to the target in increments instead of going all at once because we can only sample the values, stepping $\alpha$ toward each noisy target averages the noise out and we get the [[Expected Values]] of the target. This is Stochastic approximation. Updates are O(1) and online and keeping the $\alpha$ constant keeps track of moving targets as well.
 
 | Method                           | Target (V)                                   | Uses                            |
@@ -13,10 +13,10 @@ We are going to the target in increments instead of going all at once because we
 | [[Function Approximation in RL]] | $R_{t+1}+\gamma \hat v(S_{t+1},w)$           | Bootstrap through $\hat v$      |
 ### Space of Updates:
 Algorithms having high width are those that average over all next actions and states. Example: [[Dynamic Programming in RL]]. 
-Algorithms that have high Depth are those that look the most deep. The depth depends on how many steps are taken before bootstrapping. High Depth: [[Monte-Carlo Methods]]. ![[Pasted image 20260716180024.png]]
+Algorithms that have high Depth are those that look the most deep. The depth depends on how many steps are taken before [[bootstrapping]]. High Depth: [[Monte-Carlo Methods]]. ![[Pasted image 20260716180024.png]]
 
 ### The Ultimate Goal
-The real goal is to Maximise the Expected Return from [[Markov Decision Processes]]. This Expected return when having a discount is called the [[State Value Function]].
+The real goal is to Maximise the Expected Return from [[Markov Decision Process]]. This Expected return when having a discount is called the [[State Value]].
 
 What is being Learned?
 1. Value based: learn $v$ or $q$ then act greedily
@@ -79,4 +79,4 @@ Recurrent Trade-offs:
 2. samples vs compute (model-free vs planning)
 3. exploration vs exploitation ([[Eta-greedy]], [[Upper Confidence Bounds Approach]])
 
-Function Approximation + bootstrapping  + off policy can cause instability or divergence without additional safeguards.
+Function Approximation + [[bootstrapping]]  + off policy can cause instability or divergence without additional safeguards.

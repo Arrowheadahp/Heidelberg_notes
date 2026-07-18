@@ -3,7 +3,7 @@
 | model + [[Bootstrapping]]     | samples, no bootstrap   | samples + bootstrap              |
 | Full expectation backup       | complete return         | one step sample return           |
 Here Sampling means interacting with the [[Environment]] and getting the $R_{t+1}$ and $S_{t+1}$.
-[[Dynamic Programming in RL]] already knows the environment and simulates it to get the [[State Value Function]].
+[[Dynamic Programming in RL]] already knows the environment and simulates it to get the [[State Value]].
 
 
 ### Advantages of using TD over MC:

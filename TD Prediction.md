@@ -1,4 +1,4 @@
-Estimation of [[State Value Function]] is different between [[Monte-Carlo Methods]]  and [[Temporal Difference Learning]]. Where [[Monte-Carlo Methods]] goes over the whole episode and then updates all the states that it touched, [[Temporal Difference Learning]] initiates $v_\pi$ randomly and updates them continuously during an episode using the reward and the estimation of the next state.
+Estimation of [[State Value]] is different between [[Monte-Carlo Methods]]  and [[Temporal Difference Learning]]. Where [[Monte-Carlo Methods]] goes over the whole episode and then updates all the states that it touched, [[Temporal Difference Learning]] initiates $v_\pi$ randomly and updates them continuously during an episode using the reward and the estimation of the next state.
 $$ V(S_t) \gets V(S_t) + \alpha(R_{t+1} + \gamma V(S_{t+1}) - V(S_t))
 $$
 Here TD target is the value $V(S_t)$ is going towards.$$R_{t+1} + \gamma V(S_{t+1})$$The one step TD error is the difference between TD target and the current value.$$ \delta_t =  R_{t+1} + \gamma V(S_{t+1}) - V(S_t)$$

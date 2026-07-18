@@ -1,7 +1,7 @@
 [[On-Policy]] trajectory-sampling version of value iteration like in [[Dynamic Programming in RL]]. Difference is that only use expected backups for sampled trajectories.
 - Follow real or simulated trajectories
 - At each visited state, do expected update
-- Always act greedily wrt to current [[State Value Function]]
+- Always act greedily wrt to current [[State Value]]
 
 ### Algorithm:
 - Maintain 
