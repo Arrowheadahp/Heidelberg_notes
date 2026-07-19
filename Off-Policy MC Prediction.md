@@ -1,8 +1,8 @@
 Here 
-- behaviour policy $\mu$ does the [[exploration]] and 
+- behaviour policy $\mu$ does the [[Exploration]] and 
 - the target policy $\pi$ does the [[exploitation]]. This might be deterministic.
 
->If $\pi(s)=a$ then $\mu(s,a)>0$. Otherwise target policy experience will not be experienced.
+>[!Note] If $\pi(s)=a$ then $\mu(s,a)>0$. Otherwise target policy experience will not be experienced.
 
 $$ \mathbb E_\pi [f(X)] = \sum_x \pi(x)f(x) = \sum_x \mu(x)\frac{\pi(x)}{\mu(x)}f(x) = \mathbb E_\mu \left[\frac{\pi(x)}{\mu(x)}f(x) \right]
 $$
@@ -11,7 +11,7 @@ $$\frac{Pr_\pi(trajectory)}{Pr_\mu(trajectory)} = \frac{\prod_{k=t}^{T-1}\pi(A_k
 $$
 The [[Importance Sampling Ratio]] $\rho$ is being calculated using policies alone and does not require model to be computed.
 ## Algorithm:
-
+Incremental Weighted Importance Sampling for First Visit Off-Policy MP Prediction
 - Initiate V(s), C(s)
 - For each episode:
 	- Compute [[Return]] $G_t$  for all t.

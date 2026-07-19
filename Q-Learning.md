@@ -4,7 +4,7 @@ $$Q(S_t, A_t) \gets Q(S_t, A_t)+\alpha( R_{t+1}+\gamma \max_a Q (S_{t+1}, a) - Q
 
 This means that that [[Q-Learning]] always learns the value of the greedy policy regardless of the action it takes. 
 
-Exploration Policy can be any [[Eta-greedy]] so that every (s,a) pair is visited infinitely often
+Exploration Policy can be any [[Epsilon-greedy]] so that every (s,a) pair is visited infinitely often
 Target Policy is pure greedy wrt to current estimation of Q
 The 2 may be different.
 

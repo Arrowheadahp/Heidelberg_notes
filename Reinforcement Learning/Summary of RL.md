@@ -35,9 +35,9 @@ What is being Learned?
 			3. [[MCTS Monte Carlo Tree Search]]
 		3. [[Trajectory Updates]]
 			1. [[RTDP Real Time Dynamic Programming]]
-	3. [[Model free RL]]: Learn from experience
+	3. [[Model free RL]]: No model estimated. Here action value is estimated instead of state values.
 		1. Maximum Depth: [[Monte-Carlo Methods]]
-			1. [[On-Policy MC]]
+			1. [[On-Policy MC Control]]
 			2. [[Off-Policy MC]]
 		2. Minimum Depth [[Temporal Difference Learning]]
 			1. [[On-Policy]]: 
@@ -62,10 +62,10 @@ Every Value-based control algorithm is [[Generalized Policy Iteration (GPI)]] wi
 | -------------------------- | -------------------- | ---------------- | --- |
 | [[Policy Iteration]]       | Repeated DP sweeps   | Greedy pure      |     |
 | [[Value Iteration]]        | one DP backup        | greedy           |     |
-| [[On-Policy MC Control]]]  | episode returns      | [[Eta-greedy]]   |     |
-| [[SARSA]]                  | on policy TD[0]      | [[Eta-greedy]]   |     |
+| [[On-Policy MC Control]]]  | episode returns      | [[Epsilon-greedy]]   |     |
+| [[SARSA]]                  | on policy TD[0]      | [[Epsilon-greedy]]   |     |
 | [[Q-Learning]]             | [[Off-Policy]] TD[0] | greedy in target |     |
-| [[Dyna-Q]], [[Dyna-Q+]]    | TD + simulated exp   | [[Eta-greedy]]   |     |
+| [[Dyna-Q]], [[Dyna-Q+]]    | TD + simulated exp   | [[Epsilon-greedy]]   |     |
 | [[Actor-Critic Algorithm]] | TD critic            | gradient ascent  |     |
 - Evaluation makes values consistent with policy. $v_\pi \gets \pi$
 - Improvement makes the policy greedy wrt value. $\pi\gets v\pi$
@@ -77,6 +77,6 @@ Every Value-based control algorithm is [[Generalized Policy Iteration (GPI)]] wi
 Recurrent Trade-offs:
 1. Bias vs Variance
 2. samples vs compute (model-free vs planning)
-3. exploration vs exploitation ([[Eta-greedy]], [[Upper Confidence Bounds Approach]])
+3. exploration vs exploitation ([[Epsilon-greedy]], [[Upper Confidence Bounds Approach]])
 
 Function Approximation + [[bootstrapping]]  + off policy can cause instability or divergence without additional safeguards.

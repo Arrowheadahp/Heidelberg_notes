@@ -9,7 +9,7 @@ The $\hat v(s, w)$ is still necessary to learn theta but it is not required anym
 #### Advantages of Soft-max over $\varepsilon$:
 1. Sometimes the best policy is probabilistic (ex: Bluffing in Poker)
 2. Sometimes action preference $H$ is easier to learn than action value $q$.
-3. Approach the optimum policy smoothly instead of [[Eta-greedy]] where greedy action changes discontinuously with tiny changes in $q$.
+3. Approach the optimum policy smoothly instead of [[Epsilon-greedy]] where greedy action changes discontinuously with tiny changes in $q$.
 4. It can handle continuous action spaces.
 
 ### [[Policy Gradient Theorem]] 

@@ -4,7 +4,7 @@ The agent is not told the correct [[action]], but it has to learn from the conse
 ### Lectures
 1. [[Definitions in Reinforcement Learning|Introduction to RL]] 
 2. [[Multi-Armed Bandits]]:
-    [[exploration]] vs [[exploitation]] dilemma
+    [[Exploration]] vs [[exploitation]] dilemma
 3. [[Markov Decision Process]]: 
     Sequential Decision Making
 4. [[Dynamic Programming in RL]] 

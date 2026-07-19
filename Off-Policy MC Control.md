@@ -1,8 +1,8 @@
 $$Q(s, a) = \frac{\sum_{t\in\tau(s,a)}\rho_{t+1}^TG_t}{\sum_{t\in\tau(s,a)}\rho_{t+1}^T}
 $$
-Where the Importance Weight is calculated from [[Off-Policy MC Learning]].
+Where the Importance Weight is calculated from [[Off-Policy MC Prediction]].
 $$\rho_{t_s}^T= \prod_{k=t}^{T-1}\frac{\pi(A_k|S_k)}{\mu(A_k|S_k)}$$
-
+The target policy is calculated as$$ \pi(s)\gets\arg\max_a Q(s,a)$$
 Limitations of Off-Policy MC:
 
 Even though a greedy target policy can be learned, the MC updates only use trajectory parts consistent with $\pi$
