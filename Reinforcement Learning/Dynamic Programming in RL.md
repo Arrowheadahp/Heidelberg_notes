@@ -1,8 +1,8 @@
 The Environment is known: $$ p(s', r | s, a) = Pr(S_{t+1}=s', R_{t+1}=r| S_t = s, A_t=a) $$
 > [!Question] If the model is known, how can we compute optimal behaviour without trial and error learning?
 > Dynamic Programming solves the sequential decision problem, by repeatedly:
-> 1. estimating how good the states are by [[policy evaluation]]
-> 2. choosing better actions using those estimates by [[policy improvement]]
+> 1. estimating how good the states are by [[Policy Evaluation]]
+> 2. choosing better actions using those estimates by [[Policy Improvement]]
 > 3. repeating the above 2 until nothing changes. This repetition is called [[Policy Iteration]] 
 
 

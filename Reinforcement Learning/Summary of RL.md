@@ -13,7 +13,7 @@ We are going to the target in increments instead of going all at once because we
 | [[Function Approximation in RL]] | $R_{t+1}+\gamma \hat v(S_{t+1},w)$           | Bootstrap through $\hat v$      |
 ### Space of Updates:
 Algorithms having high width are those that average over all next actions and states. Example: [[Dynamic Programming in RL]]. 
-Algorithms that have high Depth are those that look the most deep. The depth depends on how many steps are taken before [[bootstrapping]]. High Depth: [[Monte-Carlo Methods]]. ![[Pasted image 20260716180024.png]]
+Algorithms that have high Depth are those that look the most deep. The depth depends on how many steps are taken before [[Bootstrapping]]. High Depth: [[Monte-Carlo Methods]]. ![[Pasted image 20260716180024.png]]
 
 ### The Ultimate Goal
 The real goal is to Maximise the Expected Return from [[Markov Decision Process]]. This Expected return when having a discount is called the [[State Value]].
@@ -79,4 +79,4 @@ Recurrent Trade-offs:
 2. samples vs compute (model-free vs planning)
 3. exploration vs exploitation ([[Epsilon-greedy]], [[Upper Confidence Bounds Approach]])
 
-Function Approximation + [[bootstrapping]]  + off policy can cause instability or divergence without additional safeguards.
+Function Approximation + [[Bootstrapping]]  + off policy can cause instability or divergence without additional safeguards.

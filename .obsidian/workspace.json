@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bellman Equations.md",
+                "file": "Reinforcement Learning/Control Variate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bellman Equations"
+              "title": "Control Variate"
             },
             "group": "afec2caed6908471"
           }
@@ -37,7 +37,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bellman Equations.md",
+                "file": "Reinforcement Learning/Control Variate.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -60,12 +60,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9999999999999993,
+                  "scale": 0.7132754626224415,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Bellman Equations"
+              "title": "Graph of Control Variate"
             },
             "group": "afec2caed6908471"
           }
@@ -101,10 +101,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "optimality",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -122,13 +122,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 222.5,
-    "collapsed": true
+    "width": 222.5
   },
   "right": {
     "id": "2691f505943780f4",
@@ -144,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random Variables.md",
+                "file": "Reinforcement Learning/Control Variate.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -154,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Random Variables"
+              "title": "Backlinks for Control Variate"
             }
           },
           {
@@ -248,34 +246,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8c7fa1b402277cb5",
+  "active": "ff6c9a2c5b016dfe",
   "lastOpenFiles": [
-    "Dynamic Programming in RL.md",
-    "Value Iteration.md",
-    "Reinforcement Learning/State Value.md",
-    "Policy Improvement.md",
-    "Bellman Equations.md",
-    "Policy Evaluation.md",
-    "Iterative Bellman Expectation Update.md",
-    "Solving Linear System to evaluate policy.md",
-    "Action Value.md",
-    "Reinforcement Learning/Function Approximation in RL.md",
-    "Reinforcement Learning/Summary of RL.md",
-    "Reinforcement Learning/Monte-Carlo Methods.md",
+    "Reinforcement Learning/SARSA.md",
+    "Reinforcement Learning/Temporal Difference Learning.md",
     "Reinforcement Learning/Reinforcement Learning.md",
-    "Markov Decision Process.md",
-    "Multi-Armed Bandits.md",
-    "Reinforcement Learning/Gradient Bandits.md",
-    "Reinforcement Learning/Upper Confidence Bounds Approach.md",
-    "Reinforcement Learning/How the Q is calculated.md",
-    "Reinforcement Learning/Universal Update Template.md",
-    "Policy Iteration.md",
-    "Reinforcement Learning/Definitions in Reinforcement Learning.md",
-    "Reinforcement Learning/Environment.md",
-    "Reinforcement Learning/Model.md",
-    "Generalized Policy Iteration (GPI).md",
-    "TD Prediction.md",
-    "Bootstrapping.md",
+    "Reinforcement Learning/Monte-Carlo Methods.md",
+    "Reinforcement Learning/Batch Updating.md",
+    "Reinforcement Learning/Importance Sampling Ratio.md",
+    "Reinforcement Learning/Off-Policy MC Prediction.md",
+    "Reinforcement Learning/MC Prediction.md",
+    "Reinforcement Learning/Off-Policy MC Control.md",
+    "Reinforcement Learning/Off-Policy MC.md",
+    "Reinforcement Learning/Off-Policy.md",
+    "Reinforcement Learning/On-Policy.md",
+    "On-Policy MC.md",
+    "Reinforcement Learning/Summary of RL.md",
+    "MC Improvement.md",
+    "Action Value Function.md",
+    "Reinforcement Learning/On-Policy MC Control.md",
+    "Reinforcement Learning/Epsilon-greedy.md",
+    "Reinforcement Learning/Exploration.md",
+    "Why eta-Soft used for Improvement.md",
+    "First Visit Monte Carlo.md",
+    "Reinforcement Learning/TD Prediction.md",
+    "Reinforcement Learning/Bellman Equations.md",
+    "Reinforcement Learning/Dynamic Programming in RL.md",
+    "Reinforcement Learning/Value Iteration.md",
+    "Reinforcement Learning/State Value.md",
     "Images/Pasted image 20260626201635.png",
     "MOCs",
     "Computational Statistics",
