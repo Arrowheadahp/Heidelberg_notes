@@ -1,6 +1,10 @@
 The Environment is known: $$ p(s', r | s, a) = Pr(S_{t+1}=s', R_{t+1}=r| S_t = s, A_t=a) $$
-> [!Question] Guiding Question
-> If the model is known, how can we compute optimal behaviour without trial and error learning?
+> [!Question] If the model is known, how can we compute optimal behaviour without trial and error learning?
+> Dynamic Programming solves the sequential decision problem, by repeatedly:
+> 1. estimating how good the states are by [[policy evaluation]]
+> 2. choosing better actions using those estimates by [[policy improvement]]
+> 3. repeating the above 2 until nothing changes. This repetition is called [[Policy Iteration]] 
+
 
 Dynamic Programming computes value functions and optimal policies by turning [[Bellman Equations]] into repeated update rules in [[Stationary Reinforcement Learning]]. 
 
@@ -10,9 +14,8 @@ Dynamic Programming computes value functions and optimal policies by turning [[B
 ### Pros:
 -  It gives a conceptual template for prediction, Improvement and control.
 
-## 2 ways to optimise:
-
-1. [[Policy Iteration]]: Repeat alternating above 2 until minimal changes. Here, During each [[Policy Evaluation]], the [[Iterative Bellman Expectation Update]] happens until the $v_\pi$ stops changing. Then it goes to the [[Policy Improvement]]
-2. [[Value Iteration]]: Here the [[Iterative Bellman Expectation Update]] is done only once before going to the [[Policy Improvement]].
+### 2 ways to optimise:
+1. [[Policy Iteration]]: Here, During each [[Policy Evaluation]], the [[Iterative Bellman Expectation Update]] happens until the $v_\pi$ stops changing. Then it goes to the [[Policy Improvement]]. Then it repeats until nothing changes.
+2. [[Value Iteration]]: Here the [[Iterative Bellman Expectation Update]] is done only once before going to the [[Policy Improvement]]. This again repeats until nothing changes.
 
 

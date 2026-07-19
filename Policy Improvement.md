@@ -1,12 +1,10 @@
 > [!Question] Can we take better actions at a given state?
-> Given a [[State Value]] $v_\pi$, find a better policy then $\pi$.
-
-Instead of Following [[Policy]] $\pi$ from the beginning, we do [[action]] a first and then follow policy $\pi$ afterwards.
+> Given a [[State Value]] $v_\pi$, find a better policy then $\pi$. Instead of Following [[Policy]] $\pi$ from the beginning, we do [[action]] a first and then follow policy $\pi$ afterwards.
 
 The measurement of how good it is to take action a now and then following policy $\pi$ afterwards is given as [[Action Value]]. $$
 q_\pi(s, a) = \sum_{s', r} \left(p(s',r|s,a)\left[r+\gamma v_\pi(s')\right] \right)
 $$
-If $q_\pi(s) > v_\pi(s)$, then taking a once and then following the policy is better than following policy $\pi$ immediately.
+If $q_\pi(s) > v_\pi(s)$, then taking $a$ once and then following the policy is better than following policy $\pi$ immediately.
 
 > If one deviation improves the expected [[Return]], then permanently switching towards that action should improve the [[Policy]].
 

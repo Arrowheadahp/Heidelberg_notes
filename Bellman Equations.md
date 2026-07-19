@@ -45,15 +45,13 @@ If the q* is known, then the equation becomes:
 $$\pi_{greedy}(s) \in \arg max_a q^*(s,a)
 $$
 ### Bellman optimality Operator T
-Optimality operator T takes the [[Action Value]] as input and returns a new value function TV
-#tobeunderstood 
+Optimality operator T takes the [[State Value]] as input and returns a new value function TV. It is just a function that takes the whole list of state values and makes another list of state values by doing the following operation.
 $$
 (T v)(s) \gets \max_{a \in A(s)} \left (\sum_{s',r}p(s',r|s,a)\left[r+\gamma v(s')\right] \right)
 $$
 This assignment happens at every step
 So at step k, 
 $$ v_k \gets Tv_{k-1} $$
-> [!NOTE] Fixed Point Interpretation
-> If repeated Bellman iterations stops changing the the value function, then we have found the fixed point
+If repeated Bellman iterations stops changing the the value function, then we have found the fixed point $v^*$. The iteration is bound to reach the fixed point when $\gamma<1$ because the future contributions are shrunk.
 
 

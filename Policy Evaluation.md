@@ -16,4 +16,8 @@ There are 2 ways to do the [[Policy Evaluation]] to get the $v_\pi$.
 1. [[Iterative Bellman Expectation Update]] 
 2. [[Solving Linear System to evaluate policy]]
 
-This is a way to solve the [[Bellman Equations]] but the [[Iterative Bellman Expectation Update]] is preferred since the calculations are $O(s^3)$ and the transition matrix P gets typically very large and sparse. 
+This is a way to solve the [[Bellman Equations]] but the [[Iterative Bellman Expectation Update]] is preferred because
+1. the calculations are $O(s^3)$ 
+2. the transition matrix P gets typically very large and sparse. 
+3. Policies change repeatedly
+4. [[Iterative Bellman Expectation Update]] generalizes better to other methods.

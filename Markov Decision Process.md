@@ -8,7 +8,9 @@ $$ p(s', r | s, a) = Pr(S_{t+1}=s', R_{t+1}=r| S_t = s, A_t=a) $$MDPs are the st
 Properties of MDP:
 1. The probability of going to a state s' while doing an action at state s only depends on the state s.
 
-[[Solving a MDP]]:
-	1. Fundamental Problems
-	2. [[Bellman Equations]]
+Solving every MDP requires 2 fundamental parts:
+1. Prediction ([[Policy Evaluation]]): To get the [[State Value]] and [[Action Value]] for a specific [[Policy]]
+2. Control: ([[Policy Improvement]]): To use the Values to improve the [[Policy]].
+
+To solve the above 2 problems, [[Bellman Equations]] are used
 
