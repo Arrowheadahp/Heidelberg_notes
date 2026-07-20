@@ -1,4 +1,4 @@
-We need a $\varepsilon$-soft policy for [[Exploration]]. Meaning $$ \pi(a|s) \geq \frac{\varepsilon}{|A(s)|} \forall s, \forall a \in A(s), \varepsilon > 0
+We need a [[Epsilon-soft]] policy for [[Exploration]]. Meaning $$ \pi(a|s) \geq \frac{\varepsilon}{|A(s)|} \forall s, \forall a \in A(s), \varepsilon > 0
 $$But any policy where the above criteria is satisfied can be used for the exploration. Here we take the [[Epsilon-greedy]].
 ### Why even with forced exploration, [[Epsilon-greedy]] policy improves the old soft policy.
 #todo 

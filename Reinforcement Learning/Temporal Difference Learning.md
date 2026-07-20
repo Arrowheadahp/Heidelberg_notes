@@ -2,7 +2,7 @@
 > [!Question] Guiding Question
 > Can we update our value estimates using current estimates as targets? Why Does it work and when is it beneficial over waiting for actual returns?
 
-Temporal Difference Learning is a [[Model free RL]] method that limits the number of steps ahead the return will take the real rewards and then bootstraps the rest. 
+Temporal Difference Learning is a [[Model]] free RL method that limits the number of steps ahead the return will take the real rewards and then bootstraps the rest. 
 ### Advantages of TD:
 1. TD requires only sampled transitions and can update after one single transition using $S_t, R_{t+1}, S_{t+1}$
 2. [[Online Learning]] where data is streamed, TD is a natural fit.
@@ -18,9 +18,15 @@ $$
 ### Control
 Control follows the [[Generalized Policy Iteration (GPI)]]. With TD, Evaluation and Iteration is interleaved
 - Updates happen step-by-step within each episode
-- The policy changes as soon as q changes.
+- The policy changes as soon as $Q$ changes.
 For model-free control, we learn the [[Action Value Function]] $Q(s, a)$ just like in MC.
 
 There are 2 types of Control
 1. [[On-Policy]] where the both exploration and exploitation is using the same policy. In TD [[SARSA]] is the method used for this.
 2. [[Off-Policy]] where the exploration and exploitation is done by different policies. [[Q-Learning]] is the method. To mitigate the issues like Bias, [[Double Q-Learning]] is used.
+
+
+> [!NOTE] TD and MC does not give the same fixed point ($v^*$) even for the same data
+> This is because [[Monte-Carlo Methods]] gives the mean (reduces the mean square error) of the observed data
+> [[Temporal Difference Learning]] gives the maximum likelihood of the state values. It is the exact solution on the inferred Markov model would give
+

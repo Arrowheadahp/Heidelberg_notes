@@ -8,4 +8,5 @@ GPI is a class of algorithms that improves policies.
 [[Dynamic Programming in RL]] uses [[Policy Iteration]] for improving policies.
 
 
-> [!Quote] GPI refers to the general idea of letting [[Policy Evaluation]] and [[Policy Improvement]] processes interact, independent of the granularity and other details of the 2 processes. Almost all reinforcement methods are well described as GPI.
+> [!Quote] Quote from the authors
+> GPI refers to the general idea of letting [[Policy Evaluation]] and [[Policy Improvement]] processes interact, independent of the granularity and other details of the 2 processes. Almost all reinforcement methods are well described as GPI.

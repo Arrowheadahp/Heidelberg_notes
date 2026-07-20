@@ -10,16 +10,17 @@ The [[SARSA]] target is $$ R_{t+1} + \gamma Q(S_{t+1}, A_{t+1})$$
 ### Algorithm
 
 - Get Step Size $\alpha,\varepsilon \in (0, 1]$
-- Initialize Q(s, a) with Q(terminal state, .) = 0
+- Initialize Q(s, a) arbitrarily with Q(terminal state, .) = 0
 - For every episode
 	- Initialize S
 	- for every step of episode
+		- Create $\pi$ according to [[Epsilon-greedy]] on $Q$
 		- $A\gets \pi(S)$
 		- Take action A and get R and S'
 		- if S' is terminal
 			- $Q(S,A) \gets Q(S,A) + \alpha(R-Q(S,A))$
 			- break
-		- $A'\gets \pi(S')$
+		- $A'\gets \pi(S')$ derived according to [[Epsilon-greedy]] on $Q$
 		- $Q(S,A) \gets Q(S,A) + \alpha(R + \gamma Q(S', A') -Q(S,A))$
 		- $S\gets S'$
 		- $A\gets A'$
@@ -30,5 +31,5 @@ The [[SARSA]] target is $$ R_{t+1} + \gamma Q(S_{t+1}, A_{t+1})$$
 
 
 > [!Question] Will SARSA Converge?
-> If the any policy follows the [[GLIE (Greedy in the Limit with Infinite Exploration)]], then it will converge.
+> If the any policy follows the [[GLIE (Greedy in the Limit with Infinite Exploration)]], then it will converge to optimum [[Action Value]] and optimum policy.
 

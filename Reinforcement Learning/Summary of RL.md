@@ -35,7 +35,7 @@ What is being Learned?
 			3. [[MCTS Monte Carlo Tree Search]]
 		3. [[Trajectory Updates]]
 			1. [[RTDP Real Time Dynamic Programming]]
-	3. [[Model free RL]]: No model estimated. Here action value is estimated instead of state values.
+	3. [[Model free RL]]: No model estimated. Here Q is estimated instead of state values V.
 		1. Maximum Depth: [[Monte-Carlo Methods]]
 			1. [[On-Policy MC Control]]
 			2. [[Off-Policy MC]]
