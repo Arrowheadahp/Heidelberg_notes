@@ -5,34 +5,41 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Reinforcement Learning\"  ",
+      "query": "path:\"MOCs\"  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:\"Computer Vision\"  ",
+      "query": "path:\"Machine Learning\"  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "path:\"Computational Statistics\"  ",
+      "query": "path:\"Reinforcement Learning\"  ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "path:MOCs  ",
+      "query": "path:\"Computational Statistics\"  ",
       "color": {
         "a": 1,
         "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"Computer Vision\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6902496
       }
     }
   ],
@@ -46,6 +53,6 @@
   "repelStrength": 10.7291666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.1846232622585702,
-  "close": true
+  "scale": 0.5087618855792269,
+  "close": false
 }
