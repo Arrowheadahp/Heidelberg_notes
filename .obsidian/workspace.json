@@ -6,7 +6,6 @@
       {
         "id": "3e41e0eb6eb69f73",
         "type": "tabs",
-        "dimension": 75.20107238605898,
         "children": [
           {
             "id": "8c7fa1b402277cb5",
@@ -14,62 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reinforcement Learning/Control Variate.md",
+                "file": "MOCs/Computational Statistics and Data Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Control Variate"
-            },
-            "group": "afec2caed6908471"
+              "title": "Computational Statistics and Data Analysis"
+            }
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "6ce254dbac8f8756",
-        "type": "tabs",
-        "dimension": 24.798927613941018,
-        "children": [
-          {
-            "id": "f4e23b741eabc386",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Reinforcement Learning/Control Variate.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": true,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7132754626224415,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of Control Variate"
-            },
-            "group": "afec2caed6908471"
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -142,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Control Variate.md",
+                "file": "MOCs/Computational Statistics and Data Analysis.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Control Variate"
+              "title": "Backlinks for Computational Statistics and Data Analysis"
             }
           },
           {
@@ -241,15 +195,27 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "random-note:Open random note": false,
-      "obsidian-git:Open Git source control": false,
       "zk-prefixer:Create new unique note": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff6c9a2c5b016dfe",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
-    "Reinforcement Learning/SARSA.md",
+    "Statistical Models.md",
+    "MOCs/Computational Statistics and Data Analysis.md",
+    "Statistical Inference.md",
+    "Multivariate Distributions.md",
+    "Computational Statistics/Probability Distributions.md",
+    "Multivariate Probability Distributions.md",
+    "Exponential Family.md",
+    "Continuous Probability Distribution.md",
+    "Discrete Probability Distributions.md",
     "Reinforcement Learning/Temporal Difference Learning.md",
+    "Reinforcement Learning/Summary of RL.md",
+    "Reinforcement Learning/Bellman Equations.md",
+    "Reinforcement Learning/Control Variate.md",
+    "Reinforcement Learning/SARSA.md",
     "Reinforcement Learning/Reinforcement Learning.md",
     "Reinforcement Learning/Monte-Carlo Methods.md",
     "Reinforcement Learning/Batch Updating.md",
@@ -261,19 +227,7 @@
     "Reinforcement Learning/Off-Policy.md",
     "Reinforcement Learning/On-Policy.md",
     "On-Policy MC.md",
-    "Reinforcement Learning/Summary of RL.md",
     "MC Improvement.md",
-    "Action Value Function.md",
-    "Reinforcement Learning/On-Policy MC Control.md",
-    "Reinforcement Learning/Epsilon-greedy.md",
-    "Reinforcement Learning/Exploration.md",
-    "Why eta-Soft used for Improvement.md",
-    "First Visit Monte Carlo.md",
-    "Reinforcement Learning/TD Prediction.md",
-    "Reinforcement Learning/Bellman Equations.md",
-    "Reinforcement Learning/Dynamic Programming in RL.md",
-    "Reinforcement Learning/Value Iteration.md",
-    "Reinforcement Learning/State Value.md",
     "Images/Pasted image 20260626201635.png",
     "MOCs",
     "Computational Statistics",
