@@ -4,8 +4,10 @@ Contents:
 2. [[Random Variables]]
    [[Expected Values]], Variance, Covariance, Correlation Coefficient
 3. [[Probability Distributions]]
-4. [[Multivariate Distributions]]
-5. [[Statistical Inference]]
+   [[Discrete Probability Distributions]], [[Continuous Probability Distribution]], [[Exponential Family]], [[Multivariate Probability Distributions]] 
+4. [[Multivariate Probability Distributions]]
+5. [[Statistical Models]]
+   [[Statistical Inference]]
 6. [[Hypothesis Testing]]
 7. [[Linear Model]]
 8. [[Non-Linear Models]]

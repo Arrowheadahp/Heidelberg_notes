@@ -1,4 +1,4 @@
-Setting all the initial $Q_1$ very high so that all the paths that are not traversed and corrected are prioritised by the greedy algorithm.
+Setting all the initial $Q_1$ very high so that all the paths that are not traversed and corrected are prioritized by the greedy algorithm.
 
 Pros:
 1. Useful in [[Stationary Reinforcement Learning]] tasks.
