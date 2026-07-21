@@ -13,11 +13,13 @@ The idea is that both type of methods rely on backups.
 Planning is any computational process that takes a model as input and produces or improves a policy. The model simulates the experience and the agent uses this experience to back up values and improve decisions.
 
 ### Some Methods:
-- [[Background Planning]]
+- Background Planning: 
+  Planning does not depend on current state
 	1. [[Dyna-Q]]
 	2. [[Dyna-Q+]]: Variant of the [[Dyna-Q]] but has exploration bonus built in.
 	3. [[Prioritised Sweeping]]: Prioritise the state actions where the Q value changes a lot.
--  [[Trajectory Updates]]: [[On-Policy]] Learning and planning
+-  Trajectory Updates: 
+   [[On-Policy]] Learning and planning
 	1. [[RTDP Real Time Dynamic Programming]]: [[On-Policy]] trajectory-sampling version of value iteration
 - [[Decision Time Planning]]
 	1. [[Heuristic Search RL]]: Like Deeper Greedy Policy 
