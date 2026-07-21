@@ -1,3 +1,3 @@
-The model is the knowledge of what reward and state will come when taking any action at any state. There are 2 types of model reconstruction:
-- Distribution model: All possible next states are rewards are present with their probabilities:  $\hat p(s',r|s,a)\forall s$. 
-- Sample Model: Produces a single sampled next state and reward instead of the full probability distribution. This is much easier to obtain in practice.
+The [[Model]] is the knowledge of what reward and state will come when taking any action at any state. There are 2 types of model reconstruction:
+- ==Distribution model==: All possible next states are rewards are present with their probabilities. The probabilities may come from prior knowledge:  $$\hat p(s',r|s,a)\forall s$$
+- ==Sample Model==: Produces a single sampled next state and reward instead of the full probability distribution. This is much easier to obtain in practice. $$\hat M(s,a) = (r,s')$$

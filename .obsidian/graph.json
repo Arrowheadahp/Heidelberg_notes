@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
-  "search": "",
+  "collapse-filter": true,
+  "search": "-tag:#overview  -path:MOCs  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"MOCs\"  ",
@@ -43,16 +43,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -2,
   "nodeSizeMultiplier": 1.0983367983368,
   "lineSizeMultiplier": 0.996465696465697,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.197916666666667,
   "repelStrength": 10.7291666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.25883865621814606,
+  "scale": 0.1945002269061589,
   "close": true
 }

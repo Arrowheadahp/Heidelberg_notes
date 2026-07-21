@@ -1,4 +1,4 @@
-Variant of [[Dyna-Q]] with a exploration bonus build in. Similar to [[Upper Confidence Bounds Approach]] but instead of uncertainty, this depends on for how many steps a particular a has not been taken and adds the bonus to the reward. This is good method in [[Non-Stationary Reinforcement Learning]].
+Variant of [[Dyna-Q]] with a exploration bonus build in. Similar to [[Upper Confidence Bounds Approach]] but instead of uncertainty, this depends on for how many steps a particular action has not been taken and adds the bonus to the reward. This is good method in [[Non-Stationary Reinforcement Learning]].
 
 - This model rechecks parts of the model that it has neglected
 - It can detect environmental changes
@@ -9,7 +9,7 @@ Variant of [[Dyna-Q]] with a exploration bonus build in. Similar to [[Upper Conf
 	- [[State Value]] `Q(S, A)`
 	- Model `M[S, A] = (R, S')`
 	- Set of previously seen state action pairs
-	- $\tau(s,a)$: Number of steps since (s,a) has been tried
+	- $\tau(s,a)$: Number of steps since (s,a) was last tried
 - Per real state:
 	- Choose a from s by $\varepsilon$-greedy on `Q`
 	- execute a, observe r, s'
