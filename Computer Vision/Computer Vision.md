@@ -1,3 +1,4 @@
+#moc
 Developing Computational Models and algorithms to [[Interpretation of visual data|interpret]] digital images and visual data in order to [[Understanding Image means|understand]] the visual world we live in.
 
 Computer Vision can be understood as inverse graphics(rendering). 

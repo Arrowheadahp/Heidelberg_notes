@@ -1,19 +1,12 @@
 {
-  "collapse-filter": true,
-  "search": "-tag:#overview  -path:MOCs  ",
+  "collapse-filter": false,
+  "search": "-tag:#overview  -tag:#moc ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [
-    {
-      "query": "path:\"MOCs\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
     {
       "query": "path:\"Machine Learning\"  ",
       "color": {
@@ -53,6 +46,6 @@
   "repelStrength": 10.7291666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.13873223932665957,
+  "scale": 0.19450022690615648,
   "close": true
 }

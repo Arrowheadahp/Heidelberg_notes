@@ -1,3 +1,4 @@
+#moc
 Contents: 
 1. [[Probability Theory]]
    [[Probability Rules]]
