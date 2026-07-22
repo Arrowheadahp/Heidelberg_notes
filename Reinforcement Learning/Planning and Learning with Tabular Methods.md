@@ -14,18 +14,19 @@ Planning is any computational process that takes a model as input and produces o
 
 ### Some Methods:
 - Background Planning: 
-  Planning does not depend on current state
+  Planning does not depend on current state or policy.
 	1. [[Dyna-Q]]
-	2. [[Dyna-Q+]]: Variant of the [[Dyna-Q]] but has exploration bonus built in.
+	2. [[Dyna-Q+]]: Variant of the [[Dyna-Q]] but has exploration bonus built into the reward.
 	3. [[Prioritised Sweeping]]: Prioritise the state actions where the Q value changes a lot.
 -  Trajectory Updates: 
    [[On-Policy]] Learning and planning
 	1. [[RTDP Real Time Dynamic Programming]]: [[On-Policy]] trajectory-sampling version of value iteration
-- [[Decision Time Planning]]
+- [[Decision Time Planning]]: 
+  Planning specifically for the current state
 	1. [[Heuristic Search RL]]: Like Deeper Greedy Policy 
 	2. [[Rollout Algorithm]]: This is a Decision time Monte Carlo Planning
 	3. [[MCTS Monte Carlo Tree Search]]: Improving on [[Rollout Algorithm]] to get focus on promising branches
-### When a model can be wrong:
+### When can a model be wrong:
 Even when the model is getting filled with the correct transitions, 
 - the [[Environment]] can be stochastic,
 - not enough data is collected

@@ -1,4 +1,4 @@
-Improving on [[Rollout Algorithm]] to get focus on promising branches. MCTS also does backup of the estimations.
+Improving on [[Rollout Algorithm]] to get focus on promising branches. MCTS also does backup of the estimations but expands on specific prefixes instead of starting from root again.
 
 - Per iteration:
 	- Select:  from the root and descend using the existing policy
@@ -6,7 +6,7 @@ Improving on [[Rollout Algorithm]] to get focus on promising branches. MCTS also
 	- Simulate: Rollout from it to the end
 	- Backup
 
-After the budget, pick the action $$ A\gets \arg \max_a N(s_0, a)$$
+After the budget, pick the ==action that was taken the most==$$ A\gets \arg \max_a N(s_0, a)$$
 - The policy already uses Q during search
 - Promising moves keep attracting simulations so high N is a robust signal
 - High Q on few visits may just be lucky
