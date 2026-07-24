@@ -1,4 +1,3 @@
-
 What function approximation does is 
 - a compact representation of the state
 - knowledge of which states are similar
@@ -20,7 +19,7 @@ RL produces a stream of [[Universal Update Template]] or training examples for t
 - Learning is online
 - For a policy, we only get info for the visited states
 - [[Bootstrapping]] has bias and target depends on current weights.
-- Non-stationary: Changing the value function changes the policy  which changes the future data distribution.
+- Non-stationary: Changing the value function changes the policy which changes the future data distribution.
 
 ### [[How to train the Function Approximation]]
 Prediction Objective and How to perform SGD on it

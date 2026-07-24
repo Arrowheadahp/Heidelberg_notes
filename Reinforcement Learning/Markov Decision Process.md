@@ -9,7 +9,7 @@ Properties of MDP:
 1. The probability of going to a state s' while doing an action at state s only depends on the state s.
 
 Solving every MDP requires 2 fundamental parts:
-1. Prediction ([[Policy Evaluation]]): To get the [[State Value]] and [[Action Value]] for a specific [[Policy]]
+1. Prediction ([[Policy Evaluation]]): To get the [[State Value]] or [[Action Value]] for a specific [[Policy]]
 2. Control: ([[Policy Improvement]]): To use the Values to improve the [[Policy]].
 
 To solve the above 2 problems, [[Bellman Equations]] are used

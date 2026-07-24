@@ -53,7 +53,7 @@ What is being Learned?
 				1. [[Control Variate]]
 2. Policy Based: [[Policy Gradient Methods]]
 	1. Without Baseline: [[REINFORCE]]
-	2. With Learned Baseline: [[Actor-Critic Algorithm]]
+	2. With Learned Baseline: [[REINFORCE with Baseline]]
 
 ### Generalized Policy Iteration
 Every Value-based control algorithm is [[Generalized Policy Iteration (GPI)]] with different evaluation step.
@@ -66,12 +66,12 @@ Every Value-based control algorithm is [[Generalized Policy Iteration (GPI)]] wi
 | [[SARSA]]                  | on policy TD[0]      | [[Epsilon-greedy]]   |     |
 | [[Q-Learning]]             | [[Off-Policy]] TD[0] | greedy in target |     |
 | [[Dyna-Q]], [[Dyna-Q+]]    | TD + simulated exp   | [[Epsilon-greedy]]   |     |
-| [[Actor-Critic Algorithm]] | TD critic            | gradient ascent  |     |
+| [[REINFORCE with Baseline]] | TD critic            | gradient ascent  |     |
 - Evaluation makes values consistent with policy. $v_\pi \gets \pi$
 - Improvement makes the policy greedy wrt value. $\pi\gets v\pi$
 - Their only joint fixed point is optimality
 - [[Policy Gradient Methods]] replace greedification by gradient ascent on $J(\theta)$ 
-- [[Actor-Critic Algorithm]] keeps the [[Generalized Policy Iteration (GPI)]] in play
+- [[REINFORCE with Baseline]] keeps the [[Generalized Policy Iteration (GPI)]] in play
 - [[REINFORCE]] has no Evaluation step at all.
 
 Recurrent Trade-offs:

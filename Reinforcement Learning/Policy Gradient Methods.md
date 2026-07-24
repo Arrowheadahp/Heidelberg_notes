@@ -4,8 +4,6 @@
 Instead of using [[Function Approximation in RL]] to estimate $q(s,a)$, and then calculating the policy $\pi(s)=\arg \max_a(q(s,a))$, we are approximating the policy directly. $$\pi(s,\theta)= \Pr\{A_t=a|S_t=s, \theta_t=\theta\} $$
 Just like the [[Gradient Bandits]], we are using [[SoftMax Function]] to calculate the probability.
 $$\pi(s,\theta)= \frac{e^{h(s,a, \theta)}}{\sum_{b=1}^{k}e^{h(s,b, \theta)}} $$
-The $\hat v(s, w)$ is still necessary to learn theta but it is not required anymore for action selection.
-
 #### Advantages of Soft-max over $\varepsilon$:
 1. Sometimes the best policy is probabilistic (ex: Bluffing in Poker)
 2. Sometimes action preference $H$ is easier to learn than action value $q$.
@@ -23,11 +21,13 @@ $$ \theta_{t+1}-\theta_t = \alpha \gamma^t G_t\nabla\log\pi(A_t|S_t, \theta_t) $
 > [!NOTE] Variance being the bottleneck 
 > The parameter $\nabla\theta$ depends on entire future trajectory. To solve this, Baseline and [[Bootstrapping]] is introduced.
 
+### [[REINFORCE with Baseline]]
+$$ \theta_{t+1}=\theta_t + \alpha \gamma^t (G_t \color{yellow}{-b(S_t)}) \nabla\log\pi(A_t|S_t, \theta_t) $$
+When we use $b(S_t) = \hat v(s,w)$, then $G_t - \hat v(S_t,w)$ becomes the advantage of the chosen action over other actions available at state $S_t$. It signifies if the action was better or worse than expected. 
+>The $\hat v(s, w)$ is still necessary to learn $\theta$ but it is not required anymore for action selection.
+
 ### [[Actor-Critic Algorithm]]
-$$ \theta_{t+1}=\theta_t + \alpha \gamma^t (G_t \color{yellow}{-b(S_t)})\nabla\log\pi(A_t|S_t, \theta_t) $$
-When we use $b(S_t) = \hat v(s,w)$, then $G_t - \hat v(S_t,w)$ becomes the advantage of the chosen action over other actions available at state $S_t$. It signifies if the action was better or worse than expected.
-
-
+This is [[REINFORCE]] but instead of the $\hat v$ being used for the baseline, it is used for [[N-Step Bootstrapping]]. 
 
 
 

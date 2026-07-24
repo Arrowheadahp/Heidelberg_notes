@@ -19,7 +19,7 @@ $$
 Control follows the [[Generalized Policy Iteration (GPI)]]. With TD, Evaluation and Iteration is interleaved
 - Updates happen step-by-step within each episode
 - The policy changes as soon as $Q$ changes.
-For model-free control, we learn the [[Action Value Function]] $Q(s, a)$ just like in MC.
+For model-free control, we learn the [[Action Value]] $Q(s, a)$ just like in MC.
 
 There are 2 types of Control
 1. [[On-Policy]] where the both exploration and exploitation is using the same policy. In TD [[SARSA]] is the method used for this.

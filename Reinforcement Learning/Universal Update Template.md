@@ -5,7 +5,7 @@ The universal template for change when going from new to old is$$ new = old + \a
 
 Rephrased as $$ value \to target $$
 $$S_t\to U_t$$
-The target $U_t$ is
+The target $U_t$ is (for prediction)
 - [[Dynamic Programming in RL]]: $$U_t = \sum_a\left( \pi(s, a)\sum_{s', r} p(s', r|s,a)\left(r+ \gamma v_\pi(s')\right) \right) $$
 - [[Monte-Carlo Methods]]: $$U_t = G_t = \sum_{k=t}^{T-1} \gamma^{k-t}\cdot  r_{k+1}$$
 - [[Temporal Difference Learning]]: $$U_t = R_{t+1} + \gamma v_{t+1} $$

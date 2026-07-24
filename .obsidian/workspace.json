@@ -6,16 +6,20 @@
       {
         "id": "3e41e0eb6eb69f73",
         "type": "tabs",
-        "dimension": 76.07238605898124,
+        "dimension": 64.97991967871486,
         "children": [
           {
             "id": "8c7fa1b402277cb5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Computational Statistics/Statistical Inference.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Statistical Inference"
             },
             "group": "afec2caed6908471"
           }
@@ -25,7 +29,7 @@
       {
         "id": "6ce254dbac8f8756",
         "type": "tabs",
-        "dimension": 23.927613941018766,
+        "dimension": 35.02008032128514,
         "children": [
           {
             "id": "f4e23b741eabc386",
@@ -33,10 +37,10 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Reinforcement Learning/State Value.md",
+                "file": "Computational Statistics/Statistical Inference.md",
                 "options": {
-                  "collapse-filter": false,
-                  "search": "",
+                  "collapse-filter": true,
+                  "search": "-tag:#overview  -tag:#moc ",
                   "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
@@ -46,22 +50,22 @@
                   "hideUnresolved": true,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": false,
+                  "collapse-display": true,
                   "showArrow": true,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
+                  "collapse-forces": false,
+                  "centerStrength": 0.196465696465696,
+                  "repelStrength": 15.4885654885655,
                   "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.9999999999999986,
+                  "linkDistance": 30,
+                  "scale": 0.7132754626224405,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of State Value"
+              "title": "Graph of Statistical Inference"
             },
             "group": "afec2caed6908471"
           }
@@ -97,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -245,33 +249,33 @@
   },
   "active": "8c7fa1b402277cb5",
   "lastOpenFiles": [
-    "Reinforcement Learning/State Value.md",
-    "Computer Vision/Computer Vision.md",
-    "Reinforcement Learning/Reinforcement Learning.md",
-    "Courses.md",
     "Computational Statistics/Computational Statistics and Data Analysis.md",
-    "Reinforcement Learning/Prioritised Sweeping.md",
-    "Reinforcement Learning/Planning and Learning with Tabular Methods.md",
-    "Reinforcement Learning/Dyna-Q.md",
-    "Reinforcement Learning/Dyna-Q+.md",
-    "Reinforcement Learning/Decision Time Planning.md",
-    "Reinforcement Learning/MCTS Monte Carlo Tree Search.md",
-    "Reinforcement Learning/Rollout Algorithm.md",
-    "Reinforcement Learning/Heuristic Search RL.md",
+    "Computational Statistics/Statistical Models.md",
+    "Computational Statistics/Statistical Inference.md",
+    "Computational Statistics/Exponential Family.md",
+    "Computational Statistics/Continuous Probability Distribution.md",
+    "Computational Statistics/Gamma Distribution.md",
+    "Computational Statistics/Discrete Probability Distributions.md",
+    "Computational Statistics/Probability Distributions.md",
+    "Computational Statistics/Multivariate Probability Distributions.md",
+    "Computational Statistics/Bernoulli Distribution.md",
+    "Computational Statistics/Beta Distribution.md",
+    "Computational Statistics/Poisson Distribution.md",
+    "Computational Statistics/Gaussian Distribution.md",
+    "Computational Statistics/Geometric Distribution.md",
+    "Computational Statistics/Random Variables.md",
+    "Computational Statistics/Expected Values.md",
+    "Computational Statistics/Variance.md",
+    "Computational Statistics/Covariance.md",
+    "Computational Statistics/Probability Rules.md",
+    "Computational Statistics/Probability Theory.md",
+    "Computational Statistics/Actor-Critic Algorithm.md",
+    "Reinforcement Learning/Policy Gradient Methods.md",
+    "Reinforcement Learning/REINFORCE.md",
+    "Reinforcement Learning/REINFORCE with Baseline.md",
+    "Reinforcement Learning/Policy Gradient Theorem.md",
+    "Reinforcement Learning/Reinforcement Learning.md",
     "Images/Pasted image 20260721173516.png",
-    "Reinforcement Learning/RTDP Real Time Dynamic Programming.md",
-    "Reinforcement Learning/Value Iteration.md",
-    "Reinforcement Learning/Policy Improvement.md",
-    "Reinforcement Learning/Policy Iteration.md",
-    "Reinforcement Learning/Policy Evaluation.md",
-    "Reinforcement Learning/Dynamic Programming in RL.md",
-    "Reinforcement Learning/On-Policy Prediction with Function Approximation.md",
-    "Reinforcement Learning/Summary of RL.md",
-    "Reinforcement Learning/Epsilon-soft.md",
-    "$/varepsilon$-soft.md",
-    "Reinforcement Learning/Monte-Carlo Methods.md",
-    "Reinforcement Learning/Model.md",
-    "Reinforcement Learning/Off-Policy MC Prediction.md",
     "Machine Learning",
     "Images/Pasted image 20260527011423.png",
     "Images/Pasted image 20260508205403.png",

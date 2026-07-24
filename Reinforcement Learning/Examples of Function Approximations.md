@@ -1,3 +1,5 @@
 
 - Using [[Monte-Carlo Methods]], $U_t=G_t$, the **target is unbiased** so using SGD for [[Function Approximation in RL]], the weights **converges to a local minima**. But every update requires waiting for an episode to end and has high variance. $$w_{t+1} = w_t + \alpha[G_t - \hat v (s, w)]\nabla \hat v(s,w)$$
+### Semi-Gradient TD:
+#todo
 - For [[Temporal Difference Learning]], the target $U_t = R_{t+1} + \gamma \hat v_{t+1}$ **is not unbiased**, so the weights may oscillate and **not converge to a local minima** unless it is Linear model and on-policy. $$w_{t+1} = w_t + \alpha \left[R_{t+1} + \gamma \hat v(s_{t+1},w) - \hat v (s, w)\right]\nabla \hat v(s,w)$$ The above equation is for Semi-Gradient since we should also use $\nabla \hat v(s_{t+1},w)$ but we are not. ![[Pasted image 20260626191632.png]]
