@@ -15,15 +15,14 @@ Sample Variance: $\sigma^2:=\frac{1}{N-1}\sum (x_i-\bar x)^2$
 
 Law of large numbers(weak) states that when N is large enough, the sample statistics is infinitely close to the population statistics.
 $$\lim_{N\to\infty}P(|\bar \theta-\theta|<\varepsilon)=1\ \forall\varepsilon>0 $$
-#### Properties of a good statistics
-Here $\theta$ is the statistics and any variable with a hat is the predicted value
 
-1. $\mathbb E[\hat\theta]=\theta+c$
-   Here c is the bias and so when c=0, the estimator is unbiased.
-2. Consistency
-   $$\lim_{N\to\infty}P(|\bar \theta-\theta|<\varepsilon)=1\ \forall\varepsilon>0 $$
-3. Sampling distribution:  This is the distribution of a specific sample statistic.
-4. **Standard Error** $$SE_\hat\theta (N):=\sqrt{\mathbb E\left[\left(\hat\theta-\mathbb E\left[\hat\theta\right]\right)^2\right]} $$ This is the variance of the sample statistic. Meaning it calculates how much the statistic varies from the average statistic that we could have calculated with different sample clusters.
-5. Sufficient Statistic $T(x)$ such that $p(x|T,\theta) = p(x|T)$. It is the minimally sufficient set of statistics or parameters to describe the random variable.
-6. Efficiency$:=\frac{SE^2_\theta}{SE^2_\hat\theta}\in[0,1]$
+### Statistical Inference
+$D = \{y_i,x_i\},i\in\{1...N\}$
+where $y_i$ is the $i$-th observed value and $x_i$ is the observed predictors.
+
+For a linear model: $$y_i=\beta_0+\sum_{j=1}^p\beta_jx_{ij}+\varepsilon_i $$
+where $\varepsilon\sim N(0,\sigma^2)$.
+$\beta :=(\beta_0...\beta_p)^T$
+$X={1,x_1,x_2...x_p}$
+$$y=X\beta+\varepsilon$$
 

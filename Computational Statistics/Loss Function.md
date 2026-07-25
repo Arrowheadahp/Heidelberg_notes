@@ -1,5 +1,4 @@
-
-The loss function is defined by:
+The total loss is defined by the sum of loss function for each observation:
 $$
   \textit{L}(\textbf{w}) = \frac{1}{N}\sum_{n=1}^{N}\textit{l}(\textbf{w}, \textbf{x}^n, \textbf{t}^n) + \textit{R}(\textbf{w})
   $$
@@ -9,8 +8,9 @@ $$
   - *R*(w) = [[Regularization]] of weights
   - N = number of examples
 
-
-Cross Entropy is the most used loss function for classification ^cross
+### [[Squared Error]]
+### Cross Entropy 
+This is the most used loss function for classification
 
 $$
 \textit{l}(\textbf{x, t, w}) = -\sum_{j}t_j log(p(c_j|x))

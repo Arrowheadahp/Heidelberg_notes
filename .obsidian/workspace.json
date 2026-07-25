@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computational Statistics/Statistical Inference.md",
+                "file": "Computational Statistics/Computational Statistics and Data Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Statistical Inference"
+              "title": "Computational Statistics and Data Analysis"
             },
             "group": "afec2caed6908471"
           }
@@ -37,7 +37,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computational Statistics/Statistical Inference.md",
+                "file": "Computational Statistics/Computational Statistics and Data Analysis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "-tag:#overview  -tag:#moc ",
@@ -60,12 +60,12 @@
                   "repelStrength": 15.4885654885655,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.7132754626224405,
+                  "scale": 0.25883865621816143,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Statistical Inference"
+              "title": "Graph of Computational Statistics and Data Analysis"
             },
             "group": "afec2caed6908471"
           }
@@ -126,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "2691f505943780f4",
@@ -247,34 +246,35 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8c7fa1b402277cb5",
+  "active": "ff6c9a2c5b016dfe",
   "lastOpenFiles": [
+    "Computational Statistics/Backpropagation.md",
     "Computational Statistics/Computational Statistics and Data Analysis.md",
+    "Deep Neural Networks.md",
+    "Computational Statistics/SVM.md",
+    "Computational Statistics/General alpha test procedure.md",
+    "Computational Statistics/Statistical Tests.md",
+    "Computational Statistics/Iterative Estimation Methods.md",
     "Computational Statistics/Statistical Models.md",
     "Computational Statistics/Statistical Inference.md",
+    "Computational Statistics/Principles of Statistical Estimation.md",
+    "Computational Statistics/Properties of Statistical Estimators.md",
+    "Computational Statistics/Probability Models.md",
+    "Computational Statistics/Moment Generating Function.md",
     "Computational Statistics/Exponential Family.md",
-    "Computational Statistics/Continuous Probability Distribution.md",
-    "Computational Statistics/Gamma Distribution.md",
-    "Computational Statistics/Discrete Probability Distributions.md",
-    "Computational Statistics/Probability Distributions.md",
-    "Computational Statistics/Multivariate Probability Distributions.md",
-    "Computational Statistics/Bernoulli Distribution.md",
-    "Computational Statistics/Beta Distribution.md",
-    "Computational Statistics/Poisson Distribution.md",
-    "Computational Statistics/Gaussian Distribution.md",
-    "Computational Statistics/Geometric Distribution.md",
-    "Computational Statistics/Random Variables.md",
-    "Computational Statistics/Expected Values.md",
-    "Computational Statistics/Variance.md",
-    "Computational Statistics/Covariance.md",
-    "Computational Statistics/Probability Rules.md",
-    "Computational Statistics/Probability Theory.md",
-    "Computational Statistics/Actor-Critic Algorithm.md",
-    "Reinforcement Learning/Policy Gradient Methods.md",
+    "Computational Statistics/Newton Raphson Method.md",
+    "Images/Pasted image 20260725143447.png",
+    "Computational Statistics/Gradient Descent.md",
+    "Computational Statistics/Stochastic Gradient Descent (SGD).md",
+    "Machine Learning/Backward Pass.md",
     "Reinforcement Learning/REINFORCE.md",
-    "Reinforcement Learning/REINFORCE with Baseline.md",
-    "Reinforcement Learning/Policy Gradient Theorem.md",
-    "Reinforcement Learning/Reinforcement Learning.md",
+    "Computational Statistics/Neural Network.md",
+    "Computational Statistics/Gradient Bandits.md",
+    "Computational Statistics/Inference for linear regression.md",
+    "Computational Statistics/Maximum Likelihood.md",
+    "Computational Statistics/Probability Distributions.md",
+    "Computational Statistics/Discrete Probability Distributions.md",
+    "Computational Statistics/Continuous Probability Distribution.md",
     "Images/Pasted image 20260721173516.png",
     "Machine Learning",
     "Images/Pasted image 20260527011423.png",
@@ -291,7 +291,6 @@
     "Images/Pasted image 20260626193621.png",
     "Images/Pasted image 20260626191632.png",
     "Images/Pasted image 20260623162842.png",
-    "Images/Pasted image 20260623161818.png",
     "Fundamental",
     "New Text Document.txt",
     "Images",

@@ -2,6 +2,6 @@ When we can't find the global minima/maxima using deterministic methods, we try 
 
 The most famous among them are:
 1. [[Gradient Descent]]
-2. [[Newton Methods]]
+2. [[Newton Raphson Method]]
 3. [[Levenberg-Marquardt Method]]
-   Mix of [[Newton Methods]] and [[Gradient Descent]].
+   Mix of [[Newton Raphson Method]] and [[Gradient Descent]].

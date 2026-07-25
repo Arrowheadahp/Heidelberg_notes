@@ -16,7 +16,7 @@ Any boundary or function in n dimensions can be approximated with finite number 
 
 
 
-The optimal parameters can be found by minimising the [[Loss Function]] using [[Gradient Descent]]. 
+The optimal parameters can be found by minimising the [[Loss Function]] using [[Backpropagation]]. 
 
 To avoid the [[Overfitting]], there are different options for [[Generalization]]:
 
