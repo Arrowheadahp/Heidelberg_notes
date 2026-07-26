@@ -1,0 +1,1 @@
+This is an architecture in [[Neural Network]] where some layers are connected to other layers ahead in skip connections so that the gradients don't explode or vanish during [[Backpropagation]].

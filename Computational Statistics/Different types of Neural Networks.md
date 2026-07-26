@@ -1,3 +1,4 @@
+These are the Different types of [[Neural Network]]
 Large types of models:
 
 1. [[Perceptron]]

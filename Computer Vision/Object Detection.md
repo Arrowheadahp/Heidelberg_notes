@@ -3,7 +3,7 @@ This is to detect objects and put bounding boxes around each of the boxes in the
 - Traditional
 	- [[HOG]]: Histogram of Oriented Gradients
 	- [[DPM]]: Deformable Parts Model
-- [[Deep Learning]]
+- [[Different types of Neural Networks]]
 	- 2 stage proposals
 		- [[R-CNN]]: Region CNN
 		- Fast R-CNN:  Fully using Conv net and then fully connected network

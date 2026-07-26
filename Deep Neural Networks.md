@@ -1,0 +1,1 @@
+This is again [[Neural Network]] using multi layered [[Perceptron]]. Deep networks have the issue of Vanishing gradients and exploding gradients during [[Backpropagation]] and therefore most of current [[Deep Neural Networks]] are [[Residual Networks]].

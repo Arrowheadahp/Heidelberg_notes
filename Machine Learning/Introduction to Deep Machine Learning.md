@@ -2,7 +2,7 @@ Roadmap:
 
 1. [[Types of Machine Learning problems]]
 2. [[Decision Trees]]
-3. [[Deep Learning]] (Discriminative Models)
+3. [[Different types of Neural Networks]] (Discriminative Models)
 	1. [[Neural Network]]
 	2. [[Convolutional Neural Networks]]
 4. Image Classification: [[ResNet]]

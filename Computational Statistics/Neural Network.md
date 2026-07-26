@@ -1,23 +1,11 @@
-This is multiple [[Perceptron]] working one after the other on each other's outputs. This is also known as multi-layer perceptron. It is also called "Feed Forward Neural Network"
+This is multiple [[Perceptron]] working one after the other on each other's outputs. This is also known as multi-layer perceptron, Feed Forward Neural Network, [[Deep Neural Networks]], etc. 
 
-The [[Activation Functions]] make it better. Otherwise it would essentially become a [[Linear Model]].
+[[Universal Update Template]] says that any boundary or function in n dimensions can be approximated with finite number of hyperplanes, the neurons are trying to simulate those hyperplanes. So with enough neurons, any decision boundary or any function can be approximated.
 
-Any boundary or function in n dimensions can be approximated with finite number of hyperplanes, the neurons are trying to simulate those hyperplanes. So with enough neurons, any decision boundary or any function can be approximated.
-
-[[Probability Rules]]
-[[Derivative Rules]]
-
-[[^Chain Rule]] is more important for the back propagation
-
-- Encode output with 1-k encoding: \[0, 0, 1, 0]
-- Define a [[Loss Function]] *L*(w)
-- Find the optimal parameters that minimizes the [[Loss Function]].
-  $$ \textbf{w}^* = argmin(\textit{L}(\textbf{w})) $$
-
-
+The [[Perceptron]]s are layered one by one and the layers between the input layer and the output layer are called hidden layers. Each [[Perceptron]] ends in an [[Activation Functions]], which has to non-linear otherwise the whole network becomes linear. In practice ==Batch Normalization== is also added between layers.
 
 The optimal parameters can be found by minimising the [[Loss Function]] using [[Backpropagation]]. 
 
-To avoid the [[Overfitting]], there are different options for [[Generalization]]:
+To avoid the [[Overfitting]], there are different options for [[Generalization]]
 
 

@@ -1,0 +1,1 @@
+A feed forward [[Neural Network]] with a single hidden layer and a finite number of neurons can approximate any continuous function to any desired accuracy provided the [[Activation Functions]] is non-linear and continuous.
