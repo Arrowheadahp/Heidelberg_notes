@@ -53,7 +53,7 @@ Content:
 	4. [[k-Nearest Neighbours]]
 	5. [[Logistic Regression]]
 	6. [[Deep Neural Networks]]
-11. [[Bias Variance Tradeoff]]
+11. [[Bias Variance Trade-off]]
 	1. [[Cross-Validation]]
 	2. [[AIC]], [[BIC]]
 	3. [[Regularization]]

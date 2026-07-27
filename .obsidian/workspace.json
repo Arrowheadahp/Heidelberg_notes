@@ -6,6 +6,7 @@
       {
         "id": "fcd9b1853eb941bc",
         "type": "tabs",
+        "dimension": 75.26809651474531,
         "children": [
           {
             "id": "ff76306f28ab3e5a",
@@ -20,53 +21,66 @@
               "icon": "lucide-file",
               "title": "Computational Statistics and Data Analysis"
             },
-            "group": "49de9115e44579cc"
+            "group": "939e3d4e0dffcad1"
           }
         ]
       },
       {
-        "id": "3ab167d17a73f7e5",
-        "type": "tabs",
+        "id": "de686ba59a7a5acd",
+        "type": "split",
+        "dimension": 24.731903485254687,
         "children": [
           {
-            "id": "952b55016e3d71ce",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Computational Statistics/Computational Statistics and Data Analysis.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "-tag:#moc  ",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": true,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7132754626224413,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of Computational Statistics and Data Analysis"
-            },
-            "group": "49de9115e44579cc"
+            "id": "6c9978adf5bb6120",
+            "type": "tabs",
+            "dimension": 63.725490196078425,
+            "children": [
+              {
+                "id": "4a378839cf798d6e",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Computational Statistics/Computational Statistics and Data Analysis.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "byCreatedTimeReverse",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Computational Statistics and Data Analysis"
+                },
+                "group": "939e3d4e0dffcad1"
+              }
+            ]
+          },
+          {
+            "id": "8ac16d3a721104e5",
+            "type": "tabs",
+            "dimension": 36.27450980392157,
+            "children": [
+              {
+                "id": "31fd4e1e4137778d",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Computational Statistics/Computational Statistics and Data Analysis.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Computational Statistics and Data Analysis"
+                },
+                "group": "939e3d4e0dffcad1"
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -123,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "2691f505943780f4",
@@ -243,35 +258,35 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ff6c9a2c5b016dfe",
+  "active": "ff76306f28ab3e5a",
   "lastOpenFiles": [
-    "Computational Statistics/Dimensionality Reduction.md",
+    "Computational Statistics/QDA.md",
     "Computational Statistics/Computational Statistics and Data Analysis.md",
+    "Computational Statistics/LDA.md",
+    "Computational Statistics/Local Linear Regression.md",
+    "Computational Statistics/GLM (General Linear Model).md",
+    "Computational Statistics/Statistical Tests.md",
+    "Computational Statistics/General alpha test procedure.md",
+    "Computational Statistics/Asymptotic Tests.md",
+    "Computational Statistics/Gradient Descent.md",
+    "Computational Statistics/Stochastic Gradient Descent (SGD).md",
+    "Computational Statistics/Principles of Statistical Estimation.md",
+    "Computational Statistics/Squared Error.md",
+    "Computational Statistics/Properties of Statistical Estimators.md",
+    "Computational Statistics/Exponential Family.md",
+    "Computational Statistics/Multivariate Probability Distributions.md",
+    "Computational Statistics/Gaussian Distribution.md",
+    "Computer Vision/Box Filter.md",
+    "Computational Statistics/Probability Models.md",
+    "Computational Statistics/Covariance.md",
+    "Computational Statistics/Bias Variance Trade-off.md",
+    "Computational Statistics/Iterative Estimation Methods.md",
+    "Computational Statistics/Probability Rules.md",
+    "Computational Statistics/Random Variables.md",
+    "Computational Statistics/Dimensionality Reduction.md",
     "Computational Statistics/Kernel-PCA.md",
     "Untitled.canvas",
-    "Computational Statistics/LDA.md",
-    "Computational Statistics/QDA.md",
     "Computational Statistics/PCA.md",
-    "Computational Statistics/Covariance matrix.md",
-    "Computational Statistics/Covariance.md",
-    "Computational Statistics/SVM.md",
-    "Computational Statistics/Ridge Regression.md",
-    "Computational Statistics/Squared Error.md",
-    "Computational Statistics/Lasso Regression.md",
-    "Computational Statistics/Loss Function.md",
-    "Computational Statistics/Regularization.md",
-    "Computational Statistics/Bias Variance Tradeoff.md",
-    "Mean Squared Error.md",
-    "Machine Learning/Deep Neural Networks.md",
-    "Computational Statistics/Neural Network.md",
-    "Computational Statistics/Cross Entropy.md",
-    "Machine Learning/Activation Functions.md",
-    "Machine Learning/Generalization.md",
-    "Computational Statistics/Perceptron.md",
-    "Computational Statistics/Logistic Regression.md",
-    "Computational Statistics/k-Nearest Neighbours.md",
-    "Reinforcement Learning/Linear Function Approximation in RL.md",
-    "Computational Statistics/Feature Construction for Linear Methods.md",
     "Images/Pasted image 20260725143447.png",
     "Images/Pasted image 20260721173516.png",
     "Machine Learning",

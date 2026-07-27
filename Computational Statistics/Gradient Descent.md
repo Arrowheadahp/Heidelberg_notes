@@ -12,4 +12,4 @@ This is the most used type of [[Iterative Estimation Methods]], where we try to 
 1. Staring from multiple places
 2. Adding Noise to GD
 
-Most common method: [[Stochastic Gradient Descent (SGD)]].
+Most common method: ![[Stochastic Gradient Descent (SGD)]].
