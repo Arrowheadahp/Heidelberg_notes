@@ -1,0 +1,1 @@
+This is same as [[PCA]] but before maximising [[Variance]], we use a kernel function G.

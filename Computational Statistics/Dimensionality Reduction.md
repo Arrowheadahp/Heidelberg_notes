@@ -5,4 +5,9 @@ The methods are
 	2. [[LDA]]
 	3. Multi-Dimensional Scaling
 2. Non-Linear methods
-	1. 
+	1. [[Kernel-PCA]]
+	2. SNE
+	3. t-SNE: SNE but using t-distribution instead of [[Gaussian Distribution]]
+	4. [[Auto-Encoders]]
+	5. Deep [[Auto-Encoders]].
+	6. Independent Component Analysis

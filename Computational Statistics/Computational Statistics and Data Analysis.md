@@ -1,5 +1,5 @@
 #moc
-Contents:
+Content:
 1. [[Probability Models]]: 
 	1. [[Probability Rules]]
 	2. [[Random Variables]]
