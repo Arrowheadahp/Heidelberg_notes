@@ -6,7 +6,7 @@ Principles:
 3. Kernel Functions
 
 The boundary given by $\beta$ is calculated such that
-$$\hat\beta= \arg\max_\beta\left[\min_i\frac{c_i(x_i\beta)}{||\beta||} \right]$$where $c_i(x_i\beta)=1$ for closest point and higher for other points
+$$\hat\beta= \arg\max_\beta\left[\min_i\frac{c_i(x_i\beta)}{||\beta||} \right]$$where $c_i(x_i\beta)=1$ for closest point and higher for other points. This is done buy [[Lagrange Multiplier]]
 ### Basis Expansion
 #### Polynomial
 Each feature follows the following formula:$$\prod_{i=1}^ks_i^{c_i}\forall c\in\{0,1, 2,...n\} $$
