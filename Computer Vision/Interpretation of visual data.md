@@ -1,1 +1,0 @@
-Prior knowledge can be used to make better responses

@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "-tag:#overview  -tag:#moc ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
-  "collapse-color-groups": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Machine Learning\"  ",
@@ -46,6 +46,6 @@
   "repelStrength": 10.7291666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.16348370567220477,
+  "scale": 0.11660891579457303,
   "close": true
 }

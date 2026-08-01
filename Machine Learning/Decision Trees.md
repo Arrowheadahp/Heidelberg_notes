@@ -16,7 +16,7 @@ Here p(c) means fraction of class c in the split
 > Think of the Shannon's Entropy as the [[Loss Function]] and minimizing it will give the decision boundaries
 
 [[Overfitting]] can be avoided in this case by 
-1. placing the decision boundaries midway between bordering objects
+1. placing the decision boundaries midway between bordering objects ([[SVM]])
 2. Not making the tree too deep
 [[Generalization]]: Overfit model does not generalize well.
  

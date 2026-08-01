@@ -9,6 +9,6 @@
 
 > [!think] Finding optimum function
 > Sigmoid is better for learning than step function
-> Leaky ReLU is better than ReLU for learning
+> Leaky ReLU is better than ReLU for learning because it avoids Vanishing Gradients
 
 
