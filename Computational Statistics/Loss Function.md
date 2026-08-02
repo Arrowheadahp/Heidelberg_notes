@@ -12,4 +12,4 @@ Generally, the objective of a model is to find the $\arg\min_w\mathcal L$ which 
 ### ![[Squared Error]]
 ### ![[Cross Entropy]] 
 
-[[Precision-Recall Curve]] can also be used to quantify how good a model is in tasks like labelling.
+![[Precision-Recall Curve]] can also be used to quantify how good a model is in tasks like labelling.
