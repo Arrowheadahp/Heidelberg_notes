@@ -5,7 +5,7 @@ $$
   - x = the input 
   - w = the weights
   - t = true output
-  - *R*(w) = [[Regularization]] of weights
+  - *R*(w) = [[Regularization]] of weights for the purpose of [[Generalization]]
   - N = number of examples
 
 Generally, the objective of a model is to find the $\arg\min_w\mathcal L$ which is found by [[Gradient Descent]].

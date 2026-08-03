@@ -15,6 +15,7 @@
 1. [[Online Learning]]
 2. Continual Learning
 3. Self-Supervised Learning
-4. [[Active and Semi-Supervised Learning]]
-5. [[Pretext Task]]: Train for problem A, fine-tune for problem B
+4. [[Active Learning]]
+5. [[Semi-Supervised Learning]]
+6. [[Pretext Task]]: Train for problem A, fine-tune for problem B
 

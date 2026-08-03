@@ -1,3 +1,4 @@
+
 Content:
 1. What is an Image
 	   2d matrix of discrete integers showing amount of light falling on the sensor in often 8 bit.

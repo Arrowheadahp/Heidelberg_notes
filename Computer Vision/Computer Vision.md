@@ -11,9 +11,11 @@ Computer Vision can be understood as inverse graphics(rendering).
 	4. [[Different types of Neural Networks]] (Discriminative Models)
 		1. [[Neural Network]]
 		2. [[Convolutional Neural Networks]]
+		3. [[Pretext Task]]
 	5. Image Classification: [[ResNet]]
 	6. Semantic Segmentation: [[U-Net]]
-	7. [[Active and Semi-Supervised Learning]]
+	7. [[Active Learning]]
+	8. [[Semi-Supervised Learning]]
 3. [[Basics of Image Processing]]
 4. Basics of [[Projective Geometry]]
 5. What is [[Camera]]?

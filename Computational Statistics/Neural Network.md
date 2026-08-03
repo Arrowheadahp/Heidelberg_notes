@@ -6,6 +6,6 @@ The [[Perceptron]]s are layered one by one and the layers between the input laye
 
 The optimal parameters can be found by minimising the [[Loss Function]] using [[Backpropagation]]. 
 
-To avoid the [[Overfitting]], there are different options for [[Generalization]]
+To avoid the [[Overfitting]], there are different options for ![[Generalization]]
 
 
