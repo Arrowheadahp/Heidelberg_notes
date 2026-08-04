@@ -363,13 +363,15 @@
         "y": 132,
         "width": 1182,
         "height": 778,
-        "maximize": false,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "ff76306f28ab3e5a",
+  "active": "174f34dfe8ddb24c",
   "lastOpenFiles": [
+    "Machine Learning/Types of Machine Learning problems.md",
+    "Computer Vision/Multi-Scale Image Representation.md",
     "Computer Vision/Basics of Image Processing.md",
     "Computer Vision/Computer Vision.md",
     "Computer Vision/Sources of Noise.md",
@@ -394,8 +396,6 @@
     "Computational Statistics/SVM.md",
     "Computational Statistics/Neural Network.md",
     "Computational Statistics/Regularization.md",
-    "Computational Statistics/Lasso Regression.md",
-    "Machine Learning/Types of Machine Learning problems.md",
     "Untitled.canvas",
     "Images/Pasted image 20260725143447.png",
     "Images/Pasted image 20260721173516.png",
