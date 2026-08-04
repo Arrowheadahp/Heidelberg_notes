@@ -6,4 +6,5 @@ There are 2 types of Image Filtering
 	1. [[Median Filter]]
 	2. [[Bilateral Filter]]
 	3. [[Morphological Operations]]
-	4. etc
+	4. [[Non-Maximum Suppression]]
+	5. etc

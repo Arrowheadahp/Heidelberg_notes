@@ -26,7 +26,8 @@ Computer Vision can be understood as inverse graphics(rendering).
 			1. [[Median Filter]]
 			2. [[Bilateral Filter]]
 			3. [[Morphological Operations]]
-	2. 
+	2. [[Multi-Scale Image Representation]]
+	3. [[Edge Detection and Linking]]
 4. Basics of [[Projective Geometry]]
 5. What is [[Camera]]?
 6. [[3D Reconstruction]]
