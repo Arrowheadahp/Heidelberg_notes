@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Harris Detector.md",
+                "file": "Computer Vision/Interest Point Detection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Harris Detector"
+              "title": "Interest Point Detection"
             },
             "group": "939e3d4e0dffcad1"
           },
@@ -50,7 +50,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Harris Detector.md",
+                "file": "Computer Vision/Interest Point Detection.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -60,7 +60,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Harris Detector"
+              "title": "Backlinks for Interest Point Detection"
             },
             "group": "939e3d4e0dffcad1"
           }
@@ -266,7 +266,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Computer Vision/Harris Detector.md",
+                    "file": "Computer Vision/Interest Point Detection.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-tag:#overview  -tag:#moc ",
@@ -323,7 +323,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Harris Detector"
+                  "title": "Graph of Interest Point Detection"
                 },
                 "group": "939e3d4e0dffcad1"
               }
@@ -364,15 +364,16 @@
         "y": 132,
         "width": 1182,
         "height": 778,
-        "maximize": false,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
   "active": "ff76306f28ab3e5a",
   "lastOpenFiles": [
-    "Computer Vision/Interest Point Detection.md",
+    "Computational Statistics/Loss Function.md",
     "Computer Vision/Harris Detector.md",
+    "Computer Vision/Interest Point Detection.md",
     "Pasted image 20260804191440.png",
     "Computer Vision/Sobel Filter.md",
     "Computer Vision/List of Convolution Filters.md",
@@ -385,7 +386,6 @@
     "Machine Learning/Precision.md",
     "Machine Learning/Precision-Recall Curve.md",
     "Pasted image 20260804183224.png",
-    "Computational Statistics/Loss Function.md",
     "Linking for Edge Chains.md",
     "Hysteresis.md",
     "Computer Vision/Image Filtering.md",
