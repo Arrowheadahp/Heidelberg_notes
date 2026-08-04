@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linking for Edge Chains.md",
+                "file": "Computer Vision/Harris Detector.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linking for Edge Chains"
+              "title": "Harris Detector"
             },
             "group": "939e3d4e0dffcad1"
           },
@@ -50,7 +50,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linking for Edge Chains.md",
+                "file": "Computer Vision/Harris Detector.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byCreatedTimeReverse",
@@ -60,7 +60,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linking for Edge Chains"
+              "title": "Backlinks for Harris Detector"
             },
             "group": "939e3d4e0dffcad1"
           }
@@ -266,7 +266,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Linking for Edge Chains.md",
+                    "file": "Computer Vision/Harris Detector.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-tag:#overview  -tag:#moc ",
@@ -323,7 +323,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Linking for Edge Chains"
+                  "title": "Graph of Harris Detector"
                 },
                 "group": "939e3d4e0dffcad1"
               }
@@ -371,15 +371,25 @@
   },
   "active": "ff76306f28ab3e5a",
   "lastOpenFiles": [
+    "Computer Vision/Interest Point Detection.md",
+    "Computer Vision/Harris Detector.md",
+    "Pasted image 20260804191440.png",
+    "Computer Vision/Sobel Filter.md",
+    "Computer Vision/List of Convolution Filters.md",
+    "Non-Maximum Suppression.md",
     "Computer Vision/Computer Vision.md",
     "Computer Vision/Basics of Image Processing.md",
-    "Computer Vision/Image Filtering.md",
-    "Linking for Edge Chains.md",
-    "Non-Maximum Suppression.md",
     "Computer Vision/Edge Detection and Linking.md",
-    "Computer Vision/Sobel Filter.md",
+    "Precision and Recall.md",
+    "Machine Learning/Recall.md",
+    "Machine Learning/Precision.md",
+    "Machine Learning/Precision-Recall Curve.md",
+    "Pasted image 20260804183224.png",
+    "Computational Statistics/Loss Function.md",
+    "Linking for Edge Chains.md",
+    "Hysteresis.md",
+    "Computer Vision/Image Filtering.md",
     "Edge Detection.md",
-    "Computer Vision/List of Convolution Filters.md",
     "Computer Vision/Properties of Convolution.md",
     "Computer Vision/Multi-Scale Image Representation.md",
     "Pasted image 20260804141241.png",
@@ -389,15 +399,6 @@
     "Computer Vision/Morphological Operations.md",
     "Computer Vision/Bilateral Filter.md",
     "Computer Vision/Median Filter.md",
-    "Computer Vision/Image Convolution.md",
-    "Computer Vision/Computation of Convolutions.md",
-    "Computer Vision/Convolutional Neural Networks.md",
-    "Computer Vision/Padding.md",
-    "Computer Vision/Gaussian Filter.md",
-    "Computational Statistics/Gaussian Distribution.md",
-    "Computer Vision/Box Filter.md",
-    "Computer Vision/Pretext Task.md",
-    "Computational Statistics/Different types of Neural Networks.md",
     "Untitled.canvas",
     "Images/Pasted image 20260725143447.png",
     "Images/Pasted image 20260721173516.png",
@@ -413,8 +414,6 @@
     "Images/Pasted image 20260716180024.png",
     "Images/Pasted image 20260714195138.png",
     "Untitled.base",
-    "Images/Pasted image 20260626193621.png",
-    "Images/Pasted image 20260626191632.png",
     "Fundamental",
     "New Text Document.txt",
     "Images"

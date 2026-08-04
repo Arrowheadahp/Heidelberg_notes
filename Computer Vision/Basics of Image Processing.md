@@ -1,3 +1,4 @@
+#moc 
 ### Why Image processing in the age of AI
 If there exists a sensible algorithm then Deep Learning can be avoided. Pre processing and post processing is still required for Deep Learning.
 ### Content:

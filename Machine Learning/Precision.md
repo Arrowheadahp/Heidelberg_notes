@@ -1,3 +1,3 @@
 Precision is calculated by the 
-$$P = \frac{True\ positive}{Total\ number\ of\ items\ in\ result}
+$$P = \frac{True\ positive}{Number\ of\ items\ predicted\ to\ be\ truth}
 $$
