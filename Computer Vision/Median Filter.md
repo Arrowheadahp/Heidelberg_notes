@@ -1,6 +1,4 @@
-This is another good method for [[Noise Removal]] and it works better than [[Box Filter]]. 
-
-It is very good to remove outliers that come with shot noise.
+This is another good method for [[Noise Removal]] and it works better than [[Box Filter]]. It is very good to remove outliers that come with shot noise. It is used for post processing in many applications.
 
 Here the true value $y_r^*$ is 
 $$
@@ -9,7 +7,7 @@ $$
 where 
 $$ p(y|x) = p(x|y) \sim \prod_{r}\prod_{r^`\in W(r)}{e^{-\frac{|x_{r^`}-y_r|}{2\sigma^2}}} 
 $$
-So$$ 
+So, using the same method as in [[Box Filter]], and getting the [[Maximum Likelihood]]$$ 
 log(y^*) = -\frac{1}{2\sigma^2}\sum_{r^`\in W(r)}{|x_{r^`}-y_r|}
 $$
 It is not Differentiable but it is convex.

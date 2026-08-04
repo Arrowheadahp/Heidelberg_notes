@@ -1,22 +1,15 @@
 Replace each pixel by a linear combination of its neighbours and itself
 ![[Pasted image 20260506000307.png]]
 
-[[Properties of Convolution]]
-Linear, Associative, Commutative, Can be written as a matrix
+### [[Properties of Convolution]]
+Linear, Associative, Commutative, Can be written as a matrix.
+Convolution decreases the size of the image which can be counteracted by [[Padding]]
 
+### Filters
+![[List of Convolution Filters]]
 
-Filters
-1. [[Box Filter]] is a filter (also called kernel) that helps in blurring and [[Noise Removal]]
-2. [[Sobel Filter]] can be used for [[Edge Detection and Linking]]
-3. etc
+### [[Computation of Convolutions]]
 
-
-> [!NOTE] Applications
-> [[Noise Removal]]
-
-
->[!Note] Computation
-> Fastest way to compute is to have a matrix vector product: $B*I=R$
-  >>Where B is band matrix, I is vector with image, R is resulting image vector
-  >This is the best for GPU
  
+Convolution can also sharpen an image as well by amplifying what "smoothing can remove"
+$$ F_{sharp}=F+\gamma(F-h_{blur}*F)$$

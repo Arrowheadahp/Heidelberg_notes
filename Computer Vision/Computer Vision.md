@@ -17,6 +17,16 @@ Computer Vision can be understood as inverse graphics(rendering).
 	7. [[Active Learning]]
 	8. [[Semi-Supervised Learning]]
 3. [[Basics of Image Processing]]
+	1. [[Image Filtering]]
+		1. [[Image Convolution]]
+			1. [[Properties of Convolution]]
+			2. [[List of Convolution Filters]]
+			3. [[Computation of Convolutions]]
+		2. Non-Linear Filtering
+			1. [[Median Filter]]
+			2. [[Bilateral Filter]]
+			3. [[Morphological Operations]]
+	2. 
 4. Basics of [[Projective Geometry]]
 5. What is [[Camera]]?
 6. [[3D Reconstruction]]

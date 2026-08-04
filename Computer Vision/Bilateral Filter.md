@@ -6,6 +6,6 @@ This looks at
 
 Computation is O(Nw). Approximation can be done in O(N).
 
->Joint bilateral Filter can be used to get the edges from one image and use it to [[Image Filtering]] another image
+>[!Note] Joint bilateral Filter can be used to get the edges from one image and use it to [[Image Filtering]] another image
 
-It can also be used in HDR compression, cartoonization, edge detection
+It can also be used in HDR compression, cartoonization, [[Edge Detection and Linking]]

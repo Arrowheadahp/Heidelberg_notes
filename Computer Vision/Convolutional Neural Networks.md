@@ -1,5 +1,5 @@
 ## Convolution Layer
-This is a way to analyse pictures by using multiple filters ([[Image Convolution]]) over the pixels. Example a 11\*11\*3\*100 is a 11\*11 convolution that is happening over 3 channels (RGB) and there are 100 of them. 
+This is a way to analyse pictures by using multiple filters ([[Image Convolution]]) over the pixels. Example a 11\*11\*3\*100 is a 11\*11 convolution that is happening over 3 channels (RGB) and there are 100 of them. The image may be padded with [[Padding]].
 ## Pooling Layer
 This is to get the some value from its neighbouring "pixels". The most used one is the max pooling layer. This is so that the pixels where the filters give large values stay and the rest don't. others exist such as average pooling layer, etc.
 ### Flattening layer

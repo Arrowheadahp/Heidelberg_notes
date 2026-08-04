@@ -15,7 +15,7 @@
 1. [[Online Learning]]
 2. Continual Learning
 3. Self-Supervised Learning
-4. [[Active Learning]]
-5. [[Semi-Supervised Learning]]
+4. [[Active Learning]]: the model asks labels for ambiguous values.
+5. [[Semi-Supervised Learning]]: trying to predict obscured part of the data with the rest of the data
 6. [[Pretext Task]]: Train for problem A, fine-tune for problem B
 

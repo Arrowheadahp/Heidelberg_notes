@@ -5,6 +5,6 @@ The loss function is   $$
 This makes so that with small amount of data the weights do not overfit, so it works as a smoothener
 
 3 most used regularization:
-1. L1 regularization ([[Lasso Regression]])
-2. L2 regularization ([[Ridge Regression]])
+1. L1 regularization (![[Lasso Regression]])
+2. L2 regularization (![[Ridge Regression]])
 3. Elastic Net regularization (Combination of Ridge and Lasso)

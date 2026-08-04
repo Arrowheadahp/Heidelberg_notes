@@ -1,8 +1,7 @@
-For the purpose of [[Noise Removal]], If the noise added follows [[Gaussian Distribution]], it can be derived that the best filter to get the true value is a [[Box Filter]]
+For the purpose of [[Noise Removal]], If the noise added follows [[Gaussian Distribution]], it can be derived that the best filter to get the true value is a [[Box Filter]] assuming the ==neighbouring pixels are uncorrelated==.
 
 $$ \frac{1}{9}\begin{bmatrix}1 & 1 & 1 \\1 & 1 & 1 \\1 & 1 & 1 \\\end{bmatrix} $$
 ### Proof of box filter as optimal under gaussian noise
-
 Since the noise is [[Gaussian Distribution]]:
 $$ p(x_r|y_r)=N(x_r;y_r,\sigma) \sim e^{-\frac{(x_r-y_r)^2}{2\sigma^2}} $$
 $y_r$ is real value
@@ -13,8 +12,8 @@ $$
 Assuming $p(y)$ and $p(x)$ are constants
 $$ p(y|x) = p(x|y) \sim \prod_{r}\prod_{r^`\in W(r)}{e^{-\frac{(x_{r^`}-y_r)^2}{2\sigma^2}}} 
 $$
-W is the small vicinity, r is each pixel
-$$ y^* = argmax_y (p(y|x)) $$
+W is the small vicinity, r is each pixel. By using [[Maximum Likelihood]]
+$$ y^* = \arg\max_y (p(y|x)) $$
 For single pixel,
 $$ log(y^*) = -\frac{1}{2\sigma^2}\sum_{r^`\in W(r)}{(x_{r^`}-y_r)^2}
 $$

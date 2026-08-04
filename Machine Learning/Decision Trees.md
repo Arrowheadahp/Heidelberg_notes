@@ -1,10 +1,11 @@
-Splitting the domain space recursively using decisions to make uniform-ish spaces. It is done by maximizing Information gain.
+Splitting the domain space recursively using decisions to make uniform-ish spaces. 
 ![[Pasted image 20260428190643.png]]
 
-$$
+
+It is done by maximizing Information gain.$$
 I(S, \theta) = H(S) - \sum_{i\in L,R} \frac{|S_i|}{|S|}H(S_i)
 $$
-Here S is the number of objects.
+Here $|S|$ is the number of objects. i is for each division by the tree.
 
 Entropy equation: Shannon's Entropy
 $$
