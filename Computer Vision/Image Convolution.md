@@ -11,5 +11,5 @@ Convolution decreases the size of the image which can be counteracted by [[Paddi
 ### [[Computation of Convolutions]]
 
  
-Convolution can also sharpen an image as well by amplifying what "smoothing can remove"
+>[!note] Convolution can also sharpen an image as well by amplifying what "smoothing can remove"
 $$ F_{sharp}=F+\gamma(F-h_{blur}*F)$$

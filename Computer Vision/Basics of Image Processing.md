@@ -12,5 +12,5 @@ If there exists a sensible algorithm then Deep Learning can be avoided. Pre proc
    Trade-off between Aperture Size, Shutter Speed and ISO
    [[Sources of Noise]]
 5. [[Multi-Scale Image Representation]]
-6. [[Edge Detection and Linking]]
-7. [[Interest Point Detection]]
+6. ==[[Edge Detection and Linking]]==
+7. ==[[Interest Point Detection]]==

@@ -2,7 +2,7 @@ This is an algorithm to perform [[Interest Point Detection]].
 https://youtu.be/Z_HwkG90Yvw?si=0HpuL0pW1hRSj2Kf
 ### Algorithm:
 1. First we find the derivatives of the image using [[Sobel Filter]] in both x and y directions.
-2. We then plot the gradients in Ix vs Iy
+2. We then plot the gradients in $I_x$ vs $I_y$
 3. We fit an ellipse on the distribution. see image. This is done by getting the max moment of inertia and min moment of inertia. These are $\lambda_1$ and $\lambda_2$.
 4. We calculate the Harris Corner Response function:$$ R = \lambda_1 \lambda_2 - k(\lambda_1+\lambda_2)^2
 $$R is the H-Score
