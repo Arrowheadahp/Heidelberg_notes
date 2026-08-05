@@ -71,7 +71,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTime",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -107,8 +109,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -330,12 +331,12 @@
     "Computer Vision/Harris Detector.md",
     "Computer Vision/Basics of Image Processing.md",
     "Computer Vision/Edge Detection and Linking.md",
-    "Precision and Recall.md",
-    "Linking for Edge Chains.md",
-    "Hysteresis.md",
-    "Pasted image 20260805131550.png",
-    "Non-Maximum Suppression.md",
-    "Edge Detection.md",
+    "Machine Learning/Precision and Recall.md",
+    "Computer Vision/Linking for Edge Chains.md",
+    "Computer Vision/Hysteresis.md",
+    "Images/Pasted image 20260805131550.png",
+    "Computer Vision/Non-Maximum Suppression.md",
+    "Computer Vision/Edge Detection.md",
     "Computer Vision/Sobel Filter.md",
     "Computer Vision/Multi-Scale Image Representation.md",
     "Computer Vision/Morphological Operations.md",
@@ -347,12 +348,12 @@
     "Computer Vision/Computation of Convolutions.md",
     "Computer Vision/List of Convolution Filters.md",
     "Computer Vision/Padding.md",
-    "Pasted image 20260805113919.png",
+    "Images/Pasted image 20260805113919.png",
     "Computer Vision/Gaussian Filter.md",
     "Computer Vision/Box Filter.md",
-    "Pasted image 20260804191440.png",
-    "Pasted image 20260804183224.png",
-    "Pasted image 20260804141241.png",
+    "Images/Pasted image 20260804191440.png",
+    "Images/Pasted image 20260804183224.png",
+    "Images/Pasted image 20260804141241.png",
     "Machine Learning/Semi-Supervised Learning.md",
     "Machine Learning/Active Learning.md",
     "Computer Vision/ResNet.md",
