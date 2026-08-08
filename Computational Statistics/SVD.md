@@ -8,7 +8,7 @@ $$ A = UDV^T$$
 - Where U is an orthogonal matrix that does a rotation. It is the normalized eigen vectors of $S_R = A^TA$ arranging in descending order. Since we multiply $V^T$ so we are rotating the opposite way of $V$ since transpose of an orthogonal matrix is its inverse.
 
 So when we are transforming by $A$ means that we are sequentially doing 
-1. $V^T$ first meaning rotating the opposite way of the eigen vectors.
+1. $V^T$ first, meaning rotating the opposite way of the eigen vectors.
 2. $D = [\sigma_i]  I_{mxn}$ = So it stretches and removes/ adds dimension to become same dimension as A.
 3. $U$ is another rotation in the correct way.
 
