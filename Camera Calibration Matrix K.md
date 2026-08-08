@@ -10,8 +10,8 @@ in the image coordinate system where the
 - $s$ is the skew because of non-rectangular matrix.
 ![[Pasted image 20260808151557.png]]
 
-
-> [!NOTE] Orthogonal Projection
-> When the focal length is $f\to\infty$, then it is called orthogonal or parallel projection. Here FOV is the lowest.
+> [!NOTE] K has 5 Degrees of Freedom
+### Orthogonal Projection
+When the focal length is $f\to\infty$, then it is called orthogonal or parallel projection. Here FOV is the lowest.
 
 

@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pinhole Camera.md",
+                "file": "Computer Vision/Interest Point Detection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pinhole Camera"
+              "title": "Interest Point Detection"
             },
             "group": "939e3d4e0dffcad1"
+          },
+          {
+            "id": "22c9be560c90de2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Vision/Computer Vision.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Computer Vision"
+            }
           }
         ]
       }
@@ -102,17 +116,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computational Statistics/Computational Statistics and Data Analysis.md",
-                "collapseAll": false,
-                "extraContext": true,
+                "file": "Computer Vision/Interest Point Detection.md",
+                "collapseAll": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Computational Statistics and Data Analysis"
+              "title": "Backlinks"
             }
           },
           {
@@ -160,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pinhole Camera.md",
+                "file": "Computer Vision/Interest Point Detection.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -175,7 +189,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Pinhole Camera.md",
+                "file": "Computer Vision/Interest Point Detection.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,7 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 469.5
+    "width": 350.2999267578125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,7 +260,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Pinhole Camera.md",
+                    "file": "Computer Vision/Interest Point Detection.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "-tag:#overview  -tag:#moc ",
@@ -303,7 +317,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Pinhole Camera"
+                  "title": "Graph of Interest Point Detection"
                 },
                 "group": "939e3d4e0dffcad1"
               }
@@ -322,20 +336,26 @@
   },
   "active": "dca61c263145489b",
   "lastOpenFiles": [
-    "Pinhole Camera.md",
-    "Computer Vision/Camera.md",
     "Computer Vision/Computer Vision.md",
-    "Computational Statistics/Different types of Neural Networks.md",
-    "Camera Matrix.md",
-    "Computational Statistics/SVD.md",
+    "Computer Vision/Interest Point Detection.md",
+    "Computer Vision/Harris Detector.md",
+    "Computer Vision/Appearance Based Matching.md",
     "Computer Vision/3D Reconstruction.md",
+    "Computer Vision/Camera.md",
     "Lens Effects.md",
-    "Camera Calibration Matrix.md",
+    "Camera Calibration.md",
+    "Camera Matrix P.md",
+    "Camera Calibration Matrix K.md",
+    "Pasted image 20260808170831.png",
+    "Pasted image 20260808170812.png",
+    "Solving Homogenous Linear Systems.md",
+    "Pinhole Camera.md",
+    "Computational Statistics/Different types of Neural Networks.md",
+    "Computational Statistics/SVD.md",
     "Pasted image 20260808151557.png",
     "Pasted image 20260808150630.png",
     "Pasted image 20260808145627.png",
     "Computer Vision/Projective Geometry.md",
-    "Computer Vision/Interest Point Detection.md",
     "Machine Learning/Precision and Recall.md",
     "Images/Pasted image 20260805131550.png",
     "Images/Pasted image 20260805113919.png",
@@ -347,17 +367,11 @@
     "Computer Vision/Hysteresis.md",
     "Computer Vision/Edge Detection.md",
     "Computational Statistics/Loss Function.md",
-    "Computer Vision/Harris Detector.md",
-    "Pasted image 20260804191440.png",
     "Computer Vision/Sobel Filter.md",
     "Computer Vision/List of Convolution Filters.md",
     "Non-Maximum Suppression.md",
     "Computer Vision/Basics of Image Processing.md",
     "Computer Vision/Edge Detection and Linking.md",
-    "Precision and Recall.md",
-    "Machine Learning/Recall.md",
-    "Machine Learning/Precision.md",
-    "Pasted image 20260804183224.png",
     "Untitled.canvas",
     "Machine Learning",
     "$",

@@ -1,4 +1,3 @@
-
 > [!Objective] Objective
 > Match Interest points in a 3d scene. 
 

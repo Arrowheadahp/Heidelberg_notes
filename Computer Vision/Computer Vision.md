@@ -31,6 +31,12 @@ Computer Vision can be understood as inverse graphics(rendering).
 	4. [[Interest Point Detection]]
 4. Basics of [[Projective Geometry]]
 5. What is [[Camera]]?
+	1. [[Pinhole Camera]]
+	2. [[Camera Matrix P]]
+		1. [[Camera Calibration Matrix K]]
+		2. [[Camera Calibration]]
+	3. [[Solving Homogenous Linear Systems]]
+	4. [[Lens Effects]]
 6. [[3D Reconstruction]]
 7. [[New View Synthesis]] and [[Graphics]]
 8. [[Object Recognition]]

@@ -1,0 +1,2 @@
+For ==Inhomogeneous systems==, the result of x in the equation $Ax=b$ is $$x^*=\arg\min_x||Ax-b||^2_2=(A^TA)^{-1}A^Tb $$
+For Homogeneous Systems, the result of x in the equation $Ax=0$ is found using $x^*=\arg\min_x||Ax-b||^2_2$ while $||x||^2_2=1$. This solving requires [[SVD]].
