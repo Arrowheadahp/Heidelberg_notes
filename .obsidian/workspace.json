@@ -13,27 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Appearance Based Matching.md",
+                "file": "Computer Vision/Fundamental and Essential Matrix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Appearance Based Matching"
-            },
-            "group": "939e3d4e0dffcad1"
-          },
-          {
-            "id": "22c9be560c90de2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Vision/Camera Calibration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Camera Calibration"
+              "title": "Fundamental and Essential Matrix"
             }
           },
           {
@@ -42,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/3D Reconstruction.md",
+                "file": "Computer Vision Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3D Reconstruction"
+              "title": "Computer Vision Overview"
             }
           }
         ]
@@ -84,11 +69,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "threshold",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -108,11 +93,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2691f505943780f4",
@@ -128,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Appearance Based Matching.md",
+                "file": "Computer Vision/Fundamental and Essential Matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Vision/Appearance Based Matching.md",
+                "file": "Computer Vision/Fundamental and Essential Matrix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -194,50 +181,13 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "07b2d723c05edf3e",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Computer Vision/Appearance Based Matching.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Local graph"
-            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 350.2999267578125
+    "width": 260.699951171875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,11 +209,11 @@
     "type": "floating",
     "children": [
       {
-        "id": "6b1de38c18e79d57",
+        "id": "7e1bf6de390b04aa",
         "type": "window",
         "children": [
           {
-            "id": "b66c7fff74e69e62",
+            "id": "9bc9e02dfbc361f0",
             "type": "tabs",
             "children": [
               {
@@ -272,14 +222,14 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Computer Vision/Appearance Based Matching.md",
+                    "file": "Computer Vision/Fundamental and Essential Matrix.md",
                     "options": {
-                      "collapse-filter": true,
+                      "collapse-filter": false,
                       "search": "-tag:#overview  -tag:#moc ",
-                      "localJumps": 2,
+                      "localJumps": 1,
                       "localBacklinks": true,
                       "localForelinks": true,
-                      "localInterlinks": false,
+                      "localInterlinks": true,
                       "showTags": false,
                       "showAttachments": false,
                       "hideUnresolved": true,
@@ -324,14 +274,13 @@
                       "repelStrength": 20,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.7132754626224337,
+                      "scale": 0.7132754626224335,
                       "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Appearance Based Matching"
-                },
-                "group": "939e3d4e0dffcad1"
+                  "title": "Local graph"
+                }
               }
             ]
           }
@@ -346,44 +295,44 @@
       }
     ]
   },
-  "active": "ff6c9a2c5b016dfe",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
-    "Computer Vision/Kd-Tree Search.md",
-    "Computer Vision/Appearance Based Matching.md",
-    "Computer Vision/Improvements to SIFT.md",
-    "Computer Vision/SIFT.md",
+    "Computer Vision/Geometry of 2 views.md",
+    "Fundamental Matrix F.md",
+    "Computer Vision/Fundamental and Essential Matrix.md",
+    "Computer Vision/3D Reconstruction.md",
+    "Essential Matrix E.md",
+    "Computer Vision/Homography.md",
+    "Pasted image 20260810010026.png",
+    "Computer Vision/Solving Homogenous Linear Systems.md",
     "Computer Vision/Camera Calibration.md",
+    "Computer Vision/Camera Calibration Matrix K.md",
+    "Computer Vision Overview.md",
+    "Computer Vision/Camera.md",
     "Computer Vision/Camera Matrix P.md",
+    "Computer Vision/Pinhole Camera.md",
+    "Computer Vision/Projective Geometry.md",
+    "Computer Vision/Appearance Based Matching.md",
+    "Computer Vision/Interest Point Detection.md",
     "Computer Vision/Computer Vision.md",
     "Computer Vision/Edge Detection and Linking.md",
+    "Computer Vision/Linking for Edge Chains.md",
+    "Computer Vision/Hysteresis.md",
     "Computer Vision/Edge Detection.md",
-    "Computer Vision/3D Reconstruction.md",
-    "Computer Vision/Multi-view 3d Reconstruction.md",
-    "Computer Vision/Laplacian of Gaussian (LoG).md",
-    "Computer Vision/2D Gradient.md",
-    "Computer Vision/Interest Point Detection.md",
-    "Computer Vision/Harris Detector.md",
-    "Computer Vision/Camera.md",
-    "Computer Vision/Lens Effects.md",
-    "Computer Vision/Camera Calibration Matrix K.md",
+    "Machine Learning/Precision and Recall.md",
+    "Computer Vision/Computation of Convolutions.md",
+    "Computer Vision/List of Convolution Filters.md",
+    "Computer Vision/Basics of Image Processing.md",
+    "Computer Vision/Image Filtering.md",
+    "Pasted image 20260809131857.png",
     "Images/Pasted image 20260808170831.png",
     "Images/Pasted image 20260808170812.png",
-    "Computer Vision/Solving Homogenous Linear Systems.md",
-    "Computer Vision/Pinhole Camera.md",
-    "Computational Statistics/Different types of Neural Networks.md",
-    "Computational Statistics/SVD.md",
     "Images/Pasted image 20260808151557.png",
     "Images/Pasted image 20260808150630.png",
     "Images/Pasted image 20260808145627.png",
-    "Computer Vision/Projective Geometry.md",
-    "Machine Learning/Precision and Recall.md",
     "Images/Pasted image 20260805131550.png",
     "Images/Pasted image 20260805113919.png",
     "Images/Pasted image 20260804191440.png",
-    "Images/Pasted image 20260804183224.png",
-    "Images/Pasted image 20260804141241.png",
-    "Computer Vision/Non-Maximum Suppression.md",
-    "Computer Vision/Linking for Edge Chains.md",
     "Untitled.canvas",
     "Machine Learning",
     "$",

@@ -1,6 +1,6 @@
 The basic idea is that in 3d [[Projective Geometry]], each matching point pair makes a plane with the camera centres.
 
-Because all 3 vectors lie on a plane, $a\cdot(b\times c) = 0$   
+When all 3 vectors lie on a plane, $a\cdot(b\times c) = 0$   
 The 3 vectors are:
 1. Translation change: $T=C_1 - C_0$
 2. Inverse projection of image of $X$ from camera 1: $X - C_0 = K_0^{-1}x_0$ 
