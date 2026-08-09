@@ -21,11 +21,11 @@ Result is a list of patches with that are rotated along the orientation.
 	3. [[LIFT]]
 ### 4. Match Appearance 
 Find matching patches according to appearance
-	- Goal is to find the each patch from one image to another.
-	- Accept all the matches that are close enough
-	- Methods:
-		- Naive: $N^2$ tests: Checking how close one appearance is to another is by getting the squared difference.
-		- Hashing
-		- [[Kd-Tree Search]] which is $n\log n$ tests.
+- Goal is to find the each patch from one image to another.
+- Accept all the matches that are close enough
+- Methods:
+	- Naive: $N^2$ tests: Checking how close one appearance is to another is by getting the squared difference.
+	- Hashing
+	- [[Kd-Tree Search]] which is $n\log n$ tests.
 ### 5. Verify Appearances 
 Verify patches according to Geometry
