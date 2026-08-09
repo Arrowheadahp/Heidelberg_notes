@@ -9,6 +9,7 @@ $$R is the H-Score
 k takes the value of 0.04
 5. We only take the values more than a threshold
 6. We do [[Non-Maximum Suppression]] to only get points.
+
 $\lambda$ are the lengths of the ellipse that is created after plotting the derivatives in x and y directions such as in [[Edge Detection and Linking]]. To check if both $\lambda$s are big, Harris made the above equation that can be checked with a threshold.
 ![[Pasted image 20260804191440.png]]
 ### [[Non-Maximum Suppression]]

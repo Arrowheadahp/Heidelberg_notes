@@ -1,5 +1,5 @@
 Histogram of Oriented Gradients
-This method uses [[SIFT (Scale Invariant Feature Transform)]] to get a feature vector. 
+This method uses [[SIFT]] to get a feature vector. 
 - Compute Gradients on an image of 64x128 pixels
 - Compute histograms on cells of typically 8x8 ixels
 - Normalize Histogram within a block. A block has 2x2 cells (7x15 overlapping blocks)

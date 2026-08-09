@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Interest Point Detection.md",
+                "file": "Computer Vision/SIFT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interest Point Detection"
+              "title": "SIFT"
             },
             "group": "939e3d4e0dffcad1"
           },
@@ -28,15 +28,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Computer Vision.md",
+                "file": "Camera Calibration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computer Vision"
+              "title": "Camera Calibration"
+            }
+          },
+          {
+            "id": "daed4acdfebdf749",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Vision/3D Reconstruction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3D Reconstruction"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vanishing",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Interest Point Detection.md",
+                "file": "Camera Calibration.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Vision/Interest Point Detection.md",
+                "file": "Camera Calibration.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -189,7 +204,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Vision/Interest Point Detection.md",
+                "file": "Camera Calibration.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -260,7 +275,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Computer Vision/Interest Point Detection.md",
+                    "file": "Computer Vision/SIFT.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "-tag:#overview  -tag:#moc ",
@@ -312,12 +327,12 @@
                       "repelStrength": 20,
                       "linkStrength": 1,
                       "linkDistance": 30,
-                      "scale": 0.9999999999999885,
+                      "scale": 0.7132754626224337,
                       "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Interest Point Detection"
+                  "title": "Graph of SIFT"
                 },
                 "group": "939e3d4e0dffcad1"
               }
@@ -336,15 +351,22 @@
   },
   "active": "dca61c263145489b",
   "lastOpenFiles": [
+    "Camera Matrix P.md",
+    "Camera Calibration.md",
     "Computer Vision/Computer Vision.md",
+    "Computer Vision/Edge Detection and Linking.md",
+    "Computer Vision/Edge Detection.md",
+    "Computer Vision/SIFT.md",
+    "Computer Vision/Appearance Based Matching.md",
+    "Computer Vision/Improvements to SIFT.md",
+    "Computer Vision/3D Reconstruction.md",
+    "Computer Vision/Multi-view 3d Reconstruction.md",
+    "Laplacian of Gaussian (LoG).md",
+    "2D Gradient.md",
     "Computer Vision/Interest Point Detection.md",
     "Computer Vision/Harris Detector.md",
-    "Computer Vision/Appearance Based Matching.md",
-    "Computer Vision/3D Reconstruction.md",
     "Computer Vision/Camera.md",
     "Lens Effects.md",
-    "Camera Calibration.md",
-    "Camera Matrix P.md",
     "Camera Calibration Matrix K.md",
     "Pasted image 20260808170831.png",
     "Pasted image 20260808170812.png",
@@ -365,13 +387,6 @@
     "Computer Vision/Non-Maximum Suppression.md",
     "Computer Vision/Linking for Edge Chains.md",
     "Computer Vision/Hysteresis.md",
-    "Computer Vision/Edge Detection.md",
-    "Computational Statistics/Loss Function.md",
-    "Computer Vision/Sobel Filter.md",
-    "Computer Vision/List of Convolution Filters.md",
-    "Non-Maximum Suppression.md",
-    "Computer Vision/Basics of Image Processing.md",
-    "Computer Vision/Edge Detection and Linking.md",
     "Untitled.canvas",
     "Machine Learning",
     "$",
