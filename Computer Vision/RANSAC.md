@@ -1,14 +1,16 @@
-
-Method:
+/we want to find the value that the majority agree.$$ f= |ax_0 + bx_2 -1| \le t \to 0\ else\ 1$$
+This is equivalent to getting the F such that $$f = |x_l^tFx_r|\le t \to0\ else\ 1$$
+We randomly sample the minimum number of points required for calculating what we want to calculate and then calculate it and do that again and again. ==The method that calculates the value with the minimum number of required points is called the Oracle==. This minimum number of points depends on what we want to calculate: F needs 7 points, H needs 4 etc.
+### Algorithm
 - Repeat n times
 	- select d-tuple, ex: $(x_1, x_2)$ for lines but 3 points for planes etc.
-	- Compute parameter(s) $y = f^{-1}(x_1, x_2)$
+	- Compute parameter(s) $y = g(x_1, x_2)$
 	- evaluate $f'(y)=\sum_i f(x_i, y)$
+	  this is the sum of the loss function $f$ of using the current y to on ==all the points previously sampled==.
 	- if $f'(y) \le f'(y^*)$,
 		- $y^*\gets y$
 		- $f'(y^*) \gets f'(y)$
-
-Convergence:
+### Convergence:
 - Let $\varepsilon$ be the probability of outliers.
 - probability of inlier: $1-\varepsilon$
 - probability of d-tuple being all inliers: $(1-\varepsilon)^d$
@@ -21,24 +23,9 @@ This probability is very low for high n.
 Since the probability of sampling a right tuple at least once is p, it is called the accuracy, $p=1-\left(1-(1-\varepsilon)^d\right)^n$.
 To get accuracy p, $$ n=\frac{\log(1-p)}{\log(1-(1-\varepsilon)^d)} $$
 
-> [!NOTE] The choice of t in f is very crucial
+> [!Question] Why do we use 7 points instead of 8 for calculating the [[Fundamental Matrix F]]?
+> Keeping the accuracy the same decreasing d decreases the n dramatically. So we will need far fewer matching points to have the same accuracy.
 
-## Extensions of RANSAC:
-### Adaptive RANSAC
-Since we do not know $\varepsilon$ from before, we assume it to be 1 and fix p very high and then adapt $\varepsilon, n$ accordingly
-- $p\gets 0.999$
-- $n \gets \infty$
-- $\varepsilon \gets 1$
-- During RANSAC:
-	- Recompute $\varepsilon = \frac{outliers}{all points}$ 
-	- Recompute $n=\frac{\log(1-p)}{\log(1-(1-\varepsilon)^d)}$
+> [!NOTE] We should use a good value for threshold t for the loss function $f= |ax_0 + bx_2 -1| \le t \to 0\ else\ 1$
 
-### MSAC: M-Estimator Sample Consensus
-The function becomes: $$ f(x_l, x_r, F) = \max(|x_l^tFx_r|, t)$$
-Rest remains the same . 
-
-### Randomised RANSAC
-While Calculating $f'(y)=\sum_i f(x_i, y)$, instead of checking all the points, use a random selection of points. Even though good y may get rejected, because we can sample faster, and bad hypothesis of y are recognised fast, it is overall faster depending on application.
-
-### Neural guided RANSAC
-Exactly same as RANSAC but the d point tuples are being selected by a neural network instead of randomly
+## [[Extensions of RANSAC]]

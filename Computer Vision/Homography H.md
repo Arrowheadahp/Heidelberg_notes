@@ -23,4 +23,4 @@ We can use H to get to stitch multiple images to make panoramas.
 We can use this for document scanning.
 It is used for showing ads on planar surfaces
 
-### [[Accurate Geometry estimation for 2 views]] has the final algorithms for estimating H using [[RANSAC]].
+### [[Final Algorithm to calculate the Transformations]]
