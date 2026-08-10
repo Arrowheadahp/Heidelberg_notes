@@ -26,4 +26,4 @@ Find matching patches according to appearance
 	- Hashing
 	- [[Kd-Tree Search]] which is $n\log n$ tests.
 ### 5. Verify Appearances 
-Verify patches according to Geometry [[RANSAC]]
+Verify patches according to Geometry by [[Robust Geometry estimation for 2 views]].

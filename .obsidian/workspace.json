@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -102,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Vision/3D Reconstruction.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -188,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 299.0999755859375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,7 +276,7 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.7132754626224416,
+                      "scale": 1.965556045656671,
                       "close": true
                     }
                   },
@@ -297,16 +298,21 @@
       }
     ]
   },
-  "active": "54d49c0f1bfcbd91",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
-    "Computer Vision/Homography H.md",
-    "Computer Vision/3D Reconstruction.md",
-    "Computer Vision/Geometry of 2 views.md",
-    "Computer Vision/Fundamental Matrix F.md",
     "Computer Vision/Robust Geometry estimation for 2 views.md",
-    "Computer Vision/Epipolar planes and Epipoles.md",
-    "Computer Vision/Accurate Geometry estimation for 2 views.md",
+    "Computer Vision/3D Reconstruction.md",
+    "Computer Vision/Fundamental Matrix F.md",
+    "Computer Vision/RANSAC.md",
+    "Computer Vision/Homography H.md",
     "Computer Vision/Computer Vision Overview.md",
+    "Hough transform.md",
+    "Pasted image 20260810145907.png",
+    "Computer Vision/Appearance Based Matching.md",
+    "Computer Vision/Epipolar planes and Epipoles.md",
+    "Pasted image 20260810141535.png",
+    "Computer Vision/Geometry of 2 views.md",
+    "Computer Vision/Accurate Geometry estimation for 2 views.md",
     "Computer Vision/Essential Matrix E.md",
     "Pasted image 20260810131633.png",
     "Pasted image 20260810131628.png",
@@ -321,7 +327,6 @@
     "Images/Pasted image 20260808170812.png",
     "Images/Pasted image 20260808151557.png",
     "Images/Pasted image 20260808150630.png",
-    "Images/Pasted image 20260808145627.png",
     "Computer Vision/Solving Homogenous Linear Systems.md",
     "Computer Vision/SVD.md",
     "Computer Vision/SIFT.md",
@@ -331,10 +336,6 @@
     "Computer Vision/Camera Calibration Matrix K.md",
     "Computer Vision/2D Gradient.md",
     "Computer Vision/Interest Point Detection.md",
-    "Computer Vision/Harris Detector.md",
-    "Computer Vision/Basics of Image Processing.md",
-    "Computer Vision/Edge Detection and Linking.md",
-    "Images/Pasted image 20260805131550.png",
     "Machine Learning",
     "MOCs",
     "Computational Statistics",

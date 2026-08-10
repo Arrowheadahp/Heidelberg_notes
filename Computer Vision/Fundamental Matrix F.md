@@ -34,5 +34,6 @@ Each matching pair of points we get 1 linear equation: $$x^TFx'=0$$ and since [[
 4. Choose $F=\alpha F_1 + (1-\alpha)F_2$
 5. Determine $\alpha$ so that $det(F)=0$.
 
+Practically with noise and outliers, we calculate F using [[Robust Geometry estimation for 2 views]].
 > [!NOTE] Auto Calibration
 > Getting K, R, T from F is hard and is called auto calibration. It is only possible with external constraints. K, R, T have 15 degrees of freedom in total and F has 7.

@@ -9,9 +9,12 @@
 		1. [[Improvements to SIFT]]
 		2. [[LIFT]]
 2. [[Geometry of 2 views]]
-	1. [[Homography H]]
-		1. [[Fundamental Matrix F]]
-		2. [[Essential Matrix E]]
+	1. Rotation only:
+		1. [[Homography H]]
+	2. Rotation and translation:
+		1. Un-calibrated: [[Fundamental Matrix F]]
+		2. Calibrated: [[Essential Matrix E]]
+	3. [[Epipolar planes and Epipoles]]
 3. [[Robust Geometry estimation for 2 views]]
    [[RANSAC]]
 4. [[Accurate Geometry estimation for 2 views]]
