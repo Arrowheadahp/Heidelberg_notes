@@ -13,11 +13,11 @@ These processing can be used in multiple applications like
 ### [[3D Reconstruction]]
 Here the objective is to create a 3d model from images taken from different angles and locations. For that we have to get the exact transformation that happens from 1 image to another. These transformations are 
 
-| Symbol | Transformation         | Description                                  | Degrees of Freedom |
-| ------ | ---------------------- | -------------------------------------------- | ------------------ |
-| H      | [[Homography]]         | Transformation matrix for Rotated Camera     | 8                  |
-| F      | [[Fundamental Matrix F]] | Transformation between 2 un-calibrated views |                    |
-| E      | [[Essential Matrix E]]   | Transformation between 2 calibrated Views    |                    |
+| Symbol | Transformation           | Description                                  | Degrees of Freedom | Min points |
+| ------ | ------------------------ | -------------------------------------------- | ------------------ | ---------- |
+| H      | [[Homography]]           | Transformation matrix for Rotated Camera     | 8                  | 4          |
+| F      | [[Fundamental Matrix F]] | Transformation between 2 un-calibrated views |                    |            |
+| E      | [[Essential Matrix E]]   | Transformation between 2 calibrated Views    |                    |            |
 To calculate these transformations, we need the transformation that happens when a 3d world is transformed into a 2d image by a [[Camera]]. This transformation is the [[Camera Matrix P]] which is calculated by [[Camera Calibration]]. It consists of the projection [[Camera Calibration Matrix K]], Rotation R, Translation C. $$x=KR(I-\tilde C)X=PX $$
 
 | Symbol | Transformation                  | Description                                                                                              | Degrees of Freedom |
