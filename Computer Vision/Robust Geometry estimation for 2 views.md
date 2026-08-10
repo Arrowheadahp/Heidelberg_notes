@@ -6,4 +6,4 @@ $$F* = \arg\min_F \sum_i f $$
 Enumerate all points and make lines with $(r, \theta)$. Hough transform and get the values for max. Very time consuming.
 
 ### Oracle
-Oracle is a function that predicts a parameter given the minimum amount of data points (d-tuples): $$g(x_1, x_2)=f^{-1}(x_1, x_2)$$ For [[Fundamental and Essential Matrix]] calculation we only need 7 or 8 points. For [[Homography]] only 4 points are needed. So we make these sizes tuples. And instead of getting all the possible tuples, we sample randomly to get [[RANSAC]].
+Oracle is a function that predicts a parameter given the minimum amount of data points (d-tuples): $$g(x_1, x_2)=f^{-1}(x_1, x_2)$$ For [[Fundamental Matrix F]] calculation we only need 7 or 8 points. For [[Homography H]] only 4 points are needed. So we make these sizes tuples. And instead of getting all the possible tuples, we sample randomly to get [[RANSAC]].

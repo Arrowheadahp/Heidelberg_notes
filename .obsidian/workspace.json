@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Computer Vision Overview.md",
+                "file": "Computer Vision/3D Reconstruction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computer Vision Overview"
+              "title": "3D Reconstruction"
             },
             "group": "b3d3efd21595cae9"
           }
@@ -57,10 +57,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "epipol",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -223,7 +223,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Computer Vision/Computer Vision Overview.md",
+                    "file": "Computer Vision/3D Reconstruction.md",
                     "options": {
                       "collapse-filter": false,
                       "search": "-tag:#moc -tag:#overview  ",
@@ -280,7 +280,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Computer Vision Overview"
+                  "title": "Graph of 3D Reconstruction"
                 },
                 "group": "b3d3efd21595cae9"
               }
@@ -290,8 +290,8 @@
         "direction": "vertical",
         "x": 3755,
         "y": 0,
-        "width": 548,
-        "height": 707,
+        "width": 853,
+        "height": 1392,
         "maximize": false,
         "zoom": 0
       }
@@ -299,9 +299,18 @@
   },
   "active": "54d49c0f1bfcbd91",
   "lastOpenFiles": [
+    "Computer Vision/Homography H.md",
+    "Computer Vision/3D Reconstruction.md",
+    "Computer Vision/Geometry of 2 views.md",
     "Computer Vision/Fundamental Matrix F.md",
+    "Computer Vision/Robust Geometry estimation for 2 views.md",
+    "Computer Vision/Epipolar planes and Epipoles.md",
+    "Computer Vision/Accurate Geometry estimation for 2 views.md",
     "Computer Vision/Computer Vision Overview.md",
-    "Computer Vision/Homography.md",
+    "Computer Vision/Essential Matrix E.md",
+    "Pasted image 20260810131633.png",
+    "Pasted image 20260810131628.png",
+    "Computer Vision/Computer Vision.md",
     "Computer Vision/Camera Matrix P.md",
     "Computer Vision/Camera Calibration.md",
     "Computer Vision/R-CNN.md",
@@ -313,7 +322,6 @@
     "Images/Pasted image 20260808151557.png",
     "Images/Pasted image 20260808150630.png",
     "Images/Pasted image 20260808145627.png",
-    "Computer Vision/Essential Matrix E.md",
     "Computer Vision/Solving Homogenous Linear Systems.md",
     "Computer Vision/SVD.md",
     "Computer Vision/SIFT.md",
@@ -322,19 +330,11 @@
     "Computer Vision/Laplacian of Gaussian (LoG).md",
     "Computer Vision/Camera Calibration Matrix K.md",
     "Computer Vision/2D Gradient.md",
-    "Computer Vision/Computer Vision.md",
     "Computer Vision/Interest Point Detection.md",
     "Computer Vision/Harris Detector.md",
     "Computer Vision/Basics of Image Processing.md",
     "Computer Vision/Edge Detection and Linking.md",
-    "Machine Learning/Precision and Recall.md",
-    "Computer Vision/Linking for Edge Chains.md",
-    "Computer Vision/Hysteresis.md",
     "Images/Pasted image 20260805131550.png",
-    "Computer Vision/Non-Maximum Suppression.md",
-    "Computer Vision/Edge Detection.md",
-    "Images/Pasted image 20260805113919.png",
-    "Images/Pasted image 20260804191440.png",
     "Machine Learning",
     "MOCs",
     "Computational Statistics",

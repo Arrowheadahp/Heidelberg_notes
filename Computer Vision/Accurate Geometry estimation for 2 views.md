@@ -1,4 +1,4 @@
-For example For [[Homography]] estimation, the method is:
+For example For [[Homography H]] estimation, the method is:
 - Repeat n times
 	- select randomly 4 point corresponding $(x_1, x_2, x_3, x_4)$
 	- compute homography H from the points
@@ -14,12 +14,12 @@ This is basically [[RANSAC]] calculating the Euclidean distance between left ima
 Here the $||Hx_l^i - x_r^i||_2$ is the error function for Homography, There are error functions for others:
 
 - For a line: $|x_2^i+ax_1^i-b|$
-- For [[Homography]]: $||Hx_l^i - x_r^i||_2$
+- For [[Homography H]]: $||Hx_l^i - x_r^i||_2$
 	- It can also be: $\frac{1}{2}d||Hx_l^i - x_r^i||_2+\frac{1}{2}||Hx_r^i - x_l^i||_2$
 	- Gold Standard: $$\min\left[\frac{1}{2}d||Hx_l^i -\hat x_r^i||_2+\frac{1}{2}||Hx_r^i -\hat x_l^i||_2\right]$$
-- For [[Fundamental and Essential Matrix]]: $||(x_l^i)^T F x_r^i||_2$
+- For [[Fundamental Matrix F]]: $||(x_l^i)^T F x_r^i||_2$
 
-## Final Algorithm to compute [[Homography]]:
+## Final Algorithm to compute [[Homography H]]:
 
 1. [[Interest Point Detection]]: Detect Interest points using [[Harris Detector]].
 2. [[Appearance Based Matching]] using [[Kd-Tree Search]] to make it fast.
