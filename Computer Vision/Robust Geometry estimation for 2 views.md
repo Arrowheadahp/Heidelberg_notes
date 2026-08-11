@@ -11,5 +11,6 @@ $$F* = \arg\min_F \sum_i f $$
 ### Computation
 1. Naive approach: [[Hough transform]]: Enumerate all points and make lines with $(r, \theta)$.
 2. [[RANSAC]]: Instead of using all points, we randomly sample the minimum number of points required for calculating what we want to calculate and then calculate it and do that again and again. ==The method that calculates the value with the minimum number of required points is called the Oracle==. This minimum number of points depends on what we want to calculate: F needs 7 points, H needs 4 etc.
+3. [[Extensions of RANSAC]]
 
 
