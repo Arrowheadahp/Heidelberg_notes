@@ -1,16 +1,16 @@
 Novel View Synthesis is a task which consists of generating images of a specific subject or scene from a specific point of view, when the only available information is pictures taken from different points of view.
 
-Where [[3D Reconstruction]] pipeline also known as Photogrammetry approach does the following things in order:
-1. Input Images
-2. Camera poses and sparse point cloud
-3. Compute dense depth maps for each image pair
-4. Dense 3D reconstruction
-5. Meshing
-6. Texture mapping
-7. Rendering of new views (Rasterization, Ray tracing)
-
+Where 3D Reconstruction pipeline also known as Photogrammetry approach does the following things in order:
+1. [[3D Reconstruction]] 
+	1. Input Images
+	2. Camera poses and sparse point cloud
+	3. Compute dense depth maps for each image pair
+2. Dense 3D reconstruction (fuse depth maps)
+3. Meshing
+4. Texture mapping
+5. Rendering of new views (Rasterization, Ray tracing)
+### Image Based Rendering
 Image based rendering allows the use of multiple 2 dimensional images in order to generate directly 2 dimensional images.
-
 This can be done by 2 methods:
 - [[NERF]]
    - Needs Camera poses only
@@ -21,3 +21,4 @@ This can be done by 2 methods:
    - Fast (train and test) and high quality
    - Cannot handle view dependent effects in first version.
 
+![[Pasted image 20260811134040.png]]

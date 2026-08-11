@@ -1,4 +1,6 @@
-Histogram of Oriented Gradients
+## Histogram of Oriented Gradients
+
+This is a method for [[Object Detection]]
 This method uses [[SIFT]] to get a feature vector. 
 - Compute Gradients on an image of 64x128 pixels
 - Compute histograms on cells of typically 8x8 ixels
@@ -10,8 +12,8 @@ This method uses [[SIFT]] to get a feature vector.
 2. Train with positive and negative ([[SVM]])
 ### Testing
 1. Map image into feature space (HOG)
-2. Scan image with 64x128 boxing all scales and all locations and compute SVM score.
-3. Perform Thresholding and non-maximimum suppression
+2. Scan image with 64x128 boxing all scales and all locations (Sliding Window) and compute SVM score.
+3. Perform Thresholding and [[Non-Maximum Suppression]]
 4. Report final boxing
 
 ### HOG Limitations

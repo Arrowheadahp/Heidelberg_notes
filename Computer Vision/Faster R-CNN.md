@@ -4,3 +4,5 @@ It trains on 4 losses
 - Regress Box coordinates
 - Final Classification score (object classes)
 - Final Box coordinates
+
+![[Pasted image 20260811202328.png|720]]

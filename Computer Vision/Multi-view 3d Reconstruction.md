@@ -17,6 +17,6 @@ But we don't have all the points visible in all images. $x_{ij}\le mn$
 	2. Sample many focal lengths to get candidates for camera matrix K. s and m is guessed.
 	3. [[RANSAC]]
 		1. sample 3 putative correspondences
-		2. compute up to 4 R and C using PnP method
+		2. compute up to 4 R and C using [[PnP]] method
 		3. Check inliers by $d(P_3X_j)\le\sigma\sqrt {5.99}$
-	4. Do bundle adjustment with Geometric Error on all views.
+	4. Do [[Bundle Adjustment]] with Geometric Error on all views.
