@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "-tag:#overview  -tag:#moc  path:\"Computer Vision\"  ",
+  "collapse-filter": false,
+  "search": "-tag:#overview  -tag:#moc ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -42,10 +42,10 @@
   "nodeSizeMultiplier": 1.0983367983368,
   "lineSizeMultiplier": 0.996465696465697,
   "collapse-forces": false,
-  "centerStrength": 0.28819512195122,
+  "centerStrength": 0.285073170731707,
   "repelStrength": 10.009756097561,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.32133638605034986,
-  "close": false
+  "scale": 0.16348370567220014,
+  "close": true
 }

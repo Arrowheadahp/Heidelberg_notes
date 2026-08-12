@@ -23,12 +23,12 @@ For that we have to get the exact transformation that happens from 1 image to an
 | E      | [[Essential Matrix E]]   | Transformation between 2 calibrated Views    | 5   | 5                          | $x_0^TEx_1=0$<br>$E=T_\times R$                 |
 To calculate these transformations, we need the transformation that happens when a 3d world is transformed into a 2d image by a [[Camera]]. This transformation is the [[Camera Matrix P]] which is calculated by [[Camera Calibration]]. It consists of the projection [[Camera Calibration Matrix K]], Rotation R, Translation C. $$x=KR(I-\tilde C)X=PX $$
 
-| Symbol | Transformation                  | Description                                                                                              | Degrees of Freedom |
-| ------ | ------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------ |
-| P      | [[Camera Matrix P]]             | Complete transformation from 3d to image                                                                 | 11                 |
-| K      | [[Camera Calibration Matrix K]] | This is the Camera intrinsic transformation which <br>includes the focal length, magnification and skew. | 5                  |
-| R      | Rotation                        | Orientation of the camera                                                                                | 3                  |
-| C      | Translation                     | Location of the Camera                                                                                   | 3                  |
+| Symbol | Transformation                  | Description                                                                                              | Degrees of Freedom | Equations                   |
+| ------ | ------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------ | --------------------------- |
+| P      | [[Camera Matrix P]]             | Complete transformation from 3d to image                                                                 | 11                 | $x=KR[I-C]X$<br>$P=KR[I-C]$ |
+| K      | [[Camera Calibration Matrix K]] | This is the Camera intrinsic transformation which <br>includes the focal length, magnification and skew. | 5                  |                             |
+| R      | Rotation                        | Orientation of the camera                                                                                | 3                  |                             |
+| C      | Translation                     | Location of the Camera                                                                                   | 3                  | $PC=0$                      |
 #### [[Final Algorithm to calculate the Transformations]]
 How we calculate the Transformations is that let's say we have 2 images, we perform [[Interest Point Detection]] on both images. This is done by detecting corners using the [[Harris Detector]]. Then we perform [[Appearance Based Matching]] using [[SIFT]] or similar methods like [[LIFT]] . This encodes patches of the image so that a matching patch can be found in other images. We find the matching pairs of points by using a [[Kd-Tree Search]]. Then we perform [[RANSAC]] on the matching points to remove the outliers and the noise from the inliers and get the transformation we need. Most of the time it is F or E.
 ### [[New View Synthesis]]

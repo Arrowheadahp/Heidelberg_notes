@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Computer Vision.md",
+                "file": "Computer Vision/Variational Auto Encoder (VAE).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computer Vision"
+              "title": "Variational Auto Encoder (VAE)"
             }
           },
           {
@@ -31,7 +31,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "SfM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -93,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2691f505943780f4",
@@ -110,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Computer Vision.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Vision/Computer Vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -168,7 +166,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Vision/Computer Vision.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,7 +180,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Vision/Computer Vision.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-tag:#overview  -tag:#moc ",
@@ -235,7 +231,7 @@
                   "repelStrength": 9.55208652178349,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.9999999999999779,
+                  "scale": 1.4019828977760698,
                   "close": true
                 }
               },
@@ -283,49 +279,58 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Computer Vision/Image Generation.md",
+                    "file": "Computer Vision/Camera Matrix P.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Image Generation"
+                  "title": "Camera Matrix P"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 2816,
-        "y": 0,
-        "width": 640,
-        "height": 1032,
-        "maximize": false,
+        "x": 1650,
+        "y": 145,
+        "width": 512,
+        "height": 826,
+        "maximize": true,
         "zoom": 0
       }
     ]
   },
-  "active": "3febbc82472150c8",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
-    "Computer Vision/Training Data Generation.md",
+    "Computer Vision/Variational Auto Encoder (VAE).md",
+    "Images/Pasted image 20260812232159.png",
+    "Computational Statistics/Auto-Encoders.md",
+    "Computer Vision/Faster R-CNN.md",
+    "Computer Vision/Object Detection.md",
+    "Computer Vision/Fast R-CNN.md",
+    "Computer Vision/R-CNN.md",
+    "Computer Vision/Object Recognition.md",
+    "Computer Vision/Vision Transformer.md",
+    "Computer Vision/Instance Segmentation.md",
+    "Computer Vision/Graphics.md",
+    "Computer Vision/Scattering function.md",
+    "Computer Vision/BRDF.md",
+    "Computer Vision/SLAM and Visual Odometry.md",
+    "Computer Vision/Multi-view 3d Reconstruction.md",
+    "Computer Vision/RANSAC.md",
+    "Computer Vision/SVD.md",
+    "Computer Vision/Lens Effects.md",
+    "Computer Vision/Camera.md",
+    "Computer Vision/Computer Vision Overview.md",
+    "Computer Vision/Epipolar planes and Epipoles.md",
+    "Computer Vision/Camera Matrix P.md",
+    "Computer Vision/Camera Calibration.md",
+    "Computer Vision/Geometry of 2 views.md",
+    "Computer Vision/Fundamental Matrix F.md",
+    "Computer Vision/Essential Matrix E.md",
+    "Computer Vision/Introduction to Computer Vision.md",
     "Images/Pasted image 20260812181755.png",
     "Images/Pasted image 20260812181703.png",
-    "Computer Vision/Computer Vision.md",
-    "Computer Vision/Image Generation.md",
-    "Computer Vision/Computer Vision Overview.md",
-    "Computer Vision/Scoring the Image Generators.md",
-    "Computer Vision/CMMD.md",
-    "Computer Vision/SWIN.md",
-    "Computer Vision/Vision Transformer.md",
-    "Computer Vision/DPM.md",
-    "Computer Vision/HOG.md",
-    "Computer Vision/R-CNN.md",
-    "Computer Vision/Instance Segmentation.md",
-    "Computer Vision/Semantic Segmentation.md",
-    "Computer Vision/Object Detection.md",
-    "Computer Vision/Camera Calibration Matrix K.md",
-    "Computer Vision/Introduction to Computer Vision.md",
-    "Computer Vision/Variational Auto Encoder (VAE).md",
-    "Machine Learning/Transformer.md",
     "Images/Pasted image 20260812141501.png",
     "Images/Pasted image 20260812140822.png",
     "Images/Pasted image 20260812140521.png",
@@ -333,14 +338,6 @@
     "Images/Pasted image 20260812125635.png",
     "Images/Pasted image 20260812124514.png",
     "Images/Pasted image 20260812123217.png",
-    "Images/Pasted image 20260812122739.png",
-    "Computer Vision/Generative Adversarial Network (GAN).md",
-    "Computer Vision/FID score.md",
-    "Computer Vision/Diffusion Models.md",
-    "Computer Vision/Comparison of FID and CMMD.md",
-    "Computer Vision/CLIP Score.md",
-    "Computational Statistics/Auto-Encoders.md",
-    "Computer Vision/Graphics.md",
     "Untitled.canvas",
     "Machine Learning",
     "$",
