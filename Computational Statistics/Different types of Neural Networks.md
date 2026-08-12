@@ -6,7 +6,7 @@ Large types of models:
 3. [[Convolutional Neural Networks]]
 4. [[Auto-Encoders]]
 5. [[Generative Adversarial Network (GAN)]]
-6. [[Transformers]]
+6. [[Transformer]]
 7. [[Diffusion Models]]
 8. [[Invertible Neural Network (INN)]]
 9. Recurrent Neural Network (RNN)

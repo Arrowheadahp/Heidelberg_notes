@@ -69,6 +69,13 @@ Computer Vision can be understood as inverse graphics(rendering).
 			1. [[Diffusion]]
 			2. [[Specular Reflection]]
 8. [[Object Recognition]]
+	1. Varieties:
+		1. [[Object Detection]]
+		2. [[Semantic Segmentation]]
+		3. [[Instance Segmentation]]
+	2. Methods:
+		1. [[Vision Transformer]]
+		2. [[SWIN]]
 9. [[Image Generation]]
 10. [[Training Data Generation]]
 

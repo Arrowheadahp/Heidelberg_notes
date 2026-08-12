@@ -4,7 +4,7 @@ This is multiple [[Perceptron]] working one after the other on each other's outp
 
 The [[Perceptron]]s are layered one by one and the layers between the input layer and the output layer are called hidden layers. Each [[Perceptron]] ends in an [[Activation Functions]], which has to non-linear otherwise the whole network becomes linear. In practice ==Batch Normalization== is also added between layers.
 
-The optimal parameters can be found by minimising the [[Loss Function]] using [[Backpropagation]]. 
+The optimal parameters can be found by minimizing the [[Loss Function]] using [[Backpropagation]]. 
 
 To avoid the [[Overfitting]], there are different options for ![[Generalization]]
 

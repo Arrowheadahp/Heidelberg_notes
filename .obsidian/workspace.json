@@ -4,34 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "ba34e12f685c1ee9",
+        "id": "3e41e0eb6eb69f73",
         "type": "tabs",
         "children": [
           {
-            "id": "daed4acdfebdf749",
+            "id": "54d49c0f1bfcbd91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Graphics.md",
+                "file": "Diffusion Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graphics"
-            }
-          },
-          {
-            "id": "0604eed6bee3c7c2",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
+              "title": "Diffusion Models"
+            },
+            "group": "b3d3efd21595cae9"
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -69,7 +61,7 @@
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -89,11 +81,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 222.5
   },
   "right": {
     "id": "2691f505943780f4",
@@ -109,14 +102,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Graphics.md",
-                "collapseAll": true,
-                "extraContext": false,
+                "file": "Diffusion Models.md",
+                "collapseAll": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
@@ -128,20 +121,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Vision/Graphics.md",
+                "file": "Temporal Difference Learning.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Temporal Difference Learning"
             }
           },
           {
             "id": "dca61c263145489b",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "git-view",
               "state": {},
+              "pinned": true,
               "icon": "git-pull-request",
               "title": "Source Control"
             }
@@ -167,7 +162,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Vision/Graphics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -177,69 +171,17 @@
             }
           },
           {
-            "id": "f5eb624535ab6fd9",
+            "id": "4cc1e554e69e56e0",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
+              "type": "all-properties",
               "state": {
-                "file": "Computer Vision/Graphics.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "-tag:#overview  -tag:#moc ",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": true,
-                  "collapse-color-groups": true,
-                  "colorGroups": [
-                    {
-                      "query": "path:\"Computer Vision\"  ",
-                      "color": {
-                        "a": 1,
-                        "rgb": 5396192
-                      }
-                    },
-                    {
-                      "query": "path:\"Machine Learning\"  ",
-                      "color": {
-                        "a": 1,
-                        "rgb": 14706514
-                      }
-                    },
-                    {
-                      "query": "path:\"Reinforcement Learning\"  ",
-                      "color": {
-                        "a": 1,
-                        "rgb": 11657298
-                      }
-                    },
-                    {
-                      "query": "path:\"Computational Statistics\"  ",
-                      "color": {
-                        "a": 1,
-                        "rgb": 5431378
-                      }
-                    }
-                  ],
-                  "collapse-display": true,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1.75031185031185,
-                  "collapse-forces": false,
-                  "centerStrength": 0.250731707317073,
-                  "repelStrength": 9.55208652178349,
-                  "linkStrength": 1,
-                  "linkDistance": 30,
-                  "scale": 0.5087618855792476,
-                  "close": true
-                }
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "icon": "lucide-git-fork",
-              "title": "Local graph"
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -247,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 724.5
+    "width": 445.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,91 +201,141 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "random-note:Open random note": false,
-      "obsidian-git:Open Git source control": false,
       "zk-prefixer:Create new unique note": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "floating": {
-    "id": "748ae263b70c73d8",
+    "id": "c91cca3aae0a8ce8",
     "type": "floating",
     "children": [
       {
-        "id": "5274aa839a4775fb",
+        "id": "72c25e7f4d452592",
         "type": "window",
         "children": [
           {
-            "id": "4d8b1b2931eacdd5",
+            "id": "83e0f44bbc5e6c08",
             "type": "tabs",
             "children": [
               {
-                "id": "ff76306f28ab3e5a",
+                "id": "f9b6caeac9964ed7",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "localgraph",
                   "state": {
-                    "file": "Computer Vision/Camera Calibration Matrix K.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "Diffusion Models.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "-tag:#moc -tag:#overview  ",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": true,
+                      "collapse-color-groups": true,
+                      "colorGroups": [
+                        {
+                          "query": "path:\"Computer Vision\"  ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14701138
+                          }
+                        },
+                        {
+                          "query": "path:\"Machine Learning\"  ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 14725458
+                          }
+                        },
+                        {
+                          "query": "path:\"Reinforcement Learning\"  ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 11657298
+                          }
+                        },
+                        {
+                          "query": "path:\"Computational Statistics\"  ",
+                          "color": {
+                            "a": 1,
+                            "rgb": 5431378
+                          }
+                        }
+                      ],
+                      "collapse-display": true,
+                      "showArrow": true,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1.4019828977760977,
+                      "close": true
+                    }
                   },
-                  "icon": "lucide-file",
-                  "title": "Camera Calibration Matrix K"
-                }
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of Diffusion Models"
+                },
+                "group": "b3d3efd21595cae9"
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 289,
-        "y": 268,
-        "width": 649,
-        "height": 776,
-        "maximize": true,
+        "x": 3755,
+        "y": 0,
+        "width": 853,
+        "height": 1392,
+        "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "ff6c9a2c5b016dfe",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
-    "Computer Vision/Camera Calibration Matrix K.md",
-    "Computer Vision/Graphics.md",
-    "Computer Vision/Computer Vision Overview.md",
-    "Computer Vision/Object Recognition.md",
-    "Computer Vision/Object Detection.md",
-    "Computer Vision/HOG.md",
-    "Computer Vision/BRDF.md",
-    "Computer Vision/Specular Reflection.md",
+    "Transformer.md",
+    "Diffusion Models.md",
+    "Pasted image 20260812141501.png",
+    "Pasted image 20260812140822.png",
+    "Computational Statistics/Different types of Neural Networks.md",
+    "Machine Learning/Neural Network.md",
+    "Pasted image 20260812140521.png",
+    "Computer Vision/Vision Transformer.md",
+    "Computer Vision/Image Generation.md",
+    "Generative Adversarial Network (GAN).md",
+    "Auto-Encoders.md",
+    "Variational Auto Encoder (VAE).md",
+    "Pasted image 20260812135140.png",
+    "Pasted image 20260812125635.png",
+    "Scoring the Image Generators.md",
+    "FID score.md",
+    "CMMD.md",
+    "Comparison of FID and CMMD.md",
+    "CLIP Score.md",
+    "Pasted image 20260812124514.png",
+    "Pasted image 20260812123217.png",
+    "Pasted image 20260812122739.png",
     "Computer Vision/Computer Vision.md",
-    "Computer Vision/Scattering function.md",
-    "Computer Vision/New View Synthesis.md",
-    "Computer Vision/3D Gaussian Splatting.md",
-    "Computational Statistics/Fourier Cosine Basis.md",
-    "Computer Vision/NERF.md",
+    "Computer Vision/Object Recognition.md",
+    "Computer Vision/Computer Vision Overview.md",
+    "Computer Vision/Object Detection.md",
+    "Computer Vision/R-CNN.md",
+    "Computer Vision/DPM.md",
+    "Computer Vision/HOG.md",
     "Computer Vision/3D Reconstruction.md",
-    "Computer Vision/Accurate Geometry estimation for 2 views.md",
-    "Computer Vision/SLAM and Visual Odometry.md",
-    "Computer Vision/Final Algorithm to calculate the Transformations.md",
-    "Guided Matching.md",
-    "Computer Vision/RANSAC.md",
-    "Homography.md",
-    "Computer Vision/Kd-Tree Search.md",
-    "Computer Vision/Appearance Based Matching.md",
-    "Computer Vision/Multi-view 3d Reconstruction.md",
-    "Computer Vision/Extensions of RANSAC.md",
-    "Computer Vision/Homography H.md",
     "Images/Pasted image 20260812023103.png",
     "Images/Pasted image 20260812020105.png",
-    "Images/Pasted image 20260812005159.png",
-    "Images/Pasted image 20260812004237.png",
-    "Images/Pasted image 20260812002737.png",
-    "Images/Pasted image 20260811202328.png",
-    "Images/Pasted image 20260811202123.png",
-    "Images/Pasted image 20260811201604.png",
-    "Images/Pasted image 20260811134040.png",
-    "Images/Pasted image 20260811132643.png",
-    "Untitled.canvas",
+    "Computer Vision/SLAM and Visual Odometry.md",
+    "Computer Vision/Final Algorithm to calculate the Transformations.md",
+    "Computer Vision/Fast R-CNN.md",
     "Machine Learning",
-    "$",
     "MOCs",
     "Computational Statistics",
     "Computer Vision",
@@ -351,6 +343,8 @@
     "Untitled.base",
     "Fundamental",
     "New Text Document.txt",
-    "Images"
+    "Images",
+    "Pre-Training",
+    "Untitled.canvas"
   ]
 }

@@ -4,7 +4,7 @@ This is to detect objects and localize (put bounding boxes) around each of the b
 	- [[HOG]]: Histogram of Oriented Gradients
 	- [[DPM]]: Deformable Parts Model
 - Deep Neural Networks
-	- 2 stage proposals
+	- 2 stage proposals: (Proposal and Final stage are separate)
 		- [[R-CNN]]: Region CNN
 		- [[Fast R-CNN]]:  Fully using Conv net and then fully connected network
 		- [[Faster R-CNN]]: Insert a Region Proposal Network(RPN) to predict proposal

@@ -49,6 +49,7 @@ There are other things like Subsurface scattering and Fresnel effect that are im
 This is a wide field which can be subdivided into 3  successive parts:
 1. What is there? 
    [[Object Detection]]: Creates bounding boxes 
+	   This is done by old techniques like [[HOG]] and [[DPM]] and NN methods like [[R-CNN]] and new techniques like YOLO.
 2. Where is it?
    [[Semantic Segmentation]]
 3. If there are more, which is which?
