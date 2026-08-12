@@ -11,7 +11,7 @@ Computer Vision can be understood as inverse graphics(rendering). Prior knowledg
 	5. surface properties
 	6. 6d object pose material
 2. Semantic properties
-	1. [[Object Recognition]]: class, instances 
+	1. Object Recognition: class, instances 
 	2. scene: outdoor etc
 	3. properties: old fashioned train
 

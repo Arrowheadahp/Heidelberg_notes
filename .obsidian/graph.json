@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
-  "search": "-tag:#overview  -tag:#moc  ",
+  "collapse-filter": true,
+  "search": "-tag:#overview  -tag:#moc  path:\"Computer Vision\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Machine Learning\"  ",
@@ -36,16 +36,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -2,
   "nodeSizeMultiplier": 1.0983367983368,
   "lineSizeMultiplier": 0.996465696465697,
   "collapse-forces": false,
-  "centerStrength": 0.250731707317073,
-  "repelStrength": 8.01170731707317,
+  "centerStrength": 0.28819512195122,
+  "repelStrength": 10.009756097561,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.2292013594174876,
-  "close": true
+  "scale": 0.32133638605034986,
+  "close": false
 }

@@ -77,6 +77,15 @@ Computer Vision can be understood as inverse graphics(rendering).
 		1. [[Vision Transformer]]
 		2. [[SWIN]]
 9. [[Image Generation]]
+	1. [[Scoring the Image Generators]]
+		1. [[FID score]]
+		2. [[CLIP Score]]
+		3. [[CMMD]]
+	2. Historical methods:
+		1. [[Generative Adversarial Network (GAN)]]
+		2. [[Variational Auto Encoder (VAE)]]
+		3. [[Diffusion Models]]
+		4. [[Flow Models]]
 10. [[Training Data Generation]]
 
 [[Computer Vision Overview]]

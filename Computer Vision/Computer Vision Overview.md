@@ -54,3 +54,5 @@ This is a wide field which can be subdivided into 3  successive parts:
    [[Semantic Segmentation]]
 3. If there are more, which is which?
    [[Instance Segmentation]]
+### [[Image Generation]]
+### [[Training Data Generation]]

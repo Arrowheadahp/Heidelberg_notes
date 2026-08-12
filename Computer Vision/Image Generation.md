@@ -4,11 +4,10 @@ Generating Images from Texts or other inputs.
 
 ## History of Image Generation:
 
-### 1. [[Generative Adversarial Network (GAN)]]
-
-### 2. [[Auto-Encoders]]
-
-### 3. [[Diffusion Models]].
+1. [[Generative Adversarial Network (GAN)]]
+2. [[Variational Auto Encoder (VAE)]]
+3. [[Diffusion Models]]
+4. [[Flow Models]]
 
 
 
