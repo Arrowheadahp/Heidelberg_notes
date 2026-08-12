@@ -11,13 +11,16 @@ These processing can be used in multiple applications like
 2. [[Edge Detection and Linking]] that uses [[Sobel Filter]] for [[Edge Detection]] and then [[Linking for Edge Chains]] using [[Hysteresis]].
 3. [[Interest Point Detection]] that uses [[Edge Detection]] and [[Harris Detector]] to get some points in the image that are easily identifiable.
 ### [[3D Reconstruction]]
-Here the objective is to create a 3d model from images taken from different angles and locations. For that we have to get the exact transformation that happens from 1 image to another. These transformations are 
+#### Purpose
+Here the objective is to perform [[Multi-view 3d Reconstruction]] which is to create a 3d model from images taken from different angles and locations. This is done by starting with 2 images and calculating the transformation that happened between them called the [[Fundamental Matrix F]]. Then successively add more images to it while using [[RANSAC]] on the Geometric points in Real 3d. This Reconstruction is used in applications like creating a 3d map of a place or [[SLAM and Visual Odometry]].
+#### Transformations
+For that we have to get the exact transformation that happens from 1 image to another. These transformations are 
 
-| Symbol | Transformation           | Description                                  | Degrees of Freedom | Min points                 |
-| ------ | ------------------------ | -------------------------------------------- | ------------------ | -------------------------- |
-| H      | [[Homography H]]           | Transformation matrix for Rotated Camera     | 8                  | 4                          |
-| F      | [[Fundamental Matrix F]] | Transformation between 2 un-calibrated views | 7                  | 8 (7 for 1 or 3 solutions) |
-| E      | [[Essential Matrix E]]   | Transformation between 2 calibrated Views    | 5                  | 5                          |
+| Symbol | Transformation           | Description                                  | DoF | Min points                 | Formula                                         |
+| ------ | ------------------------ | -------------------------------------------- | --- | -------------------------- | ----------------------------------------------- |
+| H      | [[Homography H]]         | Transformation matrix for Rotated Camera     | 8   | 4                          | $x_1=Hx_0$<br>$H=K_1RK_0^{-1}$                  |
+| F      | [[Fundamental Matrix F]] | Transformation between 2 un-calibrated views | 7   | 8 (7 for 1 or 3 solutions) | $x_0^TFx_1=0$<br>$F=K_0^{-T}T_\times RK_1^{-1}$ |
+| E      | [[Essential Matrix E]]   | Transformation between 2 calibrated Views    | 5   | 5                          | $x_0^TEx_1=0$<br>$E=T_\times R$                 |
 To calculate these transformations, we need the transformation that happens when a 3d world is transformed into a 2d image by a [[Camera]]. This transformation is the [[Camera Matrix P]] which is calculated by [[Camera Calibration]]. It consists of the projection [[Camera Calibration Matrix K]], Rotation R, Translation C. $$x=KR(I-\tilde C)X=PX $$
 
 | Symbol | Transformation                  | Description                                                                                              | Degrees of Freedom |
@@ -26,3 +29,27 @@ To calculate these transformations, we need the transformation that happens when
 | K      | [[Camera Calibration Matrix K]] | This is the Camera intrinsic transformation which <br>includes the focal length, magnification and skew. | 5                  |
 | R      | Rotation                        | Orientation of the camera                                                                                | 3                  |
 | C      | Translation                     | Location of the Camera                                                                                   | 3                  |
+#### [[Final Algorithm to calculate the Transformations]]
+How we calculate the Transformations is that let's say we have 2 images, we perform [[Interest Point Detection]] on both images. This is done by detecting corners using the [[Harris Detector]]. Then we perform [[Appearance Based Matching]] using [[SIFT]] or similar methods like [[LIFT]] . This encodes patches of the image so that a matching patch can be found in other images. We find the matching pairs of points by using a [[Kd-Tree Search]]. Then we perform [[RANSAC]] on the matching points to remove the outliers and the noise from the inliers and get the transformation we need. Most of the time it is F or E.
+### [[New View Synthesis]]
+We can use pictures taken in a view and generate views from different perspectives. This is done by methods: 
+1. [[NERF]] which is a slow method that uses [[Neural Network]] on images in only [[Fourier Cosine Basis]] but can handle view dependent effects like reflections.
+2. [[3D Gaussian Splatting]] which is a faster process that uses [[3D Reconstruction]] but cannot handle view dependent effects.
+3. Photogrammetry: This uses a triangle mesh to create a 3d model that is then rendered using [[Graphics]].
+
+### [[Graphics]]
+The rendering is created using the rendering equation: $$L_o(p, w_0)=L_e(p, w_0)+\int_Hf_r(p, w_i\to w_o)L(p,w_i)\cos\theta \ dw_i $$
+Here f is the [[Scattering function]] which is dictated by [[BRDF]] which has 2 parts: [[Diffusion]] and [[Specular Reflection]].
+Artists that creates the rendering are mostly interested in 3 things of a surface:
+1. Colour: also called albedo. This is how an object looks like when there is ambient light from all sides.
+2. Metallicity: The colour of [[Specular Reflection]] is dictated by the colour of the metal. No [[Diffusion]]
+3. Roughness: This dictates the [[Specular Reflection]] as well according to the Cook Torrance [[BRDF]]
+There are other things like Subsurface scattering and Fresnel effect that are important.
+### [[Object Recognition]]
+This is a wide field which can be subdivided into 3  successive parts:
+1. What is there? 
+   [[Object Detection]]: Creates bounding boxes 
+2. Where is it?
+   [[Semantic Segmentation]]
+3. If there are more, which is which?
+   [[Instance Segmentation]]

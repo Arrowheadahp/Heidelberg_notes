@@ -1,4 +1,4 @@
-Rendering is the graphics based image generation.
+Rendering is the graphics based image generation. This can also be used to show 3d views using Photogrammetry.
 
 ### Rendering Equation: 
 $$ L_o(p, \omega_o) = L_e(p, w_o)+\int_H f_r(p, \omega_i \to \omega_o)L_i(p, \omega_i) \cos \theta\ d\omega_i $$

@@ -1,4 +1,4 @@
-/we want to find the value that the majority agree.$$ f= |ax_0 + bx_2 -1| \le t \to 0\ else\ 1$$
+We want to find the value that the majority agree.$$ f= |ax_0 + bx_2 -1| \le t \to 0\ else\ 1$$
 This is equivalent to getting the F such that $$f = |x_l^tFx_r|\le t \to0\ else\ 1$$
 We randomly sample the minimum number of points required for calculating what we want to calculate and then calculate it and do that again and again. ==The method that calculates the value with the minimum number of required points is called the Oracle==. This minimum number of points depends on what we want to calculate: F needs 7 points, H needs 4 etc.
 ### Algorithm

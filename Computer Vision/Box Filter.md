@@ -20,7 +20,8 @@ $$
 $$\frac{dF}{dy_r} = \sum_{r^` \in W}{2*(x_{r^`}-y_r)*-1=0}
 $$
 $$y_r = \frac{1}{|W|}\sum_{r^`}{x_{r^`}}
-$$Trivial solution
+$$
+Trivial solution
 ### Method for faster computation:
 
 Create a sum table 

@@ -9,6 +9,7 @@ The 3 vectors are:
 2. Inverse projection of image of $X$ from camera 1: $X - C_0 = K_0^{-1}x_0$ 
    since $x_0=K_0(X-C_0)$ 
 3. Inverse projection of image of $X$ from camera 2: $X - C_1 = RK_1^{-1}x_1$ 
+   since $x_1=KR^{-1}X[I-C_1]$
    Here $R$ is the Rotation change from camera 1 to camera 0
 
 The equation comes as: $$ (X-C_0)^T(C_1-C_0) (X-C_1) =0

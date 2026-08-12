@@ -4,3 +4,5 @@
 3. Similarity: size changes as well
 4. Affine: angles change but edge lengths constant. Parallel lines remain parallel.
 5. Projective: Ratio of ratio of lengths remain same
+
+![[Pasted image 20260812023103.png|720]]

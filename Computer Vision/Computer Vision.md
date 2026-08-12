@@ -65,6 +65,11 @@ Computer Vision can be understood as inverse graphics(rendering).
 		2. [[3D Gaussian Splatting]]
 	2. [[Graphics]]
 		1. [[Scattering function]]
+		   [[BRDF]]
+			1. [[Diffusion]]
+			2. [[Specular Reflection]]
 8. [[Object Recognition]]
 9. [[Image Generation]]
 10. [[Training Data Generation]]
+
+[[Computer Vision Overview]]
