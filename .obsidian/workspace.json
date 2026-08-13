@@ -25,10 +25,14 @@
             "id": "0604eed6bee3c7c2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Computer Vision/Computer Vision.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Computer Vision"
             }
           }
         ],
@@ -90,7 +94,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -110,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Vision/Computer Vision.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,6 +186,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Computer Vision/Computer Vision.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "-tag:#overview  -tag:#moc ",
@@ -231,12 +238,26 @@
                   "repelStrength": 9.55208652178349,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 1.4019828977760698,
+                  "scale": 0.2588386562181566,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
               "title": "Local graph"
+            }
+          },
+          {
+            "id": "8750a45456a999d7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -302,33 +323,33 @@
   },
   "active": "dca61c263145489b",
   "lastOpenFiles": [
+    "Computer Vision/Computer Vision Overview.md",
+    "Computer Vision/Diffusion Models.md",
     "Computer Vision/Variational Auto Encoder (VAE).md",
+    "Computer Vision/Generative Adversarial Network (GAN).md",
+    "Computer Vision/Training Data Generation.md",
+    "Computer Vision/Image Generation.md",
+    "Computer Vision/Scoring the Image Generators.md",
+    "Computer Vision/Computer Vision.md",
+    "Computer Vision/Comparison of FID and CMMD.md",
+    "Computer Vision/CLIP Score.md",
+    "Computer Vision/SWIN.md",
+    "Computer Vision/Vision Transformer.md",
+    "Machine Learning/Neural Network.md",
+    "Machine Learning/Deep Neural Networks.md",
+    "Computer Vision/Object Recognition.md",
+    "Computer Vision/Instance Segmentation.md",
+    "Computer Vision/Semantic Segmentation.md",
+    "Computer Vision/CMMD Score.md",
+    "Computer Vision/FID score.md",
+    "Machine Learning/Residual Networks.md",
+    "Computer Vision/ResNet.md",
+    "Computer Vision/Camera Matrix P.md",
     "Images/Pasted image 20260812232159.png",
     "Computational Statistics/Auto-Encoders.md",
     "Computer Vision/Faster R-CNN.md",
     "Computer Vision/Object Detection.md",
     "Computer Vision/Fast R-CNN.md",
-    "Computer Vision/R-CNN.md",
-    "Computer Vision/Object Recognition.md",
-    "Computer Vision/Vision Transformer.md",
-    "Computer Vision/Instance Segmentation.md",
-    "Computer Vision/Graphics.md",
-    "Computer Vision/Scattering function.md",
-    "Computer Vision/BRDF.md",
-    "Computer Vision/SLAM and Visual Odometry.md",
-    "Computer Vision/Multi-view 3d Reconstruction.md",
-    "Computer Vision/RANSAC.md",
-    "Computer Vision/SVD.md",
-    "Computer Vision/Lens Effects.md",
-    "Computer Vision/Camera.md",
-    "Computer Vision/Computer Vision Overview.md",
-    "Computer Vision/Epipolar planes and Epipoles.md",
-    "Computer Vision/Camera Matrix P.md",
-    "Computer Vision/Camera Calibration.md",
-    "Computer Vision/Geometry of 2 views.md",
-    "Computer Vision/Fundamental Matrix F.md",
-    "Computer Vision/Essential Matrix E.md",
-    "Computer Vision/Introduction to Computer Vision.md",
     "Images/Pasted image 20260812181755.png",
     "Images/Pasted image 20260812181703.png",
     "Images/Pasted image 20260812141501.png",

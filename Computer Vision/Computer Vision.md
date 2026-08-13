@@ -1,7 +1,7 @@
 #moc
-Developing Computational Models and algorithms to interpret digital images and visual data in order to understand the visual world we live in.
+Developing Computational Models and algorithms to interpret digital images and visual data in order to understand the visual world we live in. Computer Vision can be understood as inverse graphics(rendering). 
 
-Computer Vision can be understood as inverse graphics(rendering). 
+[[Computer Vision Overview]]
 
 1. [[Introduction to Computer Vision]]
 2. Introduction to Deep Machine Learning
@@ -12,7 +12,7 @@ Computer Vision can be understood as inverse graphics(rendering).
 		1. [[Neural Network]]
 		2. [[Convolutional Neural Networks]]
 		3. [[Pretext Task]]
-	5. Image Classification: [[ResNet]]
+	5. Image Classification: [[Residual Networks]]
 	6. Semantic Segmentation: [[U-Net]]
 	7. [[Active Learning]]
 	8. [[Semi-Supervised Learning]]
@@ -77,15 +77,13 @@ Computer Vision can be understood as inverse graphics(rendering).
 		1. [[Vision Transformer]]
 		2. [[SWIN]]
 9. [[Image Generation]]
-	1. [[Scoring the Image Generators]]
+	1. Scoring the Image Generators
 		1. [[FID score]]
 		2. [[CLIP Score]]
-		3. [[CMMD]]
+		3. [[CMMD Score]]
 	2. Historical methods:
 		1. [[Generative Adversarial Network (GAN)]]
 		2. [[Variational Auto Encoder (VAE)]]
 		3. [[Diffusion Models]]
 		4. [[Flow Models]]
 10. [[Training Data Generation]]
-
-[[Computer Vision Overview]]

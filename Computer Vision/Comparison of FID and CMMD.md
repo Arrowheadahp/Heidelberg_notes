@@ -1,4 +1,4 @@
-## Comparison between [[FID score]] and [[CMMD]]:
+## Comparison between [[FID score]] and [[CMMD Score]]:
 
 - Both distances measure how well the 2 distributions align
 - Unlike FID, CMMD does not make Gaussian assumption about the distributions of the embeddings

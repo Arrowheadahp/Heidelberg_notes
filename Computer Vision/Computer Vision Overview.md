@@ -46,6 +46,7 @@ Artists that creates the rendering are mostly interested in 3 things of a surfac
 3. Roughness: This dictates the [[Specular Reflection]] as well according to the Cook Torrance [[BRDF]]
 There are other things like Subsurface scattering and Fresnel effect that are important.
 ### [[Object Recognition]]
+#### Types of Object Recognition
 This is a wide field which can be subdivided into 3  successive parts:
 1. What is there? 
    [[Object Detection]]: Creates bounding boxes 
@@ -54,5 +55,27 @@ This is a wide field which can be subdivided into 3  successive parts:
    [[Semantic Segmentation]]
 3. If there are more, which is which?
    [[Instance Segmentation]]
+#### Algorithms:
+1. [[Vision Transformer]]
+2. [[SWIN]]
 ### [[Image Generation]]
+#### Scoring
+Images can be generated from text or other images. For that we need to do proper scoring. The popular scoring mechanisms are: 
+
+| Scoring        | Number of Dimensions |
+| -------------- | -------------------- |
+| [[FID score]]  | 2048                 |
+| [[CLIP Score]] | 768                  |
+| [[CMMD Score]] | 768                  |
+All these calculate the ==distance== (Alignment to the prompt), quality (==realism==) and the ==diversity== from the real images it has been trained on. 0 is best score. [[Comparison of FID and CMMD]], [[CMMD Score]] is the best one to use.
+#### History of Image Generation:
+1. [[Generative Adversarial Network (GAN)]]
+2. [[Variational Auto Encoder (VAE)]]
+3. [[Diffusion Models]]
+4. [[Flow Models]]
 ### [[Training Data Generation]]
+|  Sources  | Ground Truth | Dangerous Scenes | Diversity | Realism | Video | Research Progress |
+| :-------: | :----------: | :--------------: | :-------: | :-----: | :---: | :---------------: |
+| Real Data |      -       |        -         |     o     |    +    |   +   |         o         |
+| Graphics  |      +       |        +         |     o     |    -    |   +   |         o         |
+| Generated |      -       |        +         |     +     |    o    |   -   |        ++         |
