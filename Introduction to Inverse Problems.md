@@ -2,11 +2,13 @@ The idea of Inverse Problems is to get the starting parameters from the result w
 $$ \mathcal A(f)=g $$
 Here,
 - $\mathcal A$ is the operation
-- $f$ is the parameters
-- $g$ is the result
+- $f$ is the parameters/ actual data
+- $g$ is the result(measurement)
 Knowing $\mathcal A$ and $g$, ==Inverse problems== aims to find $f$ or the best estimation of it.
 Getting the $g$ is called the ==Forward Problem==.
 ==Model Identification Problem== is to get the $\mathcal A$ given f and g.
+
+Most of the known difficult problems in imaging analysis are inverse problems.
 
 Here we only learn about Inverse Problems for ==[[Linear System]] which is Discrete==.
 $$ Af=g$$ 
@@ -20,3 +22,9 @@ This discretization is done by [[Newton-Cotes Method]].
 
 #### [[Inverse Crime]]
 #### [[Bias Variance Trade-off]]
+
+### [[Inverse problems for Convolution Operation]]
+
+### [[Well Posed and Ill posed Problems]]
+
+### [[Condition Number]] tells us how ill Posed the problem is

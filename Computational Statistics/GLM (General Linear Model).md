@@ -1,4 +1,4 @@
-This is the [[Linear Regression]] that is talked about.
+This is the Linear Regression that is talked about.
 It is still useful for small noisy samples and is the benchmark for other models
 
 Multiple Linear Regression

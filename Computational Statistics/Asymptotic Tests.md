@@ -1,7 +1,4 @@
-### Central Limit Theory
-
-Let $x_i\in\set{1,...,n}$ iid RV with [[Variance]]>0, $\mu:=\mathbb[x_i]<\infty$
-$$\lim_{n\to\infty}\frac{\bar x-\mu}{\sigma/\sqrt n}\sim N(0,1) $$
+### ![[Central Limit Theory]]
 ### [[Chi Squared Test]]
 $\chi^2$ tests are for checking if the Residual Sum of Squares is more or less according to the degrees of freedom
 
