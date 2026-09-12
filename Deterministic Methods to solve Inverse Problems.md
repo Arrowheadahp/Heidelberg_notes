@@ -14,4 +14,12 @@ Another way of [[Regularization]] is to change the singular values of D to $s_{i
 
 ### [[Tikhonov Regularization]]
 $$f^*=\arg\min_f\left ((Af-g)^2+\lambda D(f)\right) $$
+### [[p-Norms]]
+There are many norms that can be used just like L2 norm and L1 norm
 ### [[Non-Linear Regularization]]
+
+For constraining the values of f to be only positive, we can use methods like the [[Lagrange Multiplier]] or [[POCS]]
+
+### [[Underdetermined Problems]]
+
+## [[Classification of Models]]

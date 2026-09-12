@@ -12,8 +12,13 @@ Structure:
 	5. [[Well Posed and Ill posed Problems]]
 	6. [[Upper bound of error For Inverse Problem]]
 2. [[Deterministic Methods to solve Inverse Problems]]
-	1. Compressed Sensing
-3. Stochastic Methods to solve Inverse Problems
+3. Compressed Sensing
+4. Stochastic Methods to solve Inverse Problems
 	1. Deep Learning for Inverse Problems
-4. Regularization Parameter Optimisation
+5. Regularization Parameter Optimisation
 
+Glosary of definitions
+- [[Predicted Noise]]
+- [[Data Resolution Matrix]]
+- [[Model Resolution Matrix]]
+- 
