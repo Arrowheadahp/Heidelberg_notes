@@ -4,26 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "3e41e0eb6eb69f73",
+        "id": "ba34e12f685c1ee9",
         "type": "tabs",
         "children": [
           {
-            "id": "54d49c0f1bfcbd91",
+            "id": "3febbc82472150c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inverse Problems/Inverse Problems.md",
+                "file": "Computer Vision/Variational Auto Encoder (VAE).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inverse Problems"
-            },
-            "group": "b3d3efd21595cae9"
+              "title": "Variational Auto Encoder (VAE)"
+            }
+          },
+          {
+            "id": "0604eed6bee3c7c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Courses"
+            }
           }
         ],
-        "stacked": true
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,11 +70,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#moc  ",
+                "query": "SfM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -74,7 +87,7 @@
             "state": {
               "type": "bookmarks",
               "state": {
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-bookmark",
@@ -86,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.5
+    "width": 200
   },
   "right": {
     "id": "2691f505943780f4",
@@ -102,13 +115,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
-                "extraContext": true,
+                "file": "Computer Vision/NERF.md",
+                "collapseAll": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
@@ -120,12 +134,21 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temporal Difference Learning.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Temporal Difference Learning"
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "dca61c263145489b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -158,7 +181,73 @@
             }
           },
           {
-            "id": "4cc1e554e69e56e0",
+            "id": "f5eb624535ab6fd9",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Computer Vision/NERF.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "-tag:#overview  -tag:#moc ",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": true,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "path:\"Computer Vision\"  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5396192
+                      }
+                    },
+                    {
+                      "query": "path:\"Machine Learning\"  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14706514
+                      }
+                    },
+                    {
+                      "query": "path:\"Reinforcement Learning\"  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11657298
+                      }
+                    },
+                    {
+                      "query": "path:\"Computational Statistics\"  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5431378
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1.75031185031185,
+                  "collapse-forces": false,
+                  "centerStrength": 0.250731707317073,
+                  "repelStrength": 9.55208652178349,
+                  "linkStrength": 1,
+                  "linkDistance": 30,
+                  "scale": 0.2588386562181566,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Local graph"
+            }
+          },
+          {
+            "id": "8750a45456a999d7",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -170,23 +259,13 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
-          {
-            "id": "d77647bfb05363af",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 377.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,114 +277,16 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "random-note:Open random note": false,
+      "obsidian-git:Open Git source control": false,
       "zk-prefixer:Create new unique note": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-git:Open Git source control": false
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "floating": {
-    "id": "c91cca3aae0a8ce8",
-    "type": "floating",
-    "children": [
-      {
-        "id": "72c25e7f4d452592",
-        "type": "window",
-        "children": [
-          {
-            "id": "83e0f44bbc5e6c08",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f9b6caeac9964ed7",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "Inverse Problems/Inverse Problems.md",
-                    "options": {
-                      "collapse-filter": false,
-                      "search": "-tag:#moc -tag:#overview  ",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": true,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": true,
-                      "collapse-color-groups": true,
-                      "colorGroups": [
-                        {
-                          "query": "path:\"Computer Vision\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 14701138
-                          }
-                        },
-                        {
-                          "query": "path:\"Machine Learning\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 14725458
-                          }
-                        },
-                        {
-                          "query": "path:\"Reinforcement Learning\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 11657298
-                          }
-                        },
-                        {
-                          "query": "path:\"Computational Statistics\"  ",
-                          "color": {
-                            "a": 1,
-                            "rgb": 5431378
-                          }
-                        }
-                      ],
-                      "collapse-display": true,
-                      "showArrow": true,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1.4019828977760977,
-                      "close": true
-                    }
-                  },
-                  "icon": "lucide-git-fork",
-                  "title": "Graph of Inverse Problems"
-                },
-                "group": "b3d3efd21595cae9"
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 3755,
-        "y": 0,
-        "width": 548,
-        "height": 707,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "54d49c0f1bfcbd91",
+  "active": "0604eed6bee3c7c2",
   "lastOpenFiles": [
-    "Courses.md",
-    "Computer Vision/Computer Vision.md",
-    "Computer Vision/Computer Vision Overview.md",
-    "Inverse Problems/Inverse Problems.md",
-    "Computer Vision/3D Reconstruction.md",
-    "Inverse Problems/p-Norms.md",
-    "Inverse Problems",
-    "Inverse Problems/Well Posed and Ill posed Problems.md",
+    "Computer Vision/NERF.md",
     "Inverse Problems/Well Posed Problems.md",
+    "Inverse Problems/Well Posed and Ill posed Problems.md",
     "Inverse Problems/Weiner Filter.md",
     "Inverse Problems/Upper bound of error For Inverse Problem.md",
     "Inverse Problems/Underdetermined Problems.md",
@@ -316,14 +297,20 @@
     "Inverse Problems/Predicted Noise.md",
     "Inverse Problems/Point Spread Function.md",
     "Inverse Problems/POCS.md",
+    "Inverse Problems/p-Norms.md",
     "Inverse Problems/Norm of a Matrix.md",
     "Inverse Problems/Non-Linear Regularization.md",
     "Inverse Problems/Newton-Cotes Method.md",
     "Inverse Problems/Model Resolution Matrix.md",
     "Inverse Problems/Linear System.md",
     "Inverse Problems/Inverse problems for Convolution Operation.md",
+    "Inverse Problems/Inverse Problems.md",
     "Inverse Problems/Inverse Crime.md",
     "Inverse Problems/Introduction to Inverse Problems.md",
+    "Inverse Problems/Ill Posed Problems.md",
+    "Inverse Problems/Fourier Transform.md",
+    "Inverse Problems/Deterministic Methods to solve Inverse Problems.md",
+    "Inverse Problems",
     "Images/Pasted image 20260812232159.png",
     "Images/Pasted image 20260812181755.png",
     "Images/Pasted image 20260812181703.png",
@@ -334,15 +321,15 @@
     "Images/Pasted image 20260812125635.png",
     "Images/Pasted image 20260812124514.png",
     "Images/Pasted image 20260812123217.png",
+    "Untitled.canvas",
     "Machine Learning",
+    "$",
     "MOCs",
     "Computational Statistics",
     "Computer Vision",
     "Reinforcement Learning",
     "Untitled.base",
     "Fundamental",
-    "New Text Document.txt",
-    "Images",
-    "Untitled.canvas"
+    "New Text Document.txt"
   ]
 }
