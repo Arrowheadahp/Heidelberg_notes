@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "-tag:#overview  -tag:#moc ",
   "showTags": false,
   "showAttachments": false,
@@ -11,28 +11,35 @@
       "query": "path:\"Machine Learning\"  ",
       "color": {
         "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:\"Reinforcement Learning\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
+        "rgb": 14701138
       }
     },
     {
       "query": "path:\"Computational Statistics\"  ",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 14725458
       }
     },
     {
       "query": "path:\"Computer Vision\"  ",
       "color": {
         "a": 1,
-        "rgb": 6902496
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"Reinforcement Learning\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"Inverse Problems\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
       }
     }
   ],
@@ -42,10 +49,10 @@
   "nodeSizeMultiplier": 1.0983367983368,
   "lineSizeMultiplier": 0.996465696465697,
   "collapse-forces": false,
-  "centerStrength": 0.285073170731707,
-  "repelStrength": 10.009756097561,
+  "centerStrength": 0.25817502335721,
+  "repelStrength": 9.84739956399875,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.16348370567219975,
+  "scale": 0.1634837056722043,
   "close": true
 }
