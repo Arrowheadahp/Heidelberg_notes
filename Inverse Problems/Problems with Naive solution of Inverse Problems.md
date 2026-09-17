@@ -1,5 +1,5 @@
 The OTF can be 0 or very small values for high frequencies. 
-After the [[Point Spread Function]] operation, there can be some noise added. $$ g=PSF\otimes f+\varepsilon$$
+After the [[PSF]] operation, there can be some noise added. $$ g=PSF\otimes f+\varepsilon$$
 $$G=OTF\cdot F+E$$
 $$F = \frac{G-E}{OTF}$$
 Using the naïve solution of $F=\frac{G}{OTF}$ will not work. And we do not know the E. 
