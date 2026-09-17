@@ -11,6 +11,8 @@ Structure:
 	4. [[Inverse problems for Convolution Operation]]
 	5. [[Well Posed and Ill posed Problems]]
 	6. [[Upper bound of error For Inverse Problem]]
+	7. [[Condition Number]]
+	8. [[Upper bound of error For Inverse Problem]]
 2. [[Deterministic Methods to solve Inverse Problems]]
 	1. [[Weiner Filter]]
 	2. [[Simplified Discussions]]
