@@ -3,7 +3,7 @@ This is the ==optimal== filter to get a regularized inverse of a convolution is 
 ### Proof
 $G=HF+N$
 $N\sim  \mathcal N(0,\sigma^2)$
-This is after Fourier transformation where N is Normally distributed and F is the parameters.
+This is ==after Fourier transformation== where N is Normally distributed and F is the parameters.
 Let W be the [[Weiner Filter]] that transforms G into predicted F.
 We find W by minimising (WG-F)^2
 $$\frac{\delta}{\delta W}(W(HF+N)-F)^2\gets0$$
