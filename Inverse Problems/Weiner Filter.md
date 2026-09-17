@@ -9,4 +9,6 @@ We find W by minimising (WG-F)^2
 $$\frac{\delta}{\delta W}(W(HF+N)-F)^2\gets0$$
 This results in $$W=H^{-1}\frac{1}{1+\frac{\sigma^2}{H^2P(f)}}$$
 Where P(f) is the power spectrum $P(f)= F^2$
-This gives good estimate with a good estimation of the power spectrum of the solution.
+
+> [!NOTE]
+> This gives good estimate with a good estimation of the power spectrum of the solution.
