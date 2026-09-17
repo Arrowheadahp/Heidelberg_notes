@@ -12,6 +12,13 @@ Structure:
 	5. [[Well Posed and Ill posed Problems]]
 	6. [[Upper bound of error For Inverse Problem]]
 2. [[Deterministic Methods to solve Inverse Problems]]
+	1. [[Weiner Filter]]
+	2. [[Simplified Discussions]]
+	3. [[Tikhonov Regularization]]
+	4. [[p-Norms]]
+	5. [[Non-Linear Regularization]]
+	6. [[Underdetermined Problems]]
+	7. [[Classification of Models]]
 3. Compressed Sensing
 4. Stochastic Methods to solve Inverse Problems
 	1. Deep Learning for Inverse Problems

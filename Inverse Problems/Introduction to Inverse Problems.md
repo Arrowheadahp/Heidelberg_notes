@@ -27,4 +27,5 @@ This discretization is done by [[Newton-Cotes Method]].
 
 ### [[Well Posed and Ill posed Problems]]
 
-### [[Condition Number]] tells us how ill Posed the problem is
+### [[Condition Number]] 
+This tells us how ill Posed the problem is
