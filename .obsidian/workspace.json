@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inverse Problems/Underdetermined Problems.md",
+                "file": "Inverse Problems/Tikhonov Regularization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Underdetermined Problems"
+              "title": "Tikhonov Regularization"
             }
           }
         ]
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inverse Problems/Underdetermined Problems.md",
+                "file": "Inverse Problems/Tikhonov Regularization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,9 +269,12 @@
   },
   "active": "391f9cdaa331651d",
   "lastOpenFiles": [
+    "Computational Statistics/Inference for linear regression.md",
+    "Inverse Problems/Tikhonov Regularization.md",
+    "Inverse Problems/Deterministic Methods to solve Inverse Problems.md",
+    "Inverse Problems/Non-Linear Regularization.md",
     "Inverse Problems/Classification of Models.md",
     "Inverse Problems/Underdetermined Problems.md",
-    "Inverse Problems/Deterministic Methods to solve Inverse Problems.md",
     "Inverse Problems/p-Norms.md",
     "Inverse Problems/Norm of a Matrix.md",
     "Inverse Problems/Condition Number.md",
@@ -293,9 +296,6 @@
     "Computer Vision/Properties of Convolution.md",
     "Computational Statistics/Bias Variance Trade-off.md",
     "Inverse Problems/Linear System.md",
-    "Inverse Problems/Pseudoinverse.md",
-    "Courses.md",
-    "Computer Vision/NERF.md",
     "Inverse Problems",
     "Images/Pasted image 20260812232159.png",
     "Images/Pasted image 20260812181755.png",

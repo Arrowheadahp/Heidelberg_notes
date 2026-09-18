@@ -2,10 +2,10 @@
 ### Approach
 $$g=Af+\varepsilon$$
 Tikhonov's idea is to formulate the problem as
-$$f^*=\arg\min_f(Af-g)^2$$This is minimising the ==fidelity==.
+$$f^*=\arg\min_f(Af-g)^2$$This is minimising the ==fidelity== (difference between true measurement and the predicted one).
 Solving this is similar to [[Inference for linear regression]] which gives the solution for [[Pseudoinverse]].$$ f = (A^TA)^{-1}A^Tg=A^{PI}g$$
 ### Regularization
-For getting more robust values the process of [[Regularization]] that ikhonov introduced is $$f^*=\arg\min_f\left ((Af-g)^2+\lambda D(f)\right) $$
+For getting more robust values the process of [[Regularization]] that Tikhonov introduced is $$f^*=\arg\min_f\left ((Af-g)^2+\lambda D(f)\right) $$
 Where 
 - $\lambda$ is the Regularization parameter (scalar positive)
 - $D(f)$ is the Regularization function which only has positive values (can be identity matrix as well)
