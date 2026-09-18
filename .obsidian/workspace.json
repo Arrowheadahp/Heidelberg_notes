@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inverse Problems/Classification of Models.md",
+                "file": "Inverse Problems/Underdetermined Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Classification of Models"
+              "title": "Underdetermined Problems"
             }
           }
         ]
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inverse Problems/Classification of Models.md",
+                "file": "Inverse Problems/Underdetermined Problems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,6 +269,8 @@
   },
   "active": "391f9cdaa331651d",
   "lastOpenFiles": [
+    "Inverse Problems/Classification of Models.md",
+    "Inverse Problems/Underdetermined Problems.md",
     "Inverse Problems/Deterministic Methods to solve Inverse Problems.md",
     "Inverse Problems/p-Norms.md",
     "Inverse Problems/Norm of a Matrix.md",
@@ -294,8 +296,6 @@
     "Inverse Problems/Pseudoinverse.md",
     "Courses.md",
     "Computer Vision/NERF.md",
-    "Inverse Problems/Well Posed Problems.md",
-    "Inverse Problems/Underdetermined Problems.md",
     "Inverse Problems",
     "Images/Pasted image 20260812232159.png",
     "Images/Pasted image 20260812181755.png",
