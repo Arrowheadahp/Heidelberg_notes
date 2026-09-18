@@ -21,13 +21,14 @@ Structure:
 	5. [[Non-Linear Regularization]]
 	6. [[Underdetermined Problems]]
 	7. [[Classification of Models]]
+	8. [[Quality of Inverses]]
 3. Compressed Sensing
 4. Stochastic Methods to solve Inverse Problems
 	1. Deep Learning for Inverse Problems
 5. Regularization Parameter Optimisation
 
-Glosary of definitions
+Glossary of definitions
 - [[Predicted Noise]]
-- [[Data Resolution Matrix]]
-- [[Model Resolution Matrix]]
+- [[Data Resolution Matrix (N)]]
+- [[Model Resolution Matrix (R)]]
 - 
