@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inverse Problems/Data Resolution Matrix.md",
+                "file": "Inverse Problems/Inverse Problems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Resolution Matrix"
+              "title": "Inverse Problems"
             }
           }
         ]
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inverse Problems/Data Resolution Matrix.md",
+                "file": "Inverse Problems/Inverse Problems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,6 +269,7 @@
   },
   "active": "391f9cdaa331651d",
   "lastOpenFiles": [
+    "Inverse Problems/Data Resolution Matrix.md",
     "Inverse Problems/Inverse Problems.md",
     "Inverse Problems/Predicted Noise.md",
     "Inverse Problems/Classification of Models.md",
@@ -295,7 +296,6 @@
     "Inverse Problems/Fourier Transform.md",
     "Inverse Problems/Newton-Cotes Method.md",
     "Computational Statistics/Gaussian Distribution.md",
-    "Computer Vision/Properties of Convolution.md",
     "Inverse Problems",
     "Images/Pasted image 20260812232159.png",
     "Images/Pasted image 20260812181755.png",
