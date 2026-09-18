@@ -1,0 +1,1 @@
+$$\alpha_1(A^TA)A^{-1}+A^{-1}(\alpha_2(AA^T)+\alpha_3(cov(g))) =(\alpha+\alpha_2)A^T $$
