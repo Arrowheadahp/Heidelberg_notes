@@ -11,7 +11,7 @@ Where
 - $D(f)$ is the Regularization function which only has positive values (can be identity matrix as well)
 
 #### When D(f) = (Df)^T (Df)
-This becomes similar to [[Ridge Regression]] where $D=I$. 
+This becomes similar to [[Ridge Regression]] where $D=I$. This gives the minimal length solution.
 $$f_\lambda=(A^TA+\lambda D^TD)A^Tg=A^{PI}_\lambda g$$
 Choice of $\lambda$ comes down to [[Bias Variance Trade-off]]
 
