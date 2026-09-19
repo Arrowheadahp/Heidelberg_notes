@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inverse Problems/Condition Number.md",
+                "file": "Inverse Problems/Convolution Theorem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Condition Number"
+              "title": "Convolution Theorem"
             }
           }
         ]
@@ -271,6 +271,7 @@
   "active": "391f9cdaa331651d",
   "lastOpenFiles": [
     "Computer Vision/SVD.md",
+    "Inverse Problems/Condition Number.md",
     "Quality of Inverses.md",
     "Damped Minimum Length.md",
     "Damped Least Squares.md",
@@ -289,7 +290,6 @@
     "Inverse Problems/Underdetermined Problems.md",
     "Inverse Problems/p-Norms.md",
     "Inverse Problems/Norm of a Matrix.md",
-    "Inverse Problems/Condition Number.md",
     "Inverse Problems/Simplified Discussions.md",
     "Inverse Problems/Upper bound of error For Inverse Problem.md",
     "Inverse Problems/Weiner Filter.md",
