@@ -2,16 +2,16 @@
 ### Approach
 $$g=Af+\varepsilon$$
 Tikhonov's idea is to formulate the problem as
-$$f^*=\arg\min_f(Af-g)^2$$This is minimising the ==fidelity== (difference between true measurement and the predicted one).
+$$f^*=\arg\min_f\|Af-g\|_2^2$$This is minimising the ==fidelity== (squared difference between true measurement and the predicted one).
 Solving this is similar to [[Inference for linear regression]] which gives the solution for [[Pseudoinverse]].$$ f = (A^TA)^{-1}A^Tg=A^{PI}g$$
 ### Regularization
-For getting more robust values the process of [[Regularization]] that Tikhonov introduced is $$f^*=\arg\min_f\left ((Af-g)^2+\lambda D(f)\right) $$
+For getting more robust values the process of [[Regularization]] that Tikhonov introduced is $$f^*=\arg\min_f\left (\|Af-g\|_2^2+\lambda D(f)\right) $$
 Where 
 - $\lambda$ is the Regularization parameter (scalar positive)
 - $D(f)$ is the Regularization function which only has positive values (can be identity matrix as well)
 
-#### When D(f) = (Df)^T (Df)
-This becomes similar to [[Ridge Regression]] where $D=I$. This gives the minimal length solution.
+#### When $D(f) = (Df)^T (Df)$
+This is a generalization of [[Ridge Regression]] where $D=I$. This gives the minimal length solution.
 $$f_\lambda=(A^TA+\lambda D^TD)A^Tg=A^{PI}_\lambda g$$
 Choice of $\lambda$ comes down to [[Bias Variance Trade-off]]
 
