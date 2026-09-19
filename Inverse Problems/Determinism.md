@@ -1,11 +1,11 @@
 The models or inverse problems can be classified into different classes depending on the number of measurements wrt number of parameters needed to be determined.
 
-| Determined                   | Equation | Solution   | E(f) | Meaning                             | Pseudoinverse    |
-| ---------------------------- | -------- | ---------- | ---- | ----------------------------------- | ---------------- |
-| Even Determined              | M=n      | Unique     | =0   | Exactly enough data                 | $A^{-1}$         |
-| Over Determined              | M>n      | Unique     | >0   | More than enough data               | $(A^TA)^{-1}A^T$ |
-| [[Underdetermined Problems]] | M<n      | Non-Unique | =0   | Less data than model parameters     | $A^T(AA^T)^{-1}$ |
-| Mixed Determined             |          |            |      | Only some parameters are constraned |                  |
+| Determined                   | Meaning                         | Equation | Pseudoinverse    | Solution   | E(f) | Rank          |
+| ---------------------------- | ------------------------------- | -------- | ---------------- | ---------- | ---- | ------------- |
+| Even Determined              | Exactly enough data             | $m==n$   | $A^{-1}$         | Unique     | =0   | $r==m==n$     |
+| Over Determined              | More than enough data           | $m>n$    | $(A^TA)^{-1}A^T$ | Unique     | >0   | $r==n$        |
+| [[Underdetermined Problems]] | Less data than model parameters | $m<n$    | $A^T(AA^T)^{-1}$ | Non-Unique | =0   | $r==m$        |
+| Mixed Determined             | Some parameters are constrained |          |                  |            |      | $r<\min(m,n)$ |
 
 ### Statistical Measures
 #todo 
