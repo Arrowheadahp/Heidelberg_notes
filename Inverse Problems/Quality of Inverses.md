@@ -5,7 +5,7 @@ Spread(B) is the 2-norm of ($B-I$) = $||B- \mathbb I||^2_2$
 We use this spread function to calculate the [[Loss Function]] $J$ and then calculate  $\arg\min_{A^{-1}}J$ by $$\frac{\delta J}{\delta A^{-1}}\gets0$$
 ### Minimize the spread of N
 $$\frac{\delta ||AA^{PI}-\delta||^2_2}{\delta A^{-1}}=0$$$$\frac{\partial (AA^{PI}-\delta)^T(AA^{PI}-\delta)}{\partial A^{PI}}=0$$ $$A^{PI}=(A^TA)^{-1}A^T$$
-The general case is to minimize $$\Gamma=\alpha_1spread(N)+\alpha_2spread(R) +\alpha_3size(cov(F))$$
+The general case is to minimize $$\Gamma=\alpha_1spread(N)+\alpha_2spread(R) +\alpha_3size(cov(f))$$
 This comes down to the ==![[Sylvester Equation]]== 
 Here the alphas are weighted accordingly
 1. Data resolution: The reconstructed model tries to reproduce the data perfectly

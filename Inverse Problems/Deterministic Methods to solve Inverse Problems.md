@@ -22,4 +22,4 @@ For constraining the values of f to be only positive, we can use methods like th
 
 ### [[Underdetermined Problems]]
 
-## [[Classification of Models]]
+## [[Determinism]]

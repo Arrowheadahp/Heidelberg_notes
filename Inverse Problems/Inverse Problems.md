@@ -20,7 +20,7 @@ Structure:
 	4. [[p-Norms]]
 	5. [[Non-Linear Regularization]]
 	6. [[Underdetermined Problems]]
-	7. [[Classification of Models]]
+	7. [[Determinism]]
 	8. [[Quality of Inverses]]
 3. Compressed Sensing
 4. Stochastic Methods to solve Inverse Problems
