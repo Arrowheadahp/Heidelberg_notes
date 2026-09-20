@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computational Statistics/Probability Rules.md",
+                "file": "Richardson Lucy Method.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Probability Rules"
+              "title": "Richardson Lucy Method"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bayes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computational Statistics/Probability Rules.md",
+                "file": "Richardson Lucy Method.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,9 +270,21 @@
   "active": "391f9cdaa331651d",
   "lastOpenFiles": [
     "Stochastic Methods to solve Inverse Problems.md",
-    "Computational Statistics/Random Variables.md",
+    "Landweber Method.md",
+    "Richardson Lucy Method.md",
+    "Computational Statistics/Gradient Descent.md",
+    "Computational Statistics/Iterative Estimation Methods.md",
+    "Reinforcement Learning/Solving Linear System to evaluate policy.md",
+    "Reinforcement Learning/Linear Function Approximation in RL.md",
+    "Computational Statistics/Poisson Distribution.md",
+    "Computational Statistics/Discrete Probability Distributions.md",
     "Computational Statistics/Computational Statistics and Data Analysis.md",
+    "Computational Statistics/Continuous Probability Distribution.md",
+    "Bayes Theorem.md",
+    "Computational Statistics/Maximum Likelihood.md",
+    "Computational Statistics/Principles of Statistical Estimation.md",
     "Computational Statistics/Probability Rules.md",
+    "Computational Statistics/Random Variables.md",
     "Computational Statistics/Probability Models.md",
     "Reinforcement Learning/Definitions in Reinforcement Learning.md",
     "Computational Statistics/Expected Values.md",
@@ -283,18 +295,6 @@
     "Inverse Problems/Norm of a Matrix.md",
     "Inverse Problems/Tikhonov Regularization.md",
     "Computational Statistics/Ridge Regression.md",
-    "Computational Statistics/Regularization.md",
-    "Inverse Problems/Weiner Filter.md",
-    "Inverse Problems/Damped Minimum Length.md",
-    "Inverse Problems/Sylvester Equation.md",
-    "Inverse Problems/Quality of Inverses.md",
-    "Inverse Problems/Inverse problems for Convolution Operation.md",
-    "Inverse Problems/Convolution Theorem.md",
-    "Inverse Problems/Fourier Transform.md",
-    "Computer Vision/SVD.md",
-    "Inverse Problems/Condition Number.md",
-    "Inverse Problems/Damped Least Squares.md",
-    "Inverse Problems/Backus Gilbert Solution.md",
     "Images/Pasted image 20260917235425.png",
     "Inverse Problems",
     "Images/Pasted image 20260812232159.png",
