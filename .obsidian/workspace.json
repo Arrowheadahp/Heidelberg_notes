@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inverse Problems/Model Resolution Matrix (R).md",
+                "file": "Computational Statistics/Probability Rules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model Resolution Matrix (R)"
+              "title": "Probability Rules"
             }
           }
         ]
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inverse Problems/Model Resolution Matrix (R).md",
+                "file": "Computational Statistics/Probability Rules.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,16 +269,22 @@
   },
   "active": "391f9cdaa331651d",
   "lastOpenFiles": [
-    "Inverse Problems/Norm of a Matrix.md",
-    "Inverse Problems/Model Resolution Matrix (R).md",
+    "Stochastic Methods to solve Inverse Problems.md",
+    "Computational Statistics/Random Variables.md",
+    "Computational Statistics/Computational Statistics and Data Analysis.md",
+    "Computational Statistics/Probability Rules.md",
+    "Computational Statistics/Probability Models.md",
+    "Reinforcement Learning/Definitions in Reinforcement Learning.md",
+    "Computational Statistics/Expected Values.md",
     "Inverse Problems/Inverse Problems.md",
+    "Inverse Problems/Determinism.md",
     "Inverse Problems/Data Resolution Matrix (N).md",
+    "Inverse Problems/Model Resolution Matrix (R).md",
+    "Inverse Problems/Norm of a Matrix.md",
     "Inverse Problems/Tikhonov Regularization.md",
     "Computational Statistics/Ridge Regression.md",
     "Computational Statistics/Regularization.md",
-    "Computational Statistics/Computational Statistics and Data Analysis.md",
     "Inverse Problems/Weiner Filter.md",
-    "Inverse Problems/Determinism.md",
     "Inverse Problems/Damped Minimum Length.md",
     "Inverse Problems/Sylvester Equation.md",
     "Inverse Problems/Quality of Inverses.md",
@@ -289,12 +295,6 @@
     "Inverse Problems/Condition Number.md",
     "Inverse Problems/Damped Least Squares.md",
     "Inverse Problems/Backus Gilbert Solution.md",
-    "Inverse Problems/Predicted Noise.md",
-    "Inverse Problems/Deterministic Methods to solve Inverse Problems.md",
-    "Computational Statistics/Inference for linear regression.md",
-    "Inverse Problems/Non-Linear Regularization.md",
-    "Inverse Problems/Underdetermined Problems.md",
-    "Inverse Problems/p-Norms.md",
     "Images/Pasted image 20260917235425.png",
     "Inverse Problems",
     "Images/Pasted image 20260812232159.png",

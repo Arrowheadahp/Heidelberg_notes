@@ -22,8 +22,8 @@ Structure:
 	6. [[Underdetermined Problems]]
 	7. [[Determinism]]
 	8. [[Quality of Inverses]]
-3. Compressed Sensing
-4. Stochastic Methods to solve Inverse Problems
+3. [[Stochastic Methods to solve Inverse Problems]]
+4. Compressed Sensing
 	1. Deep Learning for Inverse Problems
 5. Regularization Parameter Optimisation
 
