@@ -288,14 +288,14 @@
         "direction": "vertical",
         "x": 3755,
         "y": 0,
-        "width": 548,
-        "height": 707,
+        "width": 439,
+        "height": 566,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "54d49c0f1bfcbd91",
+  "active": "f9b6caeac9964ed7",
   "lastOpenFiles": [
     "Courses.md",
     "Computer Vision/Computer Vision.md",
