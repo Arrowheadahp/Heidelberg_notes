@@ -10,7 +10,7 @@ Changing the value of $s$ changes the regularization amount. For some values of 
 This is the ==optimal== filter to get a regularized inverse of a convolution that is obtained by minimising the squared error between predicted F and the true solution
 
 ### [[Simplified Discussions]]
-Another way of [[Regularization]] is to change the singular values of D to $s_{ii}\gets s^2\forall s_{ii}<\delta<<1$.
+Another way of [[Regularization]] is to change the singular values to $s_{ii}\gets s^2\forall s_{ii}<\delta<<1$.
 
 ### [[Tikhonov Regularization]]
 $$f^*=\arg\min_f\left ((Af-g)^2+\lambda D(f)\right) $$
@@ -22,4 +22,4 @@ For constraining the values of f to be only positive, we can use methods like th
 
 ### [[Underdetermined Problems]]
 
-## [[Classification of Models]]
+## [[Determinism]]

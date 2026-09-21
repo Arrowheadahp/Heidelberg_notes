@@ -11,14 +11,25 @@ Structure:
 	4. [[Inverse problems for Convolution Operation]]
 	5. [[Well Posed and Ill posed Problems]]
 	6. [[Upper bound of error For Inverse Problem]]
+	7. [[Condition Number]]
+	8. [[Upper bound of error For Inverse Problem]]
 2. [[Deterministic Methods to solve Inverse Problems]]
-3. Compressed Sensing
-4. Stochastic Methods to solve Inverse Problems
+	1. [[Weiner Filter]]
+	2. [[Simplified Discussions]]
+	3. [[Tikhonov Regularization]]
+	4. [[p-Norms]]
+	5. [[Non-Linear Regularization]]
+	6. [[Underdetermined Problems]]
+	7. [[Determinism]]
+	8. [[Quality of Inverses]]
+3. [[Stochastic Methods to solve Inverse Problems]]
+4. Compressed Sensing
 	1. Deep Learning for Inverse Problems
 5. Regularization Parameter Optimisation
 
-Glosary of definitions
+Glossary of definitions
 - [[Predicted Noise]]
-- [[Data Resolution Matrix]]
-- [[Model Resolution Matrix]]
+- [[Data Resolution Matrix (N)]]
+- [[Model Resolution Matrix (R)]]
+- [[Covariance of f_est]]
 - 

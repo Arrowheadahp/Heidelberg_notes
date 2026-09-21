@@ -3,9 +3,9 @@ Content:
 1. [[Probability Models]]: 
 	1. [[Probability Rules]]
 	2. [[Random Variables]]
-	3. [[Expected Values]]
-	4. [[Variance]]
-	5. [[Covariance]]
+		1. [[Expected Values]]
+		2. [[Variance]]
+		3. [[Covariance]]
 2. [[Discrete Probability Distributions]]: 
 	1. [[Uniform Distribution]]
 	2. [[Bernoulli Distribution]]

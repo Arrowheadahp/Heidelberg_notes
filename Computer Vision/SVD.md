@@ -1,5 +1,5 @@
 ## Singular Value Decomposition
-![https://www.youtube.com/watch?v=vSczTbgc8Rc]
+![https://www.youtube.com/watch?v=vSczTbgc8Rc](https://www.youtube.com/watch?v=vSczTbgc8Rc&t=806s&pp=ygUDc3Zk)
 
 Any matrix can be decomposed into 3 parts
 $$ A = UDV^T$$

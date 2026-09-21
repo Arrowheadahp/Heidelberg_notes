@@ -4,7 +4,7 @@ As an example of inversing a convolution operation we look at deblurring.
 Blurring occurs due to motion blur, out of focus, physical resolution being smaller than object.
 ### What is convolution:
 $$(f\otimes g)(j)=\sum_{i=-N}^Nf_{j-i}g_i$$
-Deblurring require calculating the inverse of the [[Point Spread Function]] which is a convolution operation.
+Deblurring require calculating the inverse of the [[PSF]] which is a convolution operation.
 
 For the operation of convolution and the inverse of it, we use the Convolution using [[Fourier Transform]] since the convolution operation becomes a multiplication after Fourier transform. This is the meaning behind [[Convolution Theorem]] which gives the [[OTF]]. 
 
