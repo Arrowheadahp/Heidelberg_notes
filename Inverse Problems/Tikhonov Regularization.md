@@ -19,3 +19,5 @@ Choice of $\lambda$ comes down to [[Bias Variance Trade-off]]
 1. Deblurring can never be perfect unless $\lambda=0$
 2. Due to limited frequency bandwidth, there will be artifacts near sharp objects
 We cannot remove these limitations no matter what D we choose.
+
+> [!NOTE] Tikhonov Regularization can be derived from assuming that prior and likelihood from [[Bayes Theorem]] follow Gaussian Distribution and getting the maximum Posterior.

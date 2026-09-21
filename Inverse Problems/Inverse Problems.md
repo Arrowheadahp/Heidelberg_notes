@@ -31,4 +31,5 @@ Glossary of definitions
 - [[Predicted Noise]]
 - [[Data Resolution Matrix (N)]]
 - [[Model Resolution Matrix (R)]]
+- [[Covariance of f_est]]
 - 
