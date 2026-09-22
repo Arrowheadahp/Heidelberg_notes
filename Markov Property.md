@@ -1,0 +1,1 @@
+The future actions and rewards and states only depends on the current state and action but not the past. The state contains all the information needed to predict the the future.

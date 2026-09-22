@@ -16,3 +16,6 @@ Some examples are:
 1. [[Landweber Method]]
 2. [[Richardson Lucy Method]]
 
+[[Jeffrey's Prior]]
+[[Monte Carlo Markov Chain]]
+
