@@ -1,0 +1,2 @@
+This tells us how much information can be given by an additional data point. 
+Mathematically it is the expected curvature of the log likelihood $$I(f)=\mathbb E\left[\frac{\partial}{\partial f}\log p(f|g)\right]$$

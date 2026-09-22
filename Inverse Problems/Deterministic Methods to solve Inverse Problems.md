@@ -1,5 +1,5 @@
 Objective:
-1. Linear inverse problems that are characterized by convolution ([[Toeplitz Matrix]]), a naive solution increases the noise.
+1. Linear inverse problems that are characterized by convolution ([[Toeplitz Matrix]]), a naïve solution increases the noise.
 2. How to optimally reconstruct the signal and using [[Weiner Filter]] and the definition of optimality.
 3. [[Tikhonov Regularization]]
 The [[Problems with Naive solution of Inverse Problems]] is that the small errors in the measurement of g causes lot of inaccuracies. 

@@ -23,9 +23,12 @@ Structure:
 	7. [[Determinism]]
 	8. [[Quality of Inverses]]
 3. [[Stochastic Methods to solve Inverse Problems]]
-4. Compressed Sensing
-	1. Deep Learning for Inverse Problems
-5. Regularization Parameter Optimisation
+	1. [[Fixed point Iterative approaches]]
+	2. [[Jeffrey's Prior]]
+	3. [[MCMC]]
+4. [[Regularization Parameter Optimisation]]
+5. Compressed Sensing
+6. Deep Learning for Inverse Problems
 
 Glossary of definitions
 - [[Predicted Noise]]
