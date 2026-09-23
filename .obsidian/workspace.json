@@ -63,7 +63,8 @@
               "title": "Jeffrey's Prior"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cross-Validation.md",
+                "file": "Untitled 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,11 +310,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "391f9cdaa331651d",
+  "active": "103c35959a161537",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Cross-Validation.md",
     "Regularization Parameter Optimisation.md",
     "L-Curve.md",
-    "Cross-Validation.md",
     "Computational Statistics/Computational Statistics and Data Analysis.md",
     "Pasted image 20260922203832.png",
     "Computational Statistics/Regularization.md",
@@ -337,7 +339,6 @@
     "Courses.md",
     "Untitled 1.md",
     "Inverse Problems/Sylvester Equation.md",
-    "Inverse Problems/Quality of Inverses.md",
     "Images/Pasted image 20260917235425.png",
     "Inverse Problems",
     "Images/Pasted image 20260812232159.png",
