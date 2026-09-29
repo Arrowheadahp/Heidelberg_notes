@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inverse Problems/Regularization Parameter Optimisation.md",
+                "file": "Computer Vision/Convolutional Neural Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Regularization Parameter Optimisation"
+              "title": "Convolutional Neural Networks"
             }
           },
           {
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bayes",
+                "query": "max poo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inverse Problems/Regularization Parameter Optimisation.md",
+                "file": "Computer Vision/Convolutional Neural Networks.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,8 +278,15 @@
   },
   "active": "391f9cdaa331651d",
   "lastOpenFiles": [
-    "Machine Learning/Cross-Validation.md",
+    "Computer Vision/Sobel Filter.md",
+    "Computer Vision/Specular Reflection.md",
+    "Computer Vision/BRDF.md",
+    "Computer Vision/Diffusion.md",
+    "Computer Vision/Computer Vision.md",
+    "Computer Vision/Computer Vision Overview.md",
+    "Computer Vision/Graphics.md",
     "Inverse Problems/Regularization Parameter Optimisation.md",
+    "Machine Learning/Cross-Validation.md",
     "Untitled 1.md",
     "conflict-files-obsidian-git.md",
     "Inverse Problems/L-Curve.md",
@@ -297,13 +305,6 @@
     "Inverse Problems/MCMC.md",
     "Computational Statistics/Metropolis Hastings Algorithm.md",
     "Reinforcement Learning/What is a Finite Markov Decision Process.md",
-    "Reinforcement Learning/Markov Decision Process.md",
-    "Inverse Problems/Markov Property.md",
-    "Inverse Problems/Tikhonov Regularization.md",
-    "Reinforcement Learning/Monte-Carlo Methods.md",
-    "Inverse Problems/Richardson Lucy.md",
-    "Courses.md",
-    "Inverse Problems/Sylvester Equation.md",
     "Images/Pasted image 20260917235425.png",
     "Inverse Problems",
     "Images/Pasted image 20260812232159.png",
