@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses.md",
+                "file": "My Research/Harness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Courses"
+              "title": "Harness"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses.md",
+                "file": "My Research/Harness.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,9 @@
   },
   "active": "391f9cdaa331651d",
   "lastOpenFiles": [
+    "Pasted image 20261007234437.png",
     "My Research/LLM.md",
+    "Courses.md",
     "My Research/Harness.md",
     "My Research",
     "Computer Vision/Convolutional Neural Networks.md",
@@ -304,8 +306,6 @@
     "Inverse Problems/Fixed point Iterative approaches.md",
     "Inverse Problems/Jeffrey's Prior.md",
     "Inverse Problems/Fisher Information I.md",
-    "Inverse Problems/Richardson Lucy Method.md",
-    "Inverse Problems/Landweber Method.md",
     "Images/Pasted image 20260917235425.png",
     "Inverse Problems",
     "Images/Pasted image 20260812232159.png",
