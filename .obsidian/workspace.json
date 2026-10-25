@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Research/Harness.md",
+                "file": "Computational Statistics/Gradient Descent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Harness"
+              "title": "Gradient Descent"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Research/Harness.md",
+                "file": "Computational Statistics/Gradient Descent.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,8 +254,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -278,10 +277,23 @@
   },
   "active": "391f9cdaa331651d",
   "lastOpenFiles": [
-    "Pasted image 20261007234437.png",
+    "Batch Gradient Descent.md",
+    "Computational Statistics/Gradient Descent.md",
+    "Inverse Problems/Richardson Lucy.md",
+    "Reinforcement Learning/TD Prediction.md",
+    "Computational Statistics/Linear Regression.md",
+    "Computational Statistics/Loss Function.md",
+    "Computational Statistics/Squared Error.md",
+    "Computational Statistics/Computational Statistics and Data Analysis.md",
+    "Computational Statistics/Lasso Regression.md",
+    "Computational Statistics/Local Linear Regression.md",
+    "Inverse Problems/Linear System.md",
+    "Multiple Linear Regression.md",
+    "Images/Pasted image 20261007234437.png",
+    "My Research/Harness.md",
+    "Supervised Learning.md",
     "My Research/LLM.md",
     "Courses.md",
-    "My Research/Harness.md",
     "My Research",
     "Computer Vision/Convolutional Neural Networks.md",
     "Computer Vision/Sobel Filter.md",
@@ -293,19 +305,7 @@
     "Computer Vision/Graphics.md",
     "Inverse Problems/Regularization Parameter Optimisation.md",
     "Machine Learning/Cross-Validation.md",
-    "Untitled 1.md",
-    "conflict-files-obsidian-git.md",
-    "Inverse Problems/L-Curve.md",
-    "Computational Statistics/Computational Statistics and Data Analysis.md",
     "Images/Pasted image 20260922203832.png",
-    "Computational Statistics/Regularization.md",
-    "Inverse Problems/Inverse Problems.md",
-    "Inverse Problems/Deterministic Methods to solve Inverse Problems.md",
-    "Inverse Problems/Underdetermined Problems.md",
-    "Inverse Problems/Stochastic Methods to solve Inverse Problems.md",
-    "Inverse Problems/Fixed point Iterative approaches.md",
-    "Inverse Problems/Jeffrey's Prior.md",
-    "Inverse Problems/Fisher Information I.md",
     "Images/Pasted image 20260917235425.png",
     "Inverse Problems",
     "Images/Pasted image 20260812232159.png",
@@ -315,7 +315,6 @@
     "Images/Pasted image 20260812140822.png",
     "Images/Pasted image 20260812140521.png",
     "Images/Pasted image 20260812135140.png",
-    "Images/Pasted image 20260812125635.png",
     "Untitled.canvas",
     "Machine Learning",
     "$",

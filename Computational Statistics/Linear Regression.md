@@ -5,3 +5,4 @@ Multiple Linear Regression
 Where multiple features are there for the predictors
 
 $$\hat\beta=(X^TX)^{-1}X^Ty$$
+The [[Loss Function]] used mostly is [[Squared Error]].

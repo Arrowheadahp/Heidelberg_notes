@@ -19,6 +19,6 @@ Here TD target is the value $V(S_t)$ is going towards.$$R_{t+1} + \gamma V(S_{t+
 		- Break when S is terminal
 
 > [!Question] Why does the Bootstrapping work?
-> For a fixed policy $\pi$, with a small constant, the mean of the V(S) converges to $v_\pi$ and for diminishing $\alpha$ satisfying the standard stochastic gradient descent conditions, V(S) converges to $v_\pi$ with probability 1.
+> For a fixed policy $\pi$, with a small constant, the mean of the V(S) converges to $v_\pi$ and for diminishing $\alpha$ satisfying the standard [[Stochastic Gradient Descent (SGD)]] conditions, V(S) converges to $v_\pi$ with probability 1.
 
 The V(S) can be updated immediately like in the algorithm or it can be done by [[Batch Updating]]. 
