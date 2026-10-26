@@ -13,31 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 1/Computational Statistics/Backpropagation.md",
+                "file": "Semester 1/Computer Vision/Convolutional Neural Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backpropagation"
-            }
-          },
-          {
-            "id": "c49c1273b93fe692",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "My Research/Harness.md",
-                "bFile": "My Research/Harness.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Harness  (Index)"
+              "title": "Convolutional Neural Networks"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -117,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Semester 1/Computer Vision/Convolutional Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -218,12 +203,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c49c1273b93fe692",
+  "active": "54d49c0f1bfcbd91",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Semester 1/Computational Statistics/Linear Regression.md",
-    "Semester 1/Computational Statistics/GLM (General Linear Model).md",
     "Semester 1/Computational Statistics/Backpropagation.md",
+    "Semester 1/Computational Statistics/GLM (General Linear Model).md",
+    "Semester 1/Computational Statistics/Linear Regression.md",
+    "conflict-files-obsidian-git.md",
     "Semester 1/Images/Pasted image 20261007234437.png",
     "Batch Gradient Descent.md",
     "Semester 1/Computational Statistics/SoftMax Function.md",
