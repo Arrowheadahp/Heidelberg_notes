@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "-tag:#overview  -tag:#moc ",
   "showTags": false,
   "showAttachments": false,
@@ -41,16 +41,9 @@
         "a": 1,
         "rgb": 65365
       }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -2,
   "nodeSizeMultiplier": 1.0983367983368,
@@ -61,5 +54,5 @@
   "linkStrength": 1,
   "linkDistance": 30,
   "scale": 0.19450022690615656,
-  "close": false
+  "close": true
 }
