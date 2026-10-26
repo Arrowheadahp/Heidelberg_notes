@@ -1,0 +1,2 @@
+This is used to convert some arbitrary numbers to probabilities to multi category classification.
+$$S(x_i) = \frac{e^{x_i}}{\sum_je^{x_j}}$$This ensures that the sum of the probabilities is always 1.  

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Research/Harness.md",
+                "file": "Semester 1/Computational Statistics/Backpropagation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Harness"
+              "title": "Backpropagation"
             }
           }
         ],
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "youtu",
+                "query": "optimiz",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,7 +80,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Semester 1/Computational Statistics/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -201,54 +203,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff6c9a2c5b016dfe",
+  "active": "d77647bfb05363af",
   "lastOpenFiles": [
-    "().md",
+    "Semester 1/Computational Statistics/SoftMax Function.md",
+    "Semester 1",
+    "Semester 1/Machine Learning/Forward Pass.md",
+    "Semester 1/Machine Learning/Neural Network.md",
+    "Semester 1/Computational Statistics/Perceptron.md",
     "My Research/Harness.md",
+    "().md",
     "My Research/LLM.md",
-    "Inverse Problems/Fourier Transform.md",
-    "Computer Vision/Harris Detector.md",
-    "Computer Vision/Graphics.md",
+    "Semester 1/Inverse Problems/Fourier Transform.md",
+    "Semester 1/Computer Vision/Harris Detector.md",
+    "Semester 1/Computer Vision/Graphics.md",
     "My Research",
     "Untitled.md",
-    "Computer Vision/Computer Vision.md",
-    "Machine Learning/Cross-Validation.md",
-    "Inverse Problems/Richardson Lucy.md",
-    "Inverse Problems/Regularization Parameter Optimisation.md",
-    "Inverse Problems/Markov Property.md",
-    "Inverse Problems/MCMC.md",
-    "Inverse Problems/L-Curve.md",
-    "Inverse Problems/Jeffrey's Prior.md",
-    "Inverse Problems/Fixed point Iterative approaches.md",
-    "Inverse Problems/Fisher Information I.md",
-    "Images/Pasted image 20260922203832.png",
-    "Computational Statistics/Metropolis Hastings Algorithm.md",
-    "Inverse Problems/Introduction to Inverse Problems.md",
-    "Inverse Problems/Inverse Problems.md",
-    "Computer Vision/NERF.md",
-    "Inverse Problems/Deterministic Methods to solve Inverse Problems.md",
-    "conflict-files-obsidian-git.md",
-    "Untitled 1.md",
-    "Inverse Problems/Sylvester Equation.md",
-    "Inverse Problems/Stochastic Methods to solve Inverse Problems.md",
-    "Images/Pasted image 20260917235425.png",
-    "Inverse Problems",
-    "Images/Pasted image 20260812232159.png",
-    "Images/Pasted image 20260812181755.png",
-    "Images/Pasted image 20260812181703.png",
-    "Images/Pasted image 20260812141501.png",
-    "Images/Pasted image 20260812140822.png",
-    "Images/Pasted image 20260812140521.png",
-    "Images/Pasted image 20260812135140.png",
-    "Images/Pasted image 20260812125635.png",
-    "Machine Learning",
+    "Semester 1/Computer Vision/Computer Vision.md",
+    "Semester 1/Machine Learning/Cross-Validation.md",
+    "Semester 1/Inverse Problems/Richardson Lucy.md",
+    "Semester 1/Inverse Problems/Regularization Parameter Optimisation.md",
+    "Semester 1/Inverse Problems/Markov Property.md",
+    "Semester 1/Inverse Problems/MCMC.md",
+    "Semester 1/Inverse Problems/L-Curve.md",
+    "Semester 1/Inverse Problems/Jeffrey's Prior.md",
+    "Semester 1/Inverse Problems/Fixed point Iterative approaches.md",
+    "Semester 1/Inverse Problems/Fisher Information I.md",
+    "Semester 1/Images/Pasted image 20260922203832.png",
+    "Semester 1/Computational Statistics/Metropolis Hastings Algorithm.md",
+    "Semester 1/Inverse Problems/Introduction to Inverse Problems.md",
+    "Semester 1/Inverse Problems/Inverse Problems.md",
+    "Semester 1/Computer Vision/NERF.md",
+    "Semester 1/Images/Pasted image 20260917235425.png",
+    "Semester 1/Inverse Problems",
+    "Semester 1/Images/Pasted image 20260812232159.png",
+    "Semester 1/Images/Pasted image 20260812181755.png",
+    "Semester 1/Images/Pasted image 20260812181703.png",
+    "Semester 1/Images/Pasted image 20260812141501.png",
+    "Semester 1/Images/Pasted image 20260812140822.png",
+    "Semester 1/Images/Pasted image 20260812140521.png",
+    "Semester 1/Images/Pasted image 20260812135140.png",
+    "Semester 1/Images/Pasted image 20260812125635.png",
+    "Semester 1/Machine Learning",
     "MOCs",
-    "Computational Statistics",
-    "Computer Vision",
-    "Reinforcement Learning",
+    "Semester 1/Computational Statistics",
+    "Semester 1/Computer Vision",
+    "Semester 1/Reinforcement Learning",
     "Untitled.base",
     "Fundamental",
-    "New Text Document.txt",
     "Untitled.canvas"
   ]
 }

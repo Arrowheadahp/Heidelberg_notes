@@ -1,4 +1,4 @@
-This is multiple [[Perceptron]] working one after the other on each other's outputs. This is also known as multi-layer perceptron, Feed Forward Neural Network, [[Deep Neural Networks]], etc. 
+This is multiple [[Perceptron]] working one after the other on each other's outputs. This is also known as multi-layered perceptron, Feed Forward Neural Network, [[Deep Neural Networks]], etc. 
 
 [[Universal Update Template]] says that any boundary or function in n dimensions can be approximated with finite number of hyperplanes, the neurons are trying to simulate those hyperplanes. So with enough neurons, any decision boundary or any function can be approximated.
 
