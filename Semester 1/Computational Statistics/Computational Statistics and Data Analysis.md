@@ -37,7 +37,7 @@ Content:
 	4. [[Bootstrap Tests]]
 8. [[Multiple Linear Regression]]
 	1. [[Multivariate Linear Regression]]
-	2. [[GLM (General Linear Model)]]
+	2. [[Linear Regression]]
 	3. [[F-Tests]]
 9. [[Non-Linear Regression]]
 	1. [[Local Linear Regression]]

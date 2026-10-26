@@ -8,6 +8,6 @@ This is a type of [[Iterative Estimation Methods]], where we try to find the glo
 	2. Average gradient over all examples using [[Gradient Descent]].
 	   $$ \nabla_w\textit{L}(w_k) = \frac{1}{N} \sum_{n=1}^{N}\nabla_w\textit{l}(w, x^n, t^n) + \nabla_w\textit{R}(w) $$
 	   *R* is for weight [[Regularization]].
-	3. average gradient descent step
+	3. average [[gradient descent]] step
 	   $$ w_{k+1} = w_k - \gamma_k\nabla_w L(w_k) $$
 $\gamma$ is the [[Learning Rate]].

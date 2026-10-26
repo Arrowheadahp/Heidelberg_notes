@@ -20,8 +20,24 @@
               "icon": "lucide-file",
               "title": "Backpropagation"
             }
+          },
+          {
+            "id": "c49c1273b93fe692",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "My Research/Harness.md",
+                "bFile": "My Research/Harness.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Harness  (Index)"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -101,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 1/Computational Statistics/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -203,8 +218,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d77647bfb05363af",
+  "active": "c49c1273b93fe692",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Semester 1/Computational Statistics/Linear Regression.md",
+    "Semester 1/Computational Statistics/GLM (General Linear Model).md",
+    "Semester 1/Computational Statistics/Backpropagation.md",
+    "Semester 1/Images/Pasted image 20261007234437.png",
+    "Batch Gradient Descent.md",
     "Semester 1/Computational Statistics/SoftMax Function.md",
     "Semester 1",
     "Semester 1/Machine Learning/Forward Pass.md",
@@ -229,10 +250,6 @@
     "Semester 1/Inverse Problems/Fixed point Iterative approaches.md",
     "Semester 1/Inverse Problems/Fisher Information I.md",
     "Semester 1/Images/Pasted image 20260922203832.png",
-    "Semester 1/Computational Statistics/Metropolis Hastings Algorithm.md",
-    "Semester 1/Inverse Problems/Introduction to Inverse Problems.md",
-    "Semester 1/Inverse Problems/Inverse Problems.md",
-    "Semester 1/Computer Vision/NERF.md",
     "Semester 1/Images/Pasted image 20260917235425.png",
     "Semester 1/Inverse Problems",
     "Semester 1/Images/Pasted image 20260812232159.png",
@@ -242,7 +259,6 @@
     "Semester 1/Images/Pasted image 20260812140822.png",
     "Semester 1/Images/Pasted image 20260812140521.png",
     "Semester 1/Images/Pasted image 20260812135140.png",
-    "Semester 1/Images/Pasted image 20260812125635.png",
     "Semester 1/Machine Learning",
     "MOCs",
     "Semester 1/Computational Statistics",
