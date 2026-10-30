@@ -10,6 +10,8 @@
 ### Semester 2
 - Lectures
 	1. [[Embedded Machine Learning]]
+	2. [[Generative Neural Networks]]
 - Seminars
 	1. [[Agentic Problem Solving]]
-	2. [[]]
+	2. [[Research Topics in SWE]]
+	3. [[LLMs Interpretability and Editing]]

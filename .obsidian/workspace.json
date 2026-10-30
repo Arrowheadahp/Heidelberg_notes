@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses.md",
+                "file": "Agentic Problem Solving.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Courses"
+              "title": "Agentic Problem Solving"
             }
           }
         ]
@@ -267,6 +267,8 @@
   },
   "active": "103c35959a161537",
   "lastOpenFiles": [
+    "Courses.md",
+    "Agentic Problem Solving.md",
     "Semester 2/Embedded ML/Embedded Machine Learning.md",
     "Semester 2/Embedded ML/Batch Gradient Descent.md",
     "Semester 2/Embedded ML",
@@ -293,8 +295,6 @@
     "Semester 1/Machine Learning/Classification.md",
     "Semester 1/Machine Learning/Backward Pass.md",
     "Semester 1/Machine Learning/Active Learning.md",
-    "Semester 1/Reinforcement Learning/What is a Finite Markov Decision Process.md",
-    "Semester 1/Reinforcement Learning/Value Iteration.md",
     "Semester 1/Machine Learning",
     "Semester 1/Reinforcement Learning",
     "Semester 1/Inverse Problems",
