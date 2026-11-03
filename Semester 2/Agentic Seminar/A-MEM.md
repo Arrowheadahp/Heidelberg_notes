@@ -56,3 +56,25 @@ For prompt $q$
 2. Calculate similarity score for each existing memory: $$s_{q,j}=\frac{e_q\cdot e_j}{|e_q||e_j|}$$
 3. Find max k value memories. This acts as a filter to increase efficiency while maintaining relevance. $$\mathcal M_{near}^q=\set{m_j:rank(s_{q,j})\le k} $$
 4. $\mathcal M_{near}^q$ is returned
+### Experiment
+#### Dataset and Evaluation
+For testing, the LoCoMo dataset was used which has 35 sessions averaging over 9k tokens. It has diverse question types:
+1. single hop questions from single session
+2. multi-hop questions from multiple session
+3. temporal reasoning testing time related information
+4. open knowledge questions requiring integration of knowledge question with external knowledge
+5. adversarial questions assessing model's ability to identify unanswerable queries.
+#### Implementation Details
+The hyperparameter value of k is used as 10 and ==🔴adjusting this parameter for specific categories==. For text embedding, all-minilm-16-v2 model is used.
+#### Empirical Results
+Great but some are too close for the randomness from LLM. The error rates are not given. 
+Cost efficiency Analysis: 
+Much less tokens used during retrieval. 
+==🔴The cost of adding new memories is not given.==
+#### Ablation Study
+Link Generation(LG) and Memory Evaluation(ME) are the main parts. LG without ME does not work well. ==🔴ME without LG was not tested==.
+#### Scaling Analysis
+All compared [[Memory System]] have Data complexity: O(N). The (K,G,X, L) do not take much data. 
+#### Memory Analysis
+In the T-SNE Visualization using embeddings, the clustering is more organized. Since the embedding used is same as the one used in [[A-MEM]], of course it is going to be more organized there. There is no measurement of structuredness and baseline is from what is not known.
+### Conclusion
