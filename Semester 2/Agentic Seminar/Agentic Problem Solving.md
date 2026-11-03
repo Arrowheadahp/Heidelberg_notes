@@ -1,4 +1,4 @@
 - Core Paper: 
-	- [[A-Mem Agentic Memory for LLM Agents]]
+	- [[A-MEM]]
 - Required Reading:
 	- 
