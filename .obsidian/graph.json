@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "-tag:#overview  -tag:#moc ",
   "showTags": false,
   "showAttachments": false,
@@ -8,42 +8,28 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Machine Learning\"  ",
+      "query": "path:\"My Research\"  ",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 14701138
       }
     },
     {
-      "query": "path:\"Computational Statistics\"  ",
+      "query": "path:\"Semester 1\"  ",
       "color": {
         "a": 1,
-        "rgb": 11403519
+        "rgb": 14725458
       }
     },
     {
-      "query": "path:\"Computer Vision\"  ",
+      "query": "path:\"Semester 2\"  ",
       "color": {
         "a": 1,
-        "rgb": 4681727
-      }
-    },
-    {
-      "query": "path:\"Reinforcement Learning\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 16771584
-      }
-    },
-    {
-      "query": "path:\"Inverse Problems\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 65365
+        "rgb": 11657298
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -2,
   "nodeSizeMultiplier": 1.0983367983368,
@@ -53,11 +39,6 @@
   "repelStrength": 9.84739956399875,
   "linkStrength": 1,
   "linkDistance": 30,
-<<<<<<< HEAD
-  "scale": 0.27268599173600233,
-  "close": false
-=======
-  "scale": 0.1387322393266587,
+  "scale": 0.19450022690615623,
   "close": true
->>>>>>> origin/master
 }
