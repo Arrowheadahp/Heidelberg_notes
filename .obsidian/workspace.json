@@ -244,7 +244,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -265,7 +266,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "103c35959a161537",
+  "active": "dca61c263145489b",
   "lastOpenFiles": [
     "Memory System.md",
     "Semester 2/Agentic Seminar/A-MEM.md",

@@ -78,3 +78,6 @@ All compared [[Memory System]] have Data complexity: O(N). The (K,G,X, L) do not
 #### Memory Analysis
 In the T-SNE Visualization using embeddings, the clustering is more organized. Since the embedding used is same as the one used in [[A-MEM]], of course it is going to be more organized there. There is no measurement of structuredness and baseline is from what is not known.
 ### Conclusion
+### Limitations
+1. Quality of linking heavily depends on the quality of LLM. (LLM may hallucinate).
+2. Future work can be exploring the multimodal information.
