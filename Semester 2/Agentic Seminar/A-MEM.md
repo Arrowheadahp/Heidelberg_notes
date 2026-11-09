@@ -1,7 +1,7 @@
 ## A-Mem Agentic Memory for LLM Agents
 #paper
 link: https://arxiv.org/pdf/2502.12110
-
+[[Presentation outline AMem]]
 ### Abstract
 [[LLM]] require [[Memory System]] to store and retrieve knowledge. Current [[Memory System]] use fixed operations and structures which limit adaptability across diverse tasks. This paper proposes a novel [[Memory System]] that follows Zettelkasten method which dynamically links memories and enables memory evolution, solving the adaptability issue.
 ### Introduction

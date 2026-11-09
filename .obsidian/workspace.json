@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2/Agentic Seminar/A-MEM.md",
+                "file": "Semester 2/Agentic Seminar/Presentation outline AMem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A-MEM"
+              "title": "Presentation outline AMem"
             }
           }
         ],
@@ -204,8 +204,10 @@
   "active": "2cb299b617f1a224",
   "lastOpenFiles": [
     "Semester 2/Agentic Seminar/Agentic Problem Solving.md",
-    "ReAct.md",
     "Semester 2/Agentic Seminar/A-MEM.md",
+    "Semester 2/Agentic Seminar/Presentation outline AMem.md",
+    "Courses.md",
+    "Semester 2/Agentic Seminar/ReAct.md",
     "conflict-files-obsidian-git.md",
     "Semester 2/Agentic Seminar",
     "Semester 2/Embedded ML/Embedded Machine Learning.md",
@@ -235,8 +237,6 @@
     "Semester 1/Computer Vision/Graphics.md",
     "My Research",
     "Semester 1/Computer Vision/Computer Vision.md",
-    "Semester 1/Machine Learning/Cross-Validation.md",
-    "Semester 1/Inverse Problems/Richardson Lucy.md",
     "Images/Pasted image 20260922203832.png",
     "Images/Pasted image 20260917235425.png",
     "Semester 1/Inverse Problems",
