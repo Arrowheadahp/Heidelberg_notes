@@ -1,4 +1,4 @@
+- Required Reading:
+	- [[ReAct]]
 - Core Paper: 
 	- [[A-MEM]]
-- Required Reading:
-	- 
