@@ -1,4 +1,6 @@
-- Required Reading:
-	- [[ReAct]]
-- Core Paper: 
-	- [[A-MEM]]
+### Required Reading:
+- [[ReAct]]
+- [[Agentic Reasoning for LLMs]]
+### Core Paper: 
+- [[A-MEM]]
+	- [[Presentation outline AMem]]

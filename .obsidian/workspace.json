@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2/Agentic Seminar/Presentation outline AMem.md",
+                "file": "Semester 2/SWE Seminar/USEAgent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Presentation outline AMem"
+              "title": "USEAgent"
             }
           }
         ],
@@ -184,7 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 225.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,10 +201,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2cb299b617f1a224",
+  "active": "ff6c9a2c5b016dfe",
   "lastOpenFiles": [
-    "Semester 2/Agentic Seminar/A-MEM.md",
+    "Semester 2/SWE Seminar/USEAgent as AI Software Engineer.md",
+    "Semester 2/SWE Seminar/USEAgent.md",
+    "Semester 2/Embedded ML/Embedded Machine Learning.md",
+    "Semester 2/Embedded ML/Batch Gradient Descent.md",
+    "Semester 2/SWE Seminar",
     "Semester 2/Agentic Seminar/Presentation outline AMem.md",
+    "Semester 2/SWE Seminar/Research Topics in SWE.md",
+    "Semester 2/Agentic Seminar/Agentic Problem Solving.md",
+    "Semester 2/Agentic Seminar/ReAct.md",
+    "Courses.md",
+    "Semester 2/Agentic Seminar/A-MEM.md",
     "Semester 1/Computer Vision/Geometry of 2 views.md",
     "Semester 1/Reinforcement Learning/N-Step Bootstrapping.md",
     "Semester 1/Computer Vision/Graphics.md",
@@ -221,15 +230,7 @@
     "Semester 1/Computer Vision/2D Gradient.md",
     "Semester 1/Computer Vision/Camera.md",
     "Semester 1/Computer Vision/CMMD Score.md",
-    "Semester 1/Reinforcement Learning/Q-Learning.md",
-    "Semester 1/Reinforcement Learning/Policy Evaluation.md",
-    "Semester 1/Computer Vision/Sobel Filter.md",
-    "Semester 2/Agentic Seminar/Agentic Problem Solving.md",
-    "Courses.md",
-    "Semester 2/Agentic Seminar/ReAct.md",
-    "conflict-files-obsidian-git.md",
     "Semester 2/Agentic Seminar",
-    "Semester 2/Embedded ML/Embedded Machine Learning.md",
     "Semester 2/Embedded ML",
     "Semester 2",
     "Images/Pasted image 20261026130646.png",
@@ -248,7 +249,6 @@
     "Semester 1/Machine Learning",
     "MOCs",
     "Semester 1/Computational Statistics",
-    "Semester 1/Computer Vision",
     "Untitled.canvas"
   ]
 }
