@@ -1,0 +1,2 @@
+This is [[REINFORCE]] but instead of the $\hat v$ being used for the baseline, it is used for [[N-Step Bootstrapping]]. Therefore it is as a baseline and a future estimate as well so it is called a *critic*.$$\theta_{t+1}=\theta_t+\alpha_\theta\gamma^t(R_{t+1}+\gamma \hat v(S_{t+1})-\hat v(S_t))\nabla \log\pi(A_t|S_t,\theta_t) $$
+Actor-Critic is a family of methods of which Actor critic with baseline is one of them with reduced variance.

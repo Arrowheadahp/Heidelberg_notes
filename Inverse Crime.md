@@ -1,0 +1,1 @@
+Inverse Crime happens when the same or similar theoretical ingredients are employed to synthesize as well as to invert data in an inverse problem.
