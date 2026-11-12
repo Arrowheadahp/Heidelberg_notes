@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2/SWE Seminar/USEAgent.md",
+                "file": "Semester 2/SWE Seminar/USEBench.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "USEAgent"
+              "title": "USEBench"
             }
           }
         ],
@@ -201,10 +201,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff6c9a2c5b016dfe",
+  "active": "2cb299b617f1a224",
   "lastOpenFiles": [
     "Semester 2/SWE Seminar/USEAgent as AI Software Engineer.md",
     "Semester 2/SWE Seminar/USEAgent.md",
+    "Semester 2/SWE Seminar/USEBench.md",
     "Semester 2/Embedded ML/Embedded Machine Learning.md",
     "Semester 2/Embedded ML/Batch Gradient Descent.md",
     "Semester 2/SWE Seminar",
@@ -229,7 +230,6 @@
     "Semester 1/Machine Learning/Deep Neural Networks.md",
     "Semester 1/Computer Vision/2D Gradient.md",
     "Semester 1/Computer Vision/Camera.md",
-    "Semester 1/Computer Vision/CMMD Score.md",
     "Semester 2/Agentic Seminar",
     "Semester 2/Embedded ML",
     "Semester 2",
