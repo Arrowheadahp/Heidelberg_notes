@@ -1,7 +1,7 @@
 1. What is Zettelkasten method
 	1. example of importance of linking (maybe example of CNN)
 	2. particular method of note taking where atomic notes are connected with links
-	3. my connection with zettelkasten (obsidian)
+	3. my connection with Zettelkasten (obsidian)
 2. Why Agents using Zettelkasten method is a good idea?
 	1. Why Agents need memory?
 	2. Current memory management systems
