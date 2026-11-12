@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2/SWE Seminar/USEBench.md",
+                "file": "Semester 2/SWE Seminar/USEAgent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "USEBench"
+              "title": "USEAgent"
             }
           }
         ],
@@ -100,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Semester 2/SWE Seminar/USEAgent.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -179,8 +180,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,16 +203,17 @@
   },
   "active": "2cb299b617f1a224",
   "lastOpenFiles": [
-    "Semester 2/SWE Seminar/USEAgent as AI Software Engineer.md",
+    "Semester 2/Agentic Seminar/ReAct.md",
     "Semester 2/SWE Seminar/USEAgent.md",
-    "Semester 2/SWE Seminar/USEBench.md",
+    "Semester 2/SWE Seminar/USEAgent as AI Software Engineer.md",
+    "Semester 2/SWE Seminar/USE-Bench.md",
+    "Pasted image 20261112082332.png",
     "Semester 2/Embedded ML/Embedded Machine Learning.md",
     "Semester 2/Embedded ML/Batch Gradient Descent.md",
     "Semester 2/SWE Seminar",
     "Semester 2/Agentic Seminar/Presentation outline AMem.md",
     "Semester 2/SWE Seminar/Research Topics in SWE.md",
     "Semester 2/Agentic Seminar/Agentic Problem Solving.md",
-    "Semester 2/Agentic Seminar/ReAct.md",
     "Courses.md",
     "Semester 2/Agentic Seminar/A-MEM.md",
     "Semester 1/Computer Vision/Geometry of 2 views.md",
@@ -229,7 +230,6 @@
     "Semester 1/Reinforcement Learning/Examples of Function Approximations.md",
     "Semester 1/Machine Learning/Deep Neural Networks.md",
     "Semester 1/Computer Vision/2D Gradient.md",
-    "Semester 1/Computer Vision/Camera.md",
     "Semester 2/Agentic Seminar",
     "Semester 2/Embedded ML",
     "Semester 2",
@@ -245,7 +245,6 @@
     "Images/Pasted image 20260812181755.png",
     "Images/Pasted image 20260812181703.png",
     "Images/Pasted image 20260812141501.png",
-    "Images/Pasted image 20260812140822.png",
     "Semester 1/Machine Learning",
     "MOCs",
     "Semester 1/Computational Statistics",
