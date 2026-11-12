@@ -1,1 +1,0 @@
-Using a Adversarial Network like GAN or Discriminator network to find flaws.

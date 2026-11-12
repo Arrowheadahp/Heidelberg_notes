@@ -1,1 +1,0 @@
-This classifies every pixel into specific category. This uses Fully Convolutional [[U-Net]]. 
