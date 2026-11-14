@@ -35,6 +35,8 @@ OpenHands [[CodeActAgent]] is a general purpose agent which utilizes structured 
 The termination condition is also similar to [[USEAgent]]. 
 ==[[CodeActAgent]] employs similar reasoning framework as [[USEAgent]] but the actions operate on a mush lower level==.
 ### Research Questions and Results
-#### 1. **Efficacy of Agentic Systems**: How well do [[USEAgent]] and [[CodeActAgent]] perform on [[USE-Bench]]?
+#### 1. Efficacy of Agentic Systems: 
+How well do [[USEAgent]] and [[CodeActAgent]] perform on [[USE-Bench]]?
 ![[Pasted image 20261114161026.png]]
-[[USEAgent]] demonstrates similar efficacy as the [[AutoCodeRover]] in [[SWE-Bench]] verified.
+[[USEAgent]] demonstrates similar efficacy as the [[AutoCodeRover]] in [[SWE-Bench]] verified. It also shows consistent improvement from [[]]
+#### 2. 
