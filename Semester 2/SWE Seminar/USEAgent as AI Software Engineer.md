@@ -26,3 +26,5 @@ Agents employ reasoning frameworks to orchestrate the LLM and the tool usage and
 	- Interpretable
 - Cons: 
 	- Not Versatile
+### Configuring [[CodeActAgent]] for Testing
+OpenHands [[CodeActAgent]] is a general purpose agent which utilizes structured controller agent runtime architecture, where AgentController acts as a supervisor. 
