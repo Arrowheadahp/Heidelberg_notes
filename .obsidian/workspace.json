@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semester 2/Agentic Seminar/ReAct.md",
+                "file": "Semester 2/SWE Seminar/USEAgent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ReAct"
+              "title": "USEAgent"
             }
           }
         ],
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semester 2/Agentic Seminar/ReAct.md",
+                "file": "Semester 2/SWE Seminar/USEAgent.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -180,11 +180,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 335.9000244140625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,13 +202,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2cb299b617f1a224",
+  "active": "ff6c9a2c5b016dfe",
   "lastOpenFiles": [
+    "Images/Pasted image 20261114005327.png",
+    "Semester 2/SWE Seminar/USEAgent as AI Software Engineer.md",
     "Semester 2/SWE Seminar/USEAgent.md",
     "Semester 2/Agentic Seminar/ReAct.md",
-    "Semester 2/SWE Seminar/USEAgent as AI Software Engineer.md",
     "Semester 2/SWE Seminar/USE-Bench.md",
-    "Pasted image 20261112082332.png",
+    "Images/Pasted image 20261112082332.png",
     "Semester 2/Embedded ML/Embedded Machine Learning.md",
     "Semester 2/Embedded ML/Batch Gradient Descent.md",
     "Semester 2/SWE Seminar",
