@@ -27,4 +27,13 @@ Agents employ reasoning frameworks to orchestrate the LLM and the tool usage and
 - Cons: 
 	- Not Versatile
 ### Configuring [[CodeActAgent]] for Testing
-OpenHands [[CodeActAgent]] is a general purpose agent which utilizes structured controller agent runtime architecture, where AgentController acts as a supervisor. 
+OpenHands [[CodeActAgent]] is a general purpose agent which utilizes structured controller agent runtime architecture, where AgentController acts as a supervisor. Since it does not rely on task specific workflow, it is versatile. It works similar to [[USEAgent]] but the actions are
+- CmdRunAction
+- IPythonRunCellAction
+- FileEditAction
+- AgentFinishAction
+The termination condition is also similar to [[USEAgent]]. 
+==[[CodeActAgent]] employs similar reasoning framework as [[USEAgent]] but the actions operate on a mush lower level==.
+### Research Questions and Results
+#### 1. **Efficacy of Agentic Systems**: How well do [[USEAgent]] and [[CodeActAgent]] perform on [[USE-Bench]]?
+![[Pasted image 20261114161026.png]]
