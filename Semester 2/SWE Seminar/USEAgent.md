@@ -28,7 +28,7 @@ Agents employ reasoning frameworks to orchestrate the LLM and the tool usage and
 - Cons: 
 	- Not Versatile
 ### Idea
-To create the a Software Engineering Agent to be unified, it needs to be versatile. So the fixed workflow will not work. The idea is to have a ==Meta-Agent==, a reasoning LLM agent to orchestrate various ==Actions==. Together they create the [[USEAgent]].
+To create the a Software Engineering Agent to be unified, it needs to be versatile. So the fixed workflow will not work. The idea is to have a ==Meta-Agent==, a reasoning LLM agent that will orchestrate various ==Actions==. Together they create the [[USEAgent]].
 #### Characteristics of USEAgent
 1. **Orchestration by Meta-Agent**: 
    This is done by having the Meta-Agent orchestrate all the actions using [[ReAct]] loop. It invokes action, observes changes, reasons about the output, decides on next action. Therefore runtime orchestration is adaptable to different tasks, states and errors.
@@ -45,4 +45,17 @@ To create the a Software Engineering Agent to be unified, it needs to be versati
 ![[Pasted image 20261114005327.png]]
 
 - TestRetreival and ExecuteTests are new additions to the actions
-- Finish (Terminate) is also new and invoked to finish the 
+- Finish (Terminate) is also new and invoked to finish the run
+These actions can be invoked multiple times.
+#### Task State
+This is the consensus memory among the actions.$$S=\set{L_c,L_t,R_{exec},DS}$$
+- $L_c\to$ relevant code locations
+- $L_t\to$ test locations
+- $R_{exec}\to$ execution results
+- $DS\to$ diff stored (modifications to program code and test code)
+#### Meta-Agent
+This orchestrates the actions and chooses which one to take using 
+1. Current Task State
+2. Overall Task Description
+3. Output from previous task
+At the beginning the Meta-Agent chooses an action from the task description and an empty task state and iteratively chooses an action to execute. Each action invoked modifies the task state and returns it back to the Meta-Agent. This creates the [[ReAct]] loop. After finding a satisfying solution, the Finish action is taken and the solution is output. If it reaches a pre-defined limit of iteration, it ends and outputs one of the candidates from the diff store.
