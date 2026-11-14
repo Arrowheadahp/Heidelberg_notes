@@ -42,4 +42,19 @@ How well do [[USEAgent]] and [[CodeActAgent]] perform on [[USE-Bench]]?
 #### 2. Analysis of plausible patches:
 Are the solutions or patches given by the agents memorized or overfitted?
 
-The significant number of results are checked manually and 1.3% is memorized (exact copy of answers) and 10.5% overfitted (suspiciously similar results) to ground truth. This is a reductionin rate of overfitting from previous agents like SpecRover (31%). This reduction is attributed to new action: ExecuteTests. 
+The significant number of solutions (218) are checked manually and 1.3% is memorized (exact copy of answers) and 10.5% overfitted (suspiciously similar results) to ground truth. This is a reduction in rate of overfitting from previous agents like SpecRover (31%). This reduction is attributed to new action: ExecuteTests. 
+#### 3. Self Configuration: 
+Can [[USEAgent]] self configure to give better efficacy on different task types? How good are the new actions?
+Yes it is capable of choosing different action patterns for different tasks. 
+![[Pasted image 20261114185803.png]]
+
+#### Ablation study: 
+How important is the Meta-Agent and an individual action![[Pasted image 20261114190236.png]]
+
+- Disable dynamic is disabling the dynamic decision making and going through a predefined workflow. 
+- For individual action, ExecuteTests was removed from the action pool and tested.
+#### 4. Open Challenges
+What are the challenges that [[USEAgent]] faced while solving the tasks?
+1. **Natural Language Ambiguity**:
+   When the tasks requires a large amount of code, it generates solutions that are mostly correct. They miss some edge cases that are not specified clearly in the task description. 
+   Solution: 
