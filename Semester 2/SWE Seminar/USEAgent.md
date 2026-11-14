@@ -2,31 +2,6 @@
 ### Inception:
 [[USEAgent]] or Unified Software Engineering Agent is a novel agent that is created to tackle all problems that Software Engineers face. 
 This is created to be the Second step in the development of AI Software Engineer. The first step (Existing agents) was the creation of the individual agents for single tasks. 
-### Previous Agents for Software Engineering
-Agent parts
-1. LLM
-	1. Decision making
-	2. Content Generation
-2. Tools
-	1. Interaction with external Environment
-	2. Acquire more knowledge
-Agents employ reasoning frameworks to orchestrate the LLM and the tool usage and one of the most popular reasoning frameworks is the [[ReAct]] framework. 
-#### Comparison of different SE Agents
-- Structure and domain knowledge they introduce (Granularity of Tools)
-	- [[AutoCodeRover]] uses set of project structure aware tools ex: search_method_in_class
-	- OpenHands [[CodeActAgent]] uses basic tools ex: CmdRunAction
-	- Google Jules uses same
-- Decision Framework (Autonomy of using the tools)
-	- [[AutoCodeRover]] and Agentless break the agent execution into phases (workflow based)
-	- RepairAgent uses finite state machine (workflow based)
-	- [[CodeActAgent]] is versatile (more autonomous)
-#### Having a set workflow 
-- Pros:
-	- Cost effective
-	- Domain knowledge and analysis for each phase
-	- Interpretable
-- Cons: 
-	- Not Versatile
 ### Idea
 To create the a Software Engineering Agent to be unified, it needs to be versatile. So the fixed workflow will not work. The idea is to have a ==Meta-Agent==, a reasoning LLM agent that will orchestrate various ==Actions==. Together they create the [[USEAgent]].
 #### Characteristics of USEAgent
