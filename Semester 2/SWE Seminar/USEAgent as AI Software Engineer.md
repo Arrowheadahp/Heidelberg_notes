@@ -57,4 +57,15 @@ How important is the Meta-Agent and an individual action![[Pasted image 20261114
 What are the challenges that [[USEAgent]] faced while solving the tasks?
 1. **Natural Language Ambiguity**:
    When the tasks requires a large amount of code, it generates solutions that are mostly correct. They miss some edge cases that are not specified clearly in the task description. 
-   Solution: 
+   **Solution**: 
+	1. Creating more formal artifacts such as specifications and test cases.
+	2. Having a human agent interaction schemas to clarify ambiguity
+2. **Lack of Backtracking to try different approaches**:
+   The agent keeps trying to make small edits to partial patches even though it may not be possible to craft a good solution at that location.
+   **Solution:**
+	1. Check Execution traces and decide whether to backtrack.
+3. **Overfitting Tests:**
+   When the solution passes the given tests but the requirements are not met. This is an issue with the benchmark itself and the tests should be generalized.
+   Solution:
+	1. adding more actions like test amplification and mutation testing.
+	2. making the benchmark tests more generalized
