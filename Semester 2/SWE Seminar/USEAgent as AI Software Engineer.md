@@ -37,3 +37,4 @@ The termination condition is also similar to [[USEAgent]].
 ### Research Questions and Results
 #### 1. **Efficacy of Agentic Systems**: How well do [[USEAgent]] and [[CodeActAgent]] perform on [[USE-Bench]]?
 ![[Pasted image 20261114161026.png]]
+[[USEAgent]] demonstrates similar efficacy as the [[AutoCodeRover]] in [[SWE-Bench]] verified.
