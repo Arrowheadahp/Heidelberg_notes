@@ -19,6 +19,10 @@ Agents employ reasoning frameworks to orchestrate the LLM and the tool usage and
 	- [[AutoCodeRover]] and Agentless break the agent execution into phases (workflow based)
 	- RepairAgent uses finite state machine (workflow based)
 	- [[CodeActAgent]] is versatile (more autonomous)
+- Specialized tools:
+	- spectrum based fault localization ([[AutoCodeRover]])
+	- self-reflective capabilities (SpecRover)
+	- Control logic (Finite state automata in RepairAgent)
 #### Having a set workflow 
 - Pros:
 	- Cost effective
@@ -34,6 +38,7 @@ OpenHands [[CodeActAgent]] is a general purpose agent which utilizes structured 
 - AgentFinishAction
 The termination condition is also similar to [[USEAgent]]. 
 ==[[CodeActAgent]] employs similar reasoning framework as [[USEAgent]] but the actions operate on a mush lower level==.
+Google's Passerine is also is very similar to [[USEAgent]] and has a Meta-Agent with 5 pre configured commands but it targets only program repair whereas [[USEAgent]] targets broader range of tasks. Same with MASAI
 ### Research Questions and Results
 #### 1. Efficacy of Agentic Systems: 
 How well do [[USEAgent]] and [[CodeActAgent]] perform on [[USE-Bench]]?
@@ -69,3 +74,11 @@ What are the challenges that [[USEAgent]] faced while solving the tasks?
    Solution:
 	1. adding more actions like test amplification and mutation testing.
 	2. making the benchmark tests more generalized
+### Related Work
+Software Engineering Benchmarks fall into 2 categories
+1. Isolated coding exercises 
+2. Repository level tasks ([[USE-Bench]] is one of this)
+#### Similar Agents to [[USEAgent]]
+- [[CodeActAgent]] employs similar reasoning framework as [[USEAgent]] but the actions operate on a mush lower level.
+- Google's Passerine is also is very similar to [[USEAgent]] and has a Meta-Agent with 5 pre configured commands but it targets only program repair whereas [[USEAgent]] targets broader range of tasks. Same with MASAI.
+- CodeR has a Meta-Agent that predefines an execution plan bit does not adapt during runtime.![[Pasted image 20261115010028.png]]
