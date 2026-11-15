@@ -82,3 +82,20 @@ Software Engineering Benchmarks fall into 2 categories
 - [[CodeActAgent]] employs similar reasoning framework as [[USEAgent]] but the actions operate on a mush lower level.
 - Google's Passerine is also is very similar to [[USEAgent]] and has a Meta-Agent with 5 pre configured commands but it targets only program repair whereas [[USEAgent]] targets broader range of tasks. Same with MASAI.
 - CodeR has a Meta-Agent that predefines an execution plan bit does not adapt during runtime.![[Pasted image 20261115010028.png]]
+
+### Threats to Validity
+1. [[USE-Bench]] is a proxy of checking the actual capabilities of the agent. 
+2. Memorization: The LLMs may have already been exposed to the ground truth during training. Manual checking was done to rule this out
+### Discussion
+#### Cost Analysis
+Using Claude 3.5 sonnet v2, [[USEAgent]] costed 3.65$ per test where SWE took lowest of 2.20$ and REPOCOD took $7.66 on average. ![[Pasted image 20261115010826.png]]
+When using Deepseek v3, the cost comes down to $0.55 while being cost effective.
+#### Scope
+[[USEAgent]] has been created to solve any task that revolves around code. Different actions can be introduced to address different tasks
+- Requirements engineering
+- data visualization
+- deployment
+- code review
+- a-b testing 
+- dependency management
+- project configuration
