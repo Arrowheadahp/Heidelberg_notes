@@ -35,7 +35,7 @@
 	1. impact
 	2. limitations
 9. my comments on the paper
-	1. Why no comparison with mem0?
+	1. Why no comparison with mem0, control (no memory), full context?
 	2. Does not publish the cost of making the memories
 	3. Why ablation study one sided? 
 	4. Why hyperparameter k is tuned for each dataset?
