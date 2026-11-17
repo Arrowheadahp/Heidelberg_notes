@@ -9,7 +9,7 @@
 		1. RAG
 		2. other memory systems
 	3. Shortcomings of current memory systems
-		1. the new memory is not being influenced by the old ones and vice versa
+		1. the new memory is not being influenced by the old ones and vice versa (static)
 	4. how Zettelkasten solves this
 		1. connect separate notes (link generation)
 		2. incorporate new info into existing memory (memory evolution)
