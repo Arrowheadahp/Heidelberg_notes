@@ -31,7 +31,7 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 		2. problem: $c_i$ is not well defined, encoder has token limit, No ablation shows which of KGX matters, could have been combined.
 	2. link generation 
 		1. example
-		2. problem: Shipped $P_{s2}$ only determines if the new memory should be evolved or not. it is not a link generating prompt.
+		2. problem: Shipped $P_{s2}$ only determines if the new memory should be evolved or not. it is not a link generating prompt. Prompt is different in code. repro problem
 	3. memory evolution
 		1. example
 		2. good: the old memories are updated/strengthened/pruned/ no change dynamically
