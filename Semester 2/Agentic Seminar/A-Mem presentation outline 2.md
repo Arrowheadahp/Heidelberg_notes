@@ -22,16 +22,16 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 8. Methodology
 	1. note construction (KGX creation) 
 		1. example
-		2. problem: $c_i$ is not well defined, encoder has token limit, K, G, X has no individual need.
+		2. problem: $c_i$ is not well defined, encoder has token limit, No ablation shows which of KGX matters, could have been combined.
 	2. link generation 
 		1. example
-		2. problem:  $P_{s2}$ only determines if the new memory should be evolved or not. it is not a link generating prompt.
+		2. problem: Shipped $P_{s2}$ only determines if the new memory should be evolved or not. it is not a link generating prompt.
 	3. memory evolution
 		1. example
 		2. good: the old memories are updated/strengthened/pruned/ no change dynamically
 	4. Retrieval 
 		1. example:
-		2. problem: cosine retrieval is not optimal, we want answers, not memories closest to questions (should rerank). does not use L (links) for retrieval. 
+		2. problem: cosine retrieval is not optimal, we want answers, not memories closest to questions (should rerank). does not use L (links) directly for retrieval. 
 9. Testing
 	1. Datasets
 		1. example of each type of questions (singlehop, multihop etc)
