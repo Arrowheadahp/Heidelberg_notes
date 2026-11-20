@@ -4,18 +4,24 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 1. A-MEM: Agentic Memory for LLM Agents
 2. Author, citations, venue etc
 3. Why this paper?
-   one of the first papers that connected new memories. Personal connection with Zettelkasten method 
+   one of the first papers that connected new memories. Personal connection with Zettelkasten method.
 4. Outline
 5. The problem: 
 	   Keeping every memory in context is expensive and slow. Therefore there is a need for a relevant memory storage and retrieval system.
 6. Existing solution: 
-	1. RAG with an example
-	2. Other memory systems
+	1. RAG: Quick primer with an example
+	2. Other memory system
+		1. Mem0
+		2. MemoryBank
+		3. Readagent
+		4. MemGPT
 	3. Shortcomings of these memory systems: static, reliance on predefined relationships, limits adaptability, unable to forge innovative connections
-7. Hypothesis: 
+7. Inspiration: 
 	   Use the Zettelkasten method to store memory. 
-	1. What is Zettelkasten method and why you should care about it?
-	   Importance of linking notes (with example)
+	1. What is Zettelkasten method and why you (your agent) should care about it?
+		1. memory as a sequence vs memory as a graph 
+		2. Importance of linking notes (with example)
+		3. delegating compute form read time to write time
 	2. Why this may be a good idea?
 		1. Finding relevant information becomes much easier. Adaptive, able to forge innovative connections
 		2. Difference between existing and A-Mem
@@ -39,7 +45,7 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 	2. Results
 		1. Implementation details
 		   problem: 
-			1. the models are old and bad
+			1. the models are old and have very small context windows. 
 			2. parameter k is adjusted for specific categories (This is illegal)
 		2. Evaluation:
 			1. F1 score
@@ -61,19 +67,20 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 				1. write time not shown
 	3. Why is it working?
 		1. Memory analysis: Clustering in vector representation
-			2. problem: not making sense. clusters artifact of visualization, no quantitative measure
+		   problem: not making sense. clusters artifact of visualization, no quantitative measure
 		2. Why LG important (Ablation study)
 		3. why ME important (not studied)
-	4. Conclusion
-		1. Impact: 
-			1. This is one of the first papers to link memories
-			2. citation count
-			3. pave way for more advanced memory systems
-		2. Limitations
-			1. heavily dependant on the quality of the LLM that creates the memories
-			2. any misinformation added by LLM propagates
-			3. no versioning, correction, rollback mechanisms
-	5. My thoughts:
-		1. the idea is novel and good. it is not a standard practice in memory systems
-		2. code came with paper. more like the paper came with a code. and the code works
-	6. Questions?
+10. Conclusion
+	1. Impact: 
+		1. This is one of the first papers to link memories
+		2. citation count
+		3. pave way for more advanced memory systems
+	2. Limitations
+		1. heavily dependant on the quality of the LLM that creates the memories
+		2. any misinformation added by LLM propagates
+		3. no versioning, correction, rollback mechanisms
+11. My thoughts:
+	1. the idea is novel and good. it is now a standard practice in memory systems to create connections between memories
+	2. The code that came with the paper gives the true methodology and not the paper
+	3. None of the critiques are for the idea, only the methodology and representation.
+12. Questions?
