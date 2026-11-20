@@ -20,19 +20,8 @@
               "icon": "lucide-file",
               "title": "A-Mem presentation outline 2"
             }
-          },
-          {
-            "id": "804a1dbd0c213aea",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -252,7 +241,7 @@
       }
     ]
   },
-  "active": "804a1dbd0c213aea",
+  "active": "2cb299b617f1a224",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Semester 2/Agentic Seminar/A-Mem presentation outline 2.md",
