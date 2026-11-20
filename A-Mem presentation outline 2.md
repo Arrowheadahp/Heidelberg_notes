@@ -25,7 +25,25 @@
 		2. problem:  $P_{s2}$ only determines if the new memory should be evolved or not
 	3. memory evolution
 		1. example
-		2. problem: 
+		2. good: the old memories are updated/strengthened/pruned/ no change dynamically
 	4. Retrieval 
 		1. example:
-		2. problem: cosine retrieval is not optimal. does not talk about using L (links) for retrieval. 
+		2. problem: cosine retrieval is not optimal, we want answers, not memories closest to questions (should rerank). does not talk about using L (links) for retrieval. 
+9. Testing
+	1. Datasets
+		1. example of each type of questions (singlehop, multihop etc)
+		2. Example of dialsim
+	2. Results
+		1. Implementation details
+		   problem: 
+			1. the models are old and bad
+			2. parameter k is adjusted for specific categories (This is illegal)
+		2. Evaluation:
+			1. F1 score
+			2. Bleu score
+			3. problem: (not semantic)
+		3. Comparison table
+		   problem:
+			1. some differences are not significant
+			2. comparison with mem0 is not present
+		4. 
