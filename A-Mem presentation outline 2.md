@@ -1,3 +1,6 @@
+https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-Liang/1f35a15fe9df43d24ec6ea551ec6c9766c17eccf
+
+
 1. A-MEM: Agentic Memory for LLM Agents
 2. Author, citations, venue etc
 3. Why this paper?
@@ -47,6 +50,8 @@
 			1. some differences are not significant
 			2. single run (no error bars)
 			3. comparison with mem0 is not present
+			4. comparison with proper baseline (no memory) not present
+			5. comparison with full memory in context not present
 		4. Performance Analysis
 			1. Cost Efficiency
 				1. Retrieval cost reduced 
@@ -59,3 +64,12 @@
 			2. problem: not making sense
 		2. Why LG important (Ablation study)
 		3. why ME important (not studied)
+	4. Conclusion
+		1. Impact: 
+			1. This is one of the first papers to link memories
+			2. citation count
+			3. pave way for more advanced memory systems
+		2. Limitations
+			1. heavily dependant on the quality of the LLM that creates the memories
+			2. any misinformation added by LLM propagates
+			3. no versioning, correction, rollback mechanisms
