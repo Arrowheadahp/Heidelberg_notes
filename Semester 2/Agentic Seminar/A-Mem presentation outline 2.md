@@ -47,7 +47,7 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 			3. problem: answer equivalence is not checked (not semantic)
 		3. Comparison table
 		   problem:
-			1. some differences are not significant
+			1. some differences are not significant (too small gap)
 			2. single run (no error bars)
 			3. comparison with mem0 is not present
 			4. comparison with proper baseline (no memory) not present
@@ -61,7 +61,7 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 				1. write time not shown
 	3. Why is it working?
 		1. Memory analysis: Clustering in vector representation
-			2. problem: not making sense
+			2. problem: not making sense. clusters artifact of visualization, no quantitative measure
 		2. Why LG important (Ablation study)
 		3. why ME important (not studied)
 	4. Conclusion
