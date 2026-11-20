@@ -25,7 +25,7 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 		2. problem: $c_i$ is not well defined, encoder has token limit, K, G, X has no individual need.
 	2. link generation 
 		1. example
-		2. problem:  $P_{s2}$ only determines if the new memory should be evolved or not
+		2. problem:  $P_{s2}$ only determines if the new memory should be evolved or not. it is not a link generating prompt.
 	3. memory evolution
 		1. example
 		2. good: the old memories are updated/strengthened/pruned/ no change dynamically
@@ -44,7 +44,7 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 		2. Evaluation:
 			1. F1 score
 			2. Bleu score
-			3. problem: (not semantic)
+			3. problem: answer equivalence is not checked (not semantic)
 		3. Comparison table
 		   problem:
 			1. some differences are not significant
@@ -73,3 +73,7 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 			1. heavily dependant on the quality of the LLM that creates the memories
 			2. any misinformation added by LLM propagates
 			3. no versioning, correction, rollback mechanisms
+	5. My thoughts:
+		1. the idea is novel and good. it is not a standard practice in memory systems
+		2. code came with paper. more like the paper came with a code. and the code works
+	6. Questions?
