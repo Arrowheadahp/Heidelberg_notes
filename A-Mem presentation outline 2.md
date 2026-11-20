@@ -28,7 +28,7 @@
 		2. good: the old memories are updated/strengthened/pruned/ no change dynamically
 	4. Retrieval 
 		1. example:
-		2. problem: cosine retrieval is not optimal, we want answers, not memories closest to questions (should rerank). does not talk about using L (links) for retrieval. 
+		2. problem: cosine retrieval is not optimal, we want answers, not memories closest to questions (should rerank). does not use L (links) for retrieval. 
 9. Testing
 	1. Datasets
 		1. example of each type of questions (singlehop, multihop etc)
@@ -45,5 +45,17 @@
 		3. Comparison table
 		   problem:
 			1. some differences are not significant
-			2. comparison with mem0 is not present
-		4. 
+			2. single run (no error bars)
+			3. comparison with mem0 is not present
+		4. Performance Analysis
+			1. Cost Efficiency
+				1. Retrieval cost reduced 
+				2. The memory generation cost is not shown
+			2. Memory Usage (linear memory scaling)
+			3. Retrieval time analysis
+				1. write time not shown
+	3. Why is it working?
+		1. Memory analysis: Clustering in vector representation
+			2. problem: not making sense
+		2. Why LG important (Ablation study)
+		3. why ME important (not studied)
