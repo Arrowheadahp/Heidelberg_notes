@@ -8,7 +8,7 @@
 6. Existing solution: 
 	1. RAG with an example
 	2. Other memory systems
-	3. Shortcomings of these memory systems: static, 
+	3. Shortcomings of these memory systems: static, reliance on predefined relationships, limits adaptability, unable to forge innovative connections
 7. Hypothesis: 
    Use the Zettelkasten method to store memory. 
 8. What is Zettelkasten method and why you should care about it?
