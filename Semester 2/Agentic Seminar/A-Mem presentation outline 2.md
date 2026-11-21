@@ -78,7 +78,7 @@ https://www.semanticscholar.org/paper/A-MEM%3A-Agentic-Memory-for-LLM-Agents-Xu-
 	2. Limitations
 		1. heavily dependant on the quality of the LLM that creates the memories
 		2. any misinformation added by LLM propagates
-		3. no versioning, correction, rollback mechanisms
+		3. no versioning, correction, rollback mechanisms : these were not mentioned
 11. My thoughts:
 	1. the idea is novel and good. it is now a standard practice in memory systems to create connections between memories
 	2. The code that came with the paper gives the true methodology and not the paper

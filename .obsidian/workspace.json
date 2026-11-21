@@ -185,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.9000244140625
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,7 +236,7 @@
         "y": 116,
         "width": 704,
         "height": 768,
-        "maximize": true,
+        "maximize": false,
         "zoom": 0
       }
     ]
